@@ -11,6 +11,7 @@ import foodFactoryImage from "@assets/food factory_1757507645474.png";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
 import gorfu1Image from "@assets/gorfu1_1757507995395.jpg";
 import importExportManagerImage from "@assets/generated_images/Professional_Ethiopian_businessman_portrait_461a5cea.png";
+import communityFoodImage from "@assets/food_1757509221792.jpg";
 
 export default function AboutPage() {
   const milestones = [
@@ -333,8 +334,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Community support and social responsibility"
+                src={communityFoodImage}
+                alt="ANHAMA community food distribution program"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
               />
             </div>
