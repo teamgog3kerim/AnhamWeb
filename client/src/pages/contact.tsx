@@ -81,6 +81,7 @@ export default function ContactPage() {
       description: "Mon-Fri from 8am to 5pm.",
       contact: "+251911206102",
       secondaryContact: "+251116299861",
+      shortCode: "6339",
       href: "tel:+251911206102",
       color: "green-600"
     },
@@ -170,6 +171,15 @@ export default function ContactPage() {
                                 data-testid="contact-phone-secondary"
                               >
                                 {info.secondaryContact}
+                              </a>
+                            )}
+                            {info.shortCode && (
+                              <a
+                                href={`tel:${info.shortCode}`}
+                                className="text-primary hover:underline font-medium block"
+                                data-testid="contact-phone-shortcode"
+                              >
+                                {info.shortCode} (Short Code)
                               </a>
                             )}
                           </div>
