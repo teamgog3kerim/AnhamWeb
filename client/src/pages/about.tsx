@@ -613,7 +613,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-foreground mb-2">Office Address</h4>
-                    <p className="text-muted-foreground">Anhama Trading PLC, Road, Addis Ababa</p>
+                    <p className="text-muted-foreground">Bole Atlas, Century Executive Tower, 9th floor</p>
                   </div>
                 </div>
 

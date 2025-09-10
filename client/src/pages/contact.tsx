@@ -89,7 +89,7 @@ export default function ContactPage() {
       icon: MapPin,
       title: "Office",
       description: "Come say hello at our office HQ.",
-      contact: "Anhama Trading PLC, Road, Addis Ababa",
+      contact: "Bole Atlas, Century Executive Tower, 9th floor",
       href: "https://maps.app.goo.gl/4gFtCPYqkigJ3XCg6",
       color: "purple-600"
     }
