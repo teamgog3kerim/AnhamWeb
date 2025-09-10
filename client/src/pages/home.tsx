@@ -12,6 +12,7 @@ import sanyDumpTruckImage from "@assets/sany dump truck_1757500473030.webp";
 import xcmgEvTruck4 from "@assets/xcmg ev light trucks 4_1757503354703.jpeg";
 import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
 import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
+import goldMiningImage from "@assets/god mining_1757508317443.png";
 
 export default function Home() {
   const constructionImages = [
@@ -22,7 +23,7 @@ export default function Home() {
   ];
 
   const miningImages = [
-    "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    goldMiningImage,
     "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300",
   ];
 
