@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, Handshake, Calendar, Award, Users, Building, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
 import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg";
+import anhamaOfficeImage from "@assets/anhama office_1757507043603.jpeg";
 
 export default function AboutPage() {
   const milestones = [
@@ -684,7 +685,7 @@ export default function AboutPage() {
 
             <div>
               <img
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                src={anhamaOfficeImage}
                 alt="ANHAMA Trading office building"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
               />
