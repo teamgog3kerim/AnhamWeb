@@ -20,6 +20,20 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
+          {/* Hero Logo */}
+          <motion.div
+            className="mb-8"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
+            <img
+              src="https://cdn.prod.website-files.com/65c798bc02d264387b2ab3cd/65d5e3bd48157da3418a8197_anhamalogowithslogan.png"
+              alt="ANHAMA Trading PLC Logo"
+              className="h-20 sm:h-28 md:h-36 lg:h-40 w-auto mx-auto mb-6"
+            />
+          </motion.div>
+          
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Catalyzing Ethiopia's
             <span className="text-accent"> Growth</span>

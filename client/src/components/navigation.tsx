@@ -41,7 +41,9 @@ export function Navigation() {
             <motion.img
               src="https://cdn.prod.website-files.com/65c798bc02d264387b2ab3cd/65d5e3bd48157da3418a8197_anhamalogowithslogan.png"
               alt="ANHAMA Trading PLC Logo"
-              className="h-12 w-auto"
+              className={`w-auto transition-all duration-300 ${
+                location === "/" ? "h-16 sm:h-20 md:h-24" : "h-12 sm:h-14 md:h-16"
+              }`}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             />
