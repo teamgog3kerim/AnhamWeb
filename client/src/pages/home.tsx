@@ -14,6 +14,7 @@ import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
 import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
 import goldMiningImage from "@assets/god mining_1757508317443.png";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
+import newSesameImage from "@assets/sesame_1757509442205.jpeg";
 
 export default function Home() {
   const constructionImages = [
@@ -233,7 +234,7 @@ export default function Home() {
               <CardContent className="p-0">
                 <div className="mb-6">
                   <img
-                    src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                    src={newSesameImage}
                     alt="Premium sesame seeds"
                     className="w-full h-64 object-cover rounded-xl mb-4"
                   />
