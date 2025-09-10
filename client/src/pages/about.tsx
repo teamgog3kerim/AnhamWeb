@@ -8,6 +8,7 @@ import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg
 import anhamaOfficeImage from "@assets/anhama office_1757507043603.jpeg";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
 import foodFactoryImage from "@assets/food factory_1757507645474.png";
+import gerdImage from "@assets/GERD_1757507798248.jpg";
 
 export default function AboutPage() {
   const milestones = [
@@ -541,8 +542,8 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <img
-                        src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                        alt="Grand Ethiopian Renaissance Dam construction"
+                        src={gerdImage}
+                        alt="Grand Ethiopian Renaissance Dam (GERD)"
                         className="w-full h-64 object-cover rounded-xl hover-lift"
                       />
                     </div>
