@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, Handshake, Calendar, Award, Users, Building, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
 import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg";
 import anhamaOfficeImage from "@assets/anhama office_1757507043603.jpeg";
+import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
 
 export default function AboutPage() {
   const milestones = [
@@ -586,21 +587,28 @@ export default function AboutPage() {
             <div>
               <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Upcoming Projects</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <Card className="service-card hover-lift p-8">
+                <Card className="service-card hover-lift p-0 overflow-hidden">
                   <CardContent className="p-0">
-                    <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                      <Hotel className="text-primary h-8 w-8" />
-                    </div>
-                    <h4 className="text-2xl font-semibold text-foreground mb-4">Luxury 5-Star Hotel</h4>
-                    <p className="text-muted-foreground mb-6">
-                      Set to launch soon in Addis Ababa, this development will redefine high-end hospitality in Ethiopia. 
-                      Features well-appointed rooms, fine dining, recreation areas, and meeting spaces showcasing Ethiopian arts. 
-                      Adjacent luxury condos will offer premium amenities.
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Hospitality</span>
-                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Luxury</span>
-                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Ethiopian Arts</span>
+                    <img
+                      src={anhamaHotelImage}
+                      alt="ANHAMA Luxury 5-Star Hotel"
+                      className="w-full h-64 object-cover"
+                    />
+                    <div className="p-8">
+                      <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <Hotel className="text-primary h-8 w-8" />
+                      </div>
+                      <h4 className="text-2xl font-semibold text-foreground mb-4">Luxury 5-Star Hotel</h4>
+                      <p className="text-muted-foreground mb-6">
+                        Set to launch soon in Addis Ababa, this development will redefine high-end hospitality in Ethiopia. 
+                        Features well-appointed rooms, fine dining, recreation areas, and meeting spaces showcasing Ethiopian arts. 
+                        Adjacent luxury condos will offer premium amenities.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Hospitality</span>
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Luxury</span>
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Ethiopian Arts</span>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
