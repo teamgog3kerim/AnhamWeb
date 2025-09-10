@@ -58,14 +58,14 @@ export default function Home() {
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
                     <h3 className="text-lg font-semibold text-foreground mb-2">
-                      {["Heavy Excavators", "Mid-Size Equipment", "Equipment Fleet", "Professional Services"][index]}
+                      {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "Sany DumpTrucks"][index]}
                     </h3>
                     <p className="text-muted-foreground text-sm">
                       {[
-                        "High-performance excavators for large-scale construction projects",
-                        "Versatile machinery perfect for medium construction projects",
-                        "Comprehensive fleet management and rental solutions",
-                        "Expert operation and maintenance support"
+                        "High-quality Devlon excavators designed for heavy-duty construction and earthmoving operations",
+                        "Reliable Hitachi excavators known for precision, durability and advanced hydraulic systems",
+                        "Powerful wheel loaders for efficient material handling and loading operations",
+                        "Robust Sany dump trucks built for heavy-duty hauling and material transportation"
                       ][index]}
                     </p>
                   </CardContent>
