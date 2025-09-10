@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ChevronDown, Settings, Phone } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import excavatorsPhoto from "@assets/excavators_1757498915496.jpg";
 
 export function HeroSection() {
   return (
@@ -10,7 +11,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 parallax"
         style={{
-          backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.7)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')`,
+          backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.7)), url(${excavatorsPhoto})`,
         }}
       />
 
