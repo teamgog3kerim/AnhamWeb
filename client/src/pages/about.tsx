@@ -9,6 +9,7 @@ import anhamaOfficeImage from "@assets/anhama office_1757507043603.jpeg";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
 import foodFactoryImage from "@assets/food factory_1757507645474.png";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
+import gorfu1Image from "@assets/gorfu1_1757507995395.jpg";
 
 export default function AboutPage() {
   const milestones = [
@@ -78,7 +79,7 @@ export default function AboutPage() {
     {
       name: "Technical Expertise Team",
       title: "Engineering & Operations",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+      image: gorfu1Image,
       description: "Technical specialists in construction equipment, mining operations, agricultural processing, and EV transportation solutions"
     },
     {
