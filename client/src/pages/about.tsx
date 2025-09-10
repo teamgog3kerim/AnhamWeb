@@ -58,19 +58,22 @@ export default function AboutPage() {
 
   const leadership = [
     {
-      name: "Executive Leadership",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-      description: "Experienced leadership team with deep understanding of Ethiopian markets and international business"
+      name: "Habtamu Alemayehu Benti",
+      title: "Founder & CEO",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+      description: "Visionary leader with over 15 years of experience driving Ethiopia's economic development through innovative business practices and unwavering commitment to social responsibility."
     },
     {
-      name: "Technical Expertise",
+      name: "Technical Expertise Team",
+      title: "Engineering & Operations",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-      description: "Technical specialists in construction equipment, mining operations, and agricultural processing"
+      description: "Technical specialists in construction equipment, mining operations, agricultural processing, and EV transportation solutions"
     },
     {
-      name: "Operations Team",
+      name: "Business Development",
+      title: "Strategic Partnerships",
       image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-      description: "Dedicated operations professionals ensuring quality and efficiency across all business units"
+      description: "Dedicated professionals managing international partnerships, government relations, and market expansion across multiple sectors"
     }
   ];
 
@@ -96,8 +99,8 @@ export default function AboutPage() {
               About <span className="text-accent">ANHAMA</span> Trading
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              With over 15 years of experience, ANHAMA Trading PLC has been Ethiopia's trusted partner 
-              in construction machinery, mining operations, and agricultural exports.
+              Founded and led by CEO Habtamu Alemayehu Benti, ANHAMA Trading PLC is a leading diversified company 
+              with over 15 years of experience in Ethiopia's economic development, blending profitability with social responsibility.
             </p>
             <Link href="/contact">
               <Button
@@ -120,10 +123,9 @@ export default function AboutPage() {
                 Catalyzing Ethiopia's <span className="text-primary">Growth</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                ANHAMA Trading PLC stands at the forefront of Ethiopia's economic development, providing 
-                essential services across construction, mining, and agricultural sectors. Our commitment 
-                to excellence and sustainable practices has made us a trusted partner for businesses 
-                and communities throughout Ethiopia.
+                Under the visionary leadership of CEO Habtamu Alemayehu Benti, ANHAMA Trading PLC has established 
+                a strong reputation through innovative business activities and unwavering commitment to social responsibility. 
+                We are a trusted partner in Ethiopia's economic development, uplifting communities while driving sustainable growth.
               </p>
               
               <div className="space-y-6">
@@ -205,7 +207,8 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-4">Vision</h3>
                   <p className="text-muted-foreground text-lg">
-                    To see Ethiopia thriving through strengthened global partnerships
+                    To be a premier diversified company in Ethiopia, driving economic growth, sustainability, 
+                    and social progress through innovative business practices and community engagement.
                   </p>
                 </CardContent>
               </Card>
@@ -219,9 +222,11 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-4">Values</h3>
                   <div className="text-muted-foreground text-left space-y-2">
-                    <p>• Progress through Partnership</p>
-                    <p>• Roots in Sustainability</p>
-                    <p>• Bonds over Trust</p>
+                    <p>• <strong>Integrity:</strong> Honesty and transparency</p>
+                    <p>• <strong>Innovation:</strong> Sustainable solutions</p>
+                    <p>• <strong>Excellence:</strong> Top-quality delivery</p>
+                    <p>• <strong>Community:</strong> Social impact focus</p>
+                    <p>• <strong>Collaboration:</strong> Strong partnerships</p>
                   </div>
                 </CardContent>
               </Card>
@@ -299,6 +304,115 @@ export default function AboutPage() {
         </div>
       </AnimatedSection>
 
+      {/* Social Impact Section */}
+      <AnimatedSection className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Social <span className="text-primary">Impact</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              For over six years, ANHAMA Trading has demonstrated deep commitment to social responsibility
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                alt="Community support and social responsibility"
+                className="w-full h-96 object-cover rounded-2xl hover-lift"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-3xl font-bold text-foreground mb-6">
+                Community Commitment Under CEO Leadership
+              </h3>
+              <p className="text-lg text-muted-foreground mb-8">
+                Under the leadership of Habtamu Alemayehu Benti, ANHAMA Trading has made significant social impact. 
+                A standout initiative is Mr. Habtamu's daily provision of nutritious meals to over 200 food-insecure 
+                individuals near the city center of Addis Ababa.
+              </p>
+
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-green-600/10 p-3 rounded-lg">
+                    <Users className="text-green-600 h-6 w-6" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">Daily Community Support</h4>
+                    <p className="text-muted-foreground">Over 200 food-insecure individuals receive nutritious meals daily</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-primary/10 p-3 rounded-lg">
+                    <Award className="text-primary h-6 w-6" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">Trusted Tax Contributor</h4>
+                    <p className="text-muted-foreground">Recognized as a trusted tax-paying entity contributing to national development</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-accent/10 p-3 rounded-lg">
+                    <Handshake className="text-accent h-6 w-6" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">6+ Years of Social Responsibility</h4>
+                    <p className="text-muted-foreground">Dedicated to improving lives beyond commercial pursuits</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Awards and Recognition */}
+      <AnimatedSection className="py-20 bg-muted">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Awards & <span className="text-primary">Recognition</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Recognition for excellence, community service, and business achievements
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { title: "Trusted Tax Payer (Silver Level)", org: "Ministry of Revenue and Customs", years: "2021-2024 Fiscal Years" },
+              { title: "Excellent Sales Performance", org: "Hitachi Construction Machinery", years: "2015-2022" },
+              { title: "Esteemed Partner Certificate", org: "Panafric Global Logistics", years: "Partnership Recognition" },
+              { title: "Youth Educational Arts Support", org: "Tesfa Artworks Enterprise", years: "Community Support" },
+              { title: "Financial Support Recognition", org: "Sile Enat Charitable Organization", years: "Charitable Contributions" },
+              { title: "Humanitarian Charities", org: "Bole Sub city Woreda 06", years: "Community Service" }
+            ].map((award, index) => (
+              <motion.div
+                key={index}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Card className="service-card hover-lift p-6 h-full">
+                  <CardContent className="p-0">
+                    <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                      <Award className="text-primary h-6 w-6" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">{award.title}</h3>
+                    <p className="text-sm text-muted-foreground mb-2">{award.org}</p>
+                    <p className="text-xs text-accent font-medium">{award.years}</p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* Leadership Team */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -325,8 +439,9 @@ export default function AboutPage() {
                       alt={member.name}
                       className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
                     />
-                    <h3 className="text-xl font-semibold text-foreground mb-3">{member.name}</h3>
-                    <p className="text-muted-foreground">{member.description}</p>
+                    <h3 className="text-xl font-semibold text-foreground mb-2">{member.name}</h3>
+                    <p className="text-sm text-primary font-medium mb-3">{member.title}</p>
+                    <p className="text-muted-foreground text-sm">{member.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>

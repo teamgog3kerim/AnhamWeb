@@ -79,8 +79,8 @@ export default function MiningPage() {
               Gold <span className="text-accent">Mining</span> Operations
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Launched in January 2024, our gold mining division leverages decades of infrastructure experience 
-              for responsible mineral extraction.
+              Recently launched, our gold mining division diversifies revenue streams while capitalizing on governmental 
+              privileges in the industry. We are well-positioned to succeed in responsible mineral extraction.
             </p>
             <Link href="/contact">
               <Button
@@ -103,9 +103,9 @@ export default function MiningPage() {
                 ANHAMA Ventures into <span className="text-accent">Gold Mining</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Recognizing new potential to support Ethiopia's development, ANHAMA Trading launched a gold mining 
-                division in January 2024. Leveraging decades of experience in infrastructure projects and equipment 
-                rental, ANHAMA is well-positioned to succeed in responsible mineral extraction.
+                Recently launched, ANHAMA Trading's gold mining division diversifies our revenue streams while capitalizing 
+                on governmental privileges in the industry. Leveraging decades of experience in infrastructure projects 
+                and equipment rental, we are well-positioned to succeed in responsible mineral extraction, adding value to Ethiopia's mining sector.
               </p>
 
               <div className="space-y-6 mb-8">
