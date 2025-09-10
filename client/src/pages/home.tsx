@@ -35,7 +35,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Quality <span className="text-primary">Excavators</span> for Your Construction Needs
+              Quality <span className="text-primary">Construction Machineries</span> for Your Construction Needs
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               With over 15 years of experience, ANHAMA Trading PLC specializes in importing and renting high-quality construction machinery.
