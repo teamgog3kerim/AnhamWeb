@@ -110,9 +110,9 @@ export default function ExportsPage() {
               We sell <span className="text-green-600">abroad</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              ANHAMA Trading PLC offers reliable and efficient export services for Ethiopian coffee and sesame crops 
-              to the UAE, Europe and USA. With our extensive experience and industry expertise, we ensure smooth and 
-              timely delivery of high-quality products to key markets.
+              ANHAMA Trading PLC exports Ethiopia's renowned sesame and coffee to international markets, 
+              delivering high-quality agricultural products to global buyers while supporting local farmers 
+              and strengthening Ethiopia's position in global premium commodity trade.
             </p>
           </div>
 
