@@ -75,6 +75,12 @@ export default function AboutPage() {
       title: "Strategic Partnerships",
       image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
       description: "Dedicated professionals managing international partnerships, government relations, and market expansion across multiple sectors"
+    },
+    {
+      name: "Import and Export Management",
+      title: "Trade Operations",
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+      description: "Specialized team managing import operations for construction machinery and XCMG electric vehicles, plus export logistics for coffee and sesame to global markets"
     }
   ];
 
