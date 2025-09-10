@@ -4,6 +4,7 @@ import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, Handshake, Calendar, Award, Users, Building, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
+import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg";
 
 export default function AboutPage() {
   const milestones = [
@@ -60,7 +61,7 @@ export default function AboutPage() {
     {
       name: "Habtamu Alemayehu Benti",
       title: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+      image: ceoPhoto,
       description: "Visionary leader with over 15 years of experience driving Ethiopia's economic development through innovative business practices and unwavering commitment to social responsibility."
     },
     {
