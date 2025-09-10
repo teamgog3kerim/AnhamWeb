@@ -14,6 +14,7 @@ import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 import { insertContactSchema, type InsertContact } from "@shared/schema";
 import { Mail, Phone, MapPin, Info, Clock, Send, CheckCircle } from "lucide-react";
+import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
 
 export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -388,7 +389,7 @@ export default function ContactPage() {
               {
                 title: "Construction Machinery",
                 description: "Premium excavators and construction equipment from trusted manufacturers",
-                image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+                image: excavatorWarehouseImage,
                 features: ["Equipment Rental", "Maintenance Services", "Hitachi Partnership", "24/7 Support"]
               },
               {

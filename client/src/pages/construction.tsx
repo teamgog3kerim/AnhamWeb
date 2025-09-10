@@ -5,13 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
+import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
 
 export default function ConstructionPage() {
   const equipment = [
     {
       title: "Heavy Excavators",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "High-performance excavators for large-scale construction projects",
+      image: excavatorWarehouseImage,
+      description: "High-performance Devlon and Hitachi excavators for large-scale construction projects",
       features: ["20-40 ton capacity", "Advanced hydraulics", "GPS tracking", "24/7 support"]
     },
     {
@@ -228,8 +229,8 @@ export default function ConstructionPage() {
 
             <div>
               <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Hitachi construction equipment"
+                src={excavatorWarehouseImage}
+                alt="ANHAMA Trading's Hitachi and Devlon construction equipment fleet"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
               />
             </div>
