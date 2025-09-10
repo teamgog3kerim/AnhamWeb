@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer";
 import Home from "@/pages/home";
 import Construction from "@/pages/construction";
 import Mining from "@/pages/mining";
+import EV from "@/pages/ev";
 import Exports from "@/pages/exports";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
@@ -59,6 +60,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/construction" component={Construction} />
       <Route path="/mining" component={Mining} />
+      <Route path="/ev" component={EV} />
       <Route path="/exports" component={Exports} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />

@@ -22,6 +22,7 @@ export function Navigation() {
     { href: "/", label: "Home" },
     { href: "/construction", label: "Construction" },
     { href: "/mining", label: "Mining" },
+    { href: "/ev", label: "EV" },
     { href: "/exports", label: "Exports" },
     { href: "/about", label: "About" },
   ];
