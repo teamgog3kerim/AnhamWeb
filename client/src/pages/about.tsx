@@ -10,6 +10,7 @@ import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
 import foodFactoryImage from "@assets/food factory_1757507645474.png";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
 import gorfu1Image from "@assets/gorfu1_1757507995395.jpg";
+import importExportManagerImage from "@assets/generated_images/Professional_Ethiopian_businessman_portrait_461a5cea.png";
 
 export default function AboutPage() {
   const milestones = [
@@ -73,7 +74,7 @@ export default function AboutPage() {
     {
       name: "Import and Export Management",
       title: "Trade Operations",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+      image: importExportManagerImage,
       description: "Specialized team managing import operations for construction machinery and XCMG electric vehicles, plus export logistics for coffee and sesame to global markets"
     },
     {
