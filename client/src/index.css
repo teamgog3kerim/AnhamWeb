@@ -16,7 +16,7 @@
   --secondary-foreground: hsl(24, 66%, 29%);
   --muted: hsl(48, 100%, 90%);
   --muted-foreground: hsl(24, 66%, 29%);
-  --accent: hsl(48, 100%, 83%);
+  --accent: hsl(24, 100%, 58%);
   --accent-foreground: hsl(24, 66%, 29%);
   --destructive: hsl(0, 84.2%, 60.2%);
   --destructive-foreground: hsl(0, 0%, 100%);
@@ -33,13 +33,13 @@
   --background: hsl(24, 66%, 29%);
   --foreground: hsl(48, 100%, 83%);
   --card: hsl(24, 66%, 35%);
-  --card-foreground: hsl(48, 100%, 83%);
+  --card-foreground: hsl(24, 100%, 58%);
   --popover: hsl(24, 66%, 35%);
-  --popover-foreground: hsl(48, 100%, 83%);
+  --popover-foreground: hsl(24, 100%, 58%);
   --primary: hsl(24, 100%, 58%);
   --primary-foreground: hsl(0, 0%, 100%);
   --secondary: hsl(24, 66%, 40%);
-  --secondary-foreground: hsl(48, 100%, 83%);
+  --secondary-foreground: hsl(24, 100%, 58%);
   --muted: hsl(24, 66%, 40%);
   --muted-foreground: hsl(32, 100%, 74%);
   --accent: hsl(32, 100%, 74%);
@@ -105,12 +105,12 @@
   }
   
   .btn-accent {
-    background: linear-gradient(135deg, hsl(48, 100%, 83%), hsl(32, 100%, 74%));
+    background: linear-gradient(135deg, hsl(24, 100%, 58%), hsl(32, 100%, 74%));
     transition: all 0.3s ease;
   }
   
   .btn-accent:hover {
-    background: linear-gradient(135deg, hsl(48, 100%, 78%), hsl(32, 100%, 69%));
+    background: linear-gradient(135deg, hsl(24, 100%, 53%), hsl(32, 100%, 69%));
     transform: translateY(-2px);
     box-shadow: 0 10px 25px -5px rgba(255, 191, 120, 0.5);
   }
