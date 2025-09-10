@@ -99,8 +99,8 @@ export default function MiningPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                ANHAMA Ventures into <span className="text-accent">Gold Mining</span>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: 'black' }}>
+                ANHAMA Ventures into <span style={{ color: '#FF7D29' }}>Gold Mining</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
                 Recently launched, ANHAMA Trading's gold mining division diversifies our revenue streams while capitalizing 
