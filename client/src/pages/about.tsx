@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Eye, Handshake, Calendar, Award, Users, Building, Globe } from "lucide-react";
+import { Target, Eye, Handshake, Calendar, Award, Users, Building, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
 
 export default function AboutPage() {
   const milestones = [
@@ -446,6 +446,147 @@ export default function AboutPage() {
                 </Card>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Projects Section */}
+      <AnimatedSection className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Our <span className="text-primary">Projects</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              ANHAMA Trading has a proven track record of supporting Ethiopia's infrastructure development 
+              through equipment rental and logistical expertise
+            </p>
+          </div>
+
+          <div className="space-y-16">
+            {/* Previous Projects */}
+            <div>
+              <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Previous Projects</h3>
+              <Card className="service-card hover-lift p-8">
+                <CardContent className="p-0">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                      <h4 className="text-2xl font-semibold text-foreground mb-4 flex items-center">
+                        <Building className="text-primary mr-3 h-6 w-6" />
+                        Grand Ethiopian Renaissance Dam (GERD)
+                      </h4>
+                      <p className="text-lg text-muted-foreground mb-6">
+                        Facilitated early progress on the monumental hydroelectric project by providing heavy machinery rental services. 
+                        Our equipment support was crucial in the initial phases of this landmark infrastructure development.
+                      </p>
+                      <div className="flex flex-wrap gap-3">
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                          Heavy Machinery
+                        </span>
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                          Infrastructure
+                        </span>
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                          Hydroelectric
+                        </span>
+                      </div>
+                    </div>
+                    <div>
+                      <img
+                        src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                        alt="Grand Ethiopian Renaissance Dam construction"
+                        className="w-full h-64 object-cover rounded-xl hover-lift"
+                      />
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Ongoing Projects */}
+            <div>
+              <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Ongoing Projects</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {[
+                  { name: "Chaka Project", location: "Ethiopia", type: "Infrastructure Development" },
+                  { name: "Gumuz Project", location: "Ethiopia", type: "Regional Development" },
+                  { name: "Kuraz Irrigation Dam", location: "Amhara", type: "Water Infrastructure" },
+                  { name: "Megech Irrigation Dam", location: "Sidama, SNNPR", type: "Agricultural Support" },
+                  { name: "Kalid Dijo Irrigation Dam", location: "West Arsi, Oromia", type: "Water Management" },
+                  { name: "Road & Bridge Construction", location: "Afar, Somali, Benishangul-Gumuz", type: "Transportation" }
+                ].map((project, index) => (
+                  <motion.div key={index} whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
+                    <Card className="service-card hover-lift p-6 h-full">
+                      <CardContent className="p-0">
+                        <div className="bg-accent/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                          <Wrench className="text-accent h-6 w-6" />
+                        </div>
+                        <h4 className="text-lg font-semibold text-foreground mb-2">{project.name}</h4>
+                        <p className="text-sm text-muted-foreground mb-2 flex items-center">
+                          <MapPin className="h-4 w-4 mr-1" />
+                          {project.location}
+                        </p>
+                        <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">
+                          {project.type}
+                        </span>
+                      </CardContent>
+                    </Card>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+
+            {/* Upcoming Projects */}
+            <div>
+              <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Upcoming Projects</h3>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <Card className="service-card hover-lift p-8">
+                  <CardContent className="p-0">
+                    <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                      <Hotel className="text-primary h-8 w-8" />
+                    </div>
+                    <h4 className="text-2xl font-semibold text-foreground mb-4">Luxury 5-Star Hotel</h4>
+                    <p className="text-muted-foreground mb-6">
+                      Set to launch soon in Addis Ababa, this development will redefine high-end hospitality in Ethiopia. 
+                      Features well-appointed rooms, fine dining, recreation areas, and meeting spaces showcasing Ethiopian arts. 
+                      Adjacent luxury condos will offer premium amenities.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Hospitality</span>
+                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Luxury</span>
+                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Ethiopian Arts</span>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="service-card hover-lift p-8">
+                  <CardContent className="p-0">
+                    <div className="bg-green-600/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                      <Factory className="text-green-600 h-8 w-8" />
+                    </div>
+                    <h4 className="text-2xl font-semibold text-foreground mb-4">Food Processing Plant</h4>
+                    <p className="text-muted-foreground mb-6">
+                      Processing crops sourced from local farmers, aiming to reduce waste, enhance food security, 
+                      and maximize nutritional value. Expected to create over 150 jobs and support farmers by 
+                      purchasing their products, reinforcing agriculture's critical role in Ethiopia's economy.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">150+ Jobs</span>
+                      <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">Food Security</span>
+                      <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">Farmer Support</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-16">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              By providing reliable equipment and support, ANHAMA Trading PLC has enabled critical infrastructure projects 
+              that improve water access, energy production, transportation, mining and overall quality of life. 
+              We remain dedicated to completing initiatives that benefit communities across Ethiopia.
+            </p>
           </div>
         </div>
       </AnimatedSection>
