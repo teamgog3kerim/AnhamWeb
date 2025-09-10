@@ -36,6 +36,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/ev">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-ev">
+                    Electric Vehicles
+                  </span>
+                </Link>
+              </li>
+              <li>
                 <Link href="/exports">
                   <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-coffee">
                     Coffee Export
