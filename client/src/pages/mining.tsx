@@ -76,7 +76,7 @@ export default function MiningPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Gold <span className="text-accent">Mining</span> Operations
+              Gold <span style={{ color: '#FF7D29' }}>Mining</span> Operations
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Recently launched, our gold mining division diversifies revenue streams while capitalizing on governmental 
