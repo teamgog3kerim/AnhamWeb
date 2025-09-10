@@ -440,7 +440,7 @@ export default function AboutPage() {
                 <img
                   src={ceo.image}
                   alt={ceo.name}
-                  className="w-48 h-48 object-cover rounded-full mx-auto mb-6 border-4 border-primary/20"
+                  className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 border-4 border-primary/20"
                 />
                 <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-3">{ceo.name}</h3>
                 <p className="text-xl text-primary font-semibold mb-6">{ceo.title}</p>
