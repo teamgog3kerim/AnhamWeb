@@ -7,6 +7,7 @@ import { Target, Eye, Handshake, Calendar, Award, Users, Building, Globe, MapPin
 import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg";
 import anhamaOfficeImage from "@assets/anhama office_1757507043603.jpeg";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
+import foodFactoryImage from "@assets/food factory_1757507645474.png";
 
 export default function AboutPage() {
   const milestones = [
@@ -613,21 +614,28 @@ export default function AboutPage() {
                   </CardContent>
                 </Card>
 
-                <Card className="service-card hover-lift p-8">
+                <Card className="service-card hover-lift p-0 overflow-hidden">
                   <CardContent className="p-0">
-                    <div className="bg-green-600/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                      <Factory className="text-green-600 h-8 w-8" />
-                    </div>
-                    <h4 className="text-2xl font-semibold text-foreground mb-4">Food Processing Plant</h4>
-                    <p className="text-muted-foreground mb-6">
-                      Processing crops sourced from local farmers, aiming to reduce waste, enhance food security, 
-                      and maximize nutritional value. Expected to create over 150 jobs and support farmers by 
-                      purchasing their products, reinforcing agriculture's critical role in Ethiopia's economy.
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">150+ Jobs</span>
-                      <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">Food Security</span>
-                      <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">Farmer Support</span>
+                    <img
+                      src={foodFactoryImage}
+                      alt="ANHAMA Food Processing Plant"
+                      className="w-full h-64 object-cover"
+                    />
+                    <div className="p-8">
+                      <div className="bg-green-600/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <Factory className="text-green-600 h-8 w-8" />
+                      </div>
+                      <h4 className="text-2xl font-semibold text-foreground mb-4">Food Processing Plant</h4>
+                      <p className="text-muted-foreground mb-6">
+                        Processing crops sourced from local farmers, aiming to reduce waste, enhance food security, 
+                        and maximize nutritional value. Expected to create over 150 jobs and support farmers by 
+                        purchasing their products, reinforcing agriculture's critical role in Ethiopia's economy.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">150+ Jobs</span>
+                        <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">Food Security</span>
+                        <span className="bg-green-600/10 text-green-600 px-3 py-1 rounded-full text-sm">Farmer Support</span>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
