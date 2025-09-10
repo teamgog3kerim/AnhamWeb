@@ -23,30 +23,30 @@ export function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>
                 <Link href="/construction">
-                  <a className="hover:text-primary transition-colors" data-testid="footer-link-construction">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-construction">
                     Construction Machinery
-                  </a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/mining">
-                  <a className="hover:text-primary transition-colors" data-testid="footer-link-mining">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-mining">
                     Gold Mining
-                  </a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/exports">
-                  <a className="hover:text-primary transition-colors" data-testid="footer-link-coffee">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-coffee">
                     Coffee Export
-                  </a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/exports">
-                  <a className="hover:text-primary transition-colors" data-testid="footer-link-sesame">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-sesame">
                     Sesame Export
-                  </a>
+                  </span>
                 </Link>
               </li>
             </ul>
@@ -57,16 +57,16 @@ export function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>
                 <Link href="/about">
-                  <a className="hover:text-primary transition-colors" data-testid="footer-link-about">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-about">
                     About Us
-                  </a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <a className="hover:text-primary transition-colors" data-testid="footer-link-contact">
+                  <span className="hover:text-primary transition-colors cursor-pointer" data-testid="footer-link-contact">
                     Contact Us
-                  </a>
+                  </span>
                 </Link>
               </li>
               <li>

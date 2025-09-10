@@ -51,8 +51,8 @@ export function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
-                <motion.a
-                  className={`nav-link text-foreground hover:text-primary font-medium transition-colors ${
+                <motion.span
+                  className={`nav-link text-foreground hover:text-primary font-medium transition-colors cursor-pointer ${
                     location === item.href ? "text-primary" : ""
                   }`}
                   whileHover={{ y: -2 }}
@@ -60,7 +60,7 @@ export function Navigation() {
                   data-testid={`link-${item.label.toLowerCase()}`}
                 >
                   {item.label}
-                </motion.a>
+                </motion.span>
               </Link>
             ))}
             <Link href="/contact">
@@ -85,14 +85,14 @@ export function Navigation() {
                 <div className="flex flex-col space-y-4 mt-8">
                   {navItems.map((item) => (
                     <Link key={item.href} href={item.href}>
-                      <a
-                        className={`text-lg font-medium transition-colors ${
+                      <span
+                        className={`text-lg font-medium transition-colors cursor-pointer ${
                           location === item.href ? "text-primary" : "text-foreground hover:text-primary"
                         }`}
                         data-testid={`mobile-link-${item.label.toLowerCase()}`}
                       >
                         {item.label}
-                      </a>
+                      </span>
                     </Link>
                   ))}
                   <Link href="/contact">
