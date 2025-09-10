@@ -8,13 +8,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import devlonExcavatorImage from "@assets/devlon excavators_1757499021728.jpg";
 import hitachiExcavatorImage from "@assets/hitachi excavator 350_1757499282508.jpeg";
 import wheelLoaderImage from "@assets/wheel loader_1757500300204.jpg";
+import sanyDumpTruckImage from "@assets/sany dump truck_1757500473030.webp";
 
 export default function Home() {
   const constructionImages = [
     devlonExcavatorImage,
     hitachiExcavatorImage,
     wheelLoaderImage,
-    "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    sanyDumpTruckImage,
   ];
 
   const miningImages = [
