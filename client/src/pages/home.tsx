@@ -9,6 +9,9 @@ import devlonExcavatorImage from "@assets/devlon excavators_1757499021728.jpg";
 import hitachiExcavatorImage from "@assets/hitachi excavator 350_1757499282508.jpeg";
 import wheelLoaderImage from "@assets/wheel loader_1757500300204.jpg";
 import sanyDumpTruckImage from "@assets/sany dump truck_1757500473030.webp";
+import xcmgEvTruck4 from "@assets/xcmg ev light trucks 4_1757503354703.jpeg";
+import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
+import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
 
 export default function Home() {
   const constructionImages = [
@@ -348,19 +351,19 @@ export default function Home() {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8">
                 <img
-                  src="https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                  alt="Electric delivery trucks"
+                  src={xcmgEvTruck}
+                  alt="XCMG Electric delivery trucks"
                   className="w-full h-64 object-cover rounded-xl mb-4 hover-lift"
                 />
                 <div className="grid grid-cols-2 gap-4">
                   <img
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
-                    alt="Sustainable logistics"
+                    src={xcmgEvTruck4}
+                    alt="XCMG EV Light Trucks - Sustainable logistics"
                     className="w-full h-32 object-cover rounded-lg hover-lift"
                   />
                   <img
-                    src="https://images.unsplash.com/photo-1566217434499-5fe34e9e1d20?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
-                    alt="Electric vehicle charging"
+                    src={xcmgEvTruck5}
+                    alt="XCMG Electric vehicle fleet"
                     className="w-full h-32 object-cover rounded-lg hover-lift"
                   />
                 </div>
