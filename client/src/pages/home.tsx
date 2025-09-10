@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { Construction, Mountain, Coffee, Sprout, Target, Eye, Handshake } from "lucide-react";
+import { Construction, Mountain, Coffee, Sprout, Target, Eye, Handshake, Truck, Zap } from "lucide-react";
 import { HeroSection } from "@/components/hero-section";
 import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
@@ -38,8 +38,8 @@ export default function Home() {
               Quality <span className="text-primary">Excavators</span> for Your Construction Needs
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              ANHAMA Trading PLC is proud to partner with Hitachi to bring you high-quality excavators
-              sourced from top manufacturers in China and India.
+              With over 15 years of experience, ANHAMA Trading PLC specializes in importing and renting high-quality construction machinery.
+              Our strategic partnership with Hitachi ensures world-class equipment for Ethiopia's infrastructure development.
             </p>
           </div>
 
@@ -101,8 +101,7 @@ export default function Home() {
                 ANHAMA Ventures into <span className="text-accent">Gold Mining</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Recognizing new potential to support Ethiopia's development, ANHAMA Trading launched a gold mining
-                division in January 2024.
+                Recently launched, ANHAMA Trading's gold mining division diversifies our revenue streams while capitalizing on governmental privileges in the industry. We are well-positioned to succeed in responsible mineral extraction.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -161,8 +160,8 @@ export default function Home() {
               We sell <span className="text-green-600">abroad</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              ANHAMA Trading PLC offers reliable and efficient export services for Ethiopian coffee and sesame crops
-              to the UAE, Europe and USA.
+              ANHAMA Trading PLC exports Ethiopia's renowned sesame and coffee to international markets,
+              delivering high-quality agricultural products to global buyers while supporting local farmers.
             </p>
           </div>
 
@@ -294,6 +293,79 @@ export default function Home() {
         </div>
       </AnimatedSection>
 
+      {/* EV Light Trucks Section */}
+      <AnimatedSection className="py-20 bg-muted">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                Sustainable <span className="text-primary">EV Transportation</span>
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8">
+                ANHAMA Trading PLC has expanded into sustainable transportation as the sole agent for importing 
+                electric vehicle (EV) light trucks, providing eco-friendly solutions to factories and distribution networks.
+              </p>
+
+              <div className="space-y-6 mb-8">
+                {[
+                  { icon: Truck, title: "EV Light Trucks", desc: "Eco-friendly transportation solutions for commercial use" },
+                  { icon: Zap, title: "50% Bank Financing", desc: "Accessible financing options to boost sales and partnerships" },
+                  { icon: Handshake, title: "Government & Private", desc: "Serving both governmental and private organizations" }
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start space-x-4">
+                    <div className="bg-primary/10 p-3 rounded-lg">
+                      <item.icon className="text-primary h-6 w-6" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-foreground mb-2">{item.title}</h4>
+                      <p className="text-muted-foreground">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-6">
+                <h4 className="text-xl font-bold text-white mb-3">Sustainable Transportation Solutions</h4>
+                <p className="text-white/90 mb-4">
+                  Contributing to reduced carbon emissions and greener logistics while supporting Ethiopia's 
+                  transition to sustainable transportation.
+                </p>
+                <Link href="/contact">
+                  <Button
+                    className="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+                    data-testid="button-request-ev-info"
+                  >
+                    Learn About EV Trucks
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8">
+                <img
+                  src="https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                  alt="Electric delivery trucks"
+                  className="w-full h-64 object-cover rounded-xl mb-4 hover-lift"
+                />
+                <div className="grid grid-cols-2 gap-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
+                    alt="Sustainable logistics"
+                    className="w-full h-32 object-cover rounded-lg hover-lift"
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1566217434499-5fe34e9e1d20?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
+                    alt="Electric vehicle charging"
+                    className="w-full h-32 object-cover rounded-lg hover-lift"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* Mission, Vision, Values */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -307,21 +379,21 @@ export default function Home() {
             {[
               {
                 icon: Target,
-                title: "Mission",
-                desc: "Catalyzing Ethiopia's growth by enabling the movement of goods",
+                title: "Vision",
+                desc: "To be a premier diversified company in Ethiopia, driving economic growth, sustainability, and social progress through innovative business practices and community engagement.",
                 color: "primary"
               },
               {
-                icon: Eye,
-                title: "Vision",
-                desc: "To see Ethiopia thriving through strengthened global partnerships",
+                icon: Handshake,
+                title: "Core Values",
+                desc: "Integrity • Innovation • Excellence • Community • Collaboration",
                 color: "accent"
               },
               {
-                icon: Handshake,
-                title: "Values",
-                desc: "Progress through Partnership • Roots in Sustainability • Bonds over Trust",
-                color: "green-600"
+                icon: Eye,
+                title: "Experience",
+                desc: "Over 15 years of trusted partnership in Ethiopia's economic development, led by CEO Habtamu Alemayehu Benti",
+                color: "secondary"
               }
             ].map((item, index) => (
               <motion.div

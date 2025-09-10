@@ -49,8 +49,8 @@ export default function ConstructionPage() {
   const services = [
     {
       icon: Construction,
-      title: "Equipment Rental",
-      description: "Flexible rental terms from daily to long-term contracts"
+      title: "Equipment Sales & Rental",
+      description: "Import and sales of construction machinery plus flexible rental options for all project durations"
     },
     {
       icon: Wrench,
@@ -91,7 +91,8 @@ export default function ConstructionPage() {
               Construction <span className="text-accent">Machinery</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Partner with Hitachi for premium construction equipment. Over 15 years of trusted service in Ethiopia.
+              For over 15 years, ANHAMA Trading PLC has specialized in importing and renting high-quality construction machinery 
+              to both private and governmental clients, solidifying our position as a key player in Ethiopia's infrastructure development.
             </p>
             <Link href="/contact">
               <Button
@@ -113,7 +114,8 @@ export default function ConstructionPage() {
               Our <span className="text-primary">Equipment</span> Fleet
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive range of construction machinery from leading manufacturers
+              With 15 years of experience, we offer a wide range of high-quality construction machinery and equipment 
+              with flexible rental options to accommodate both short-term and long-term client needs.
             </p>
           </div>
 
@@ -156,7 +158,7 @@ export default function ConstructionPage() {
               Our <span className="text-primary">Services</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive construction machinery solutions and support services
+              Reliable support for construction projects nationwide, serving both private companies and government infrastructure initiatives
             </p>
           </div>
 
