@@ -10,6 +10,8 @@ import xcmgTruck2 from "@assets/xcmg ev light trucks 2_1757501474691.jpeg";
 import xcmgTruck3 from "@assets/xcmg ev light trucks 4_1757501482119.jpeg";
 import xcmgTruck4 from "@assets/xcmg ev light trucks 5_1757501491683.jpeg";
 import xcmgTruck5 from "@assets/xcmg ev light trucks 6_1757501502349.jpeg";
+import whatsappImage from "@assets/WhatsApp Image 2025-06-17 at 10.21.02 AM (5)_1757503087155.jpeg";
+import xcmgTruck6 from "@assets/xcmg ev light trucks 6_1757503097947.jpeg";
 
 export default function EVPage() {
   const evModels = [
@@ -229,7 +231,7 @@ export default function EVPage() {
 
             <div>
               <img
-                src={xcmgTruck5}
+                src={whatsappImage}
                 alt="XCMG Electric Vehicle - ANHAMA Trading Sole Agent"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
                 data-testid="img-xcmg-partnership"
