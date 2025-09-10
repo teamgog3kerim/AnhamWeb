@@ -57,13 +57,14 @@ export default function AboutPage() {
     }
   ];
 
-  const leadership = [
-    {
-      name: "Habtamu Alemayehu Benti",
-      title: "Founder & CEO",
-      image: ceoPhoto,
-      description: "Visionary leader with over 15 years of experience driving Ethiopia's economic development through innovative business practices and unwavering commitment to social responsibility."
-    },
+  const ceo = {
+    name: "Habtamu Alemayehu Benti",
+    title: "Founder & CEO",
+    image: ceoPhoto,
+    description: "Visionary leader with over 15 years of experience driving Ethiopia's economic development through innovative business practices and unwavering commitment to social responsibility."
+  };
+
+  const teamMembers = [
     {
       name: "Technical Expertise Team",
       title: "Engineering & Operations",
@@ -420,7 +421,37 @@ export default function AboutPage() {
         </div>
       </AnimatedSection>
 
-      {/* Leadership Team */}
+      {/* CEO Section */}
+      <AnimatedSection className="py-20 bg-muted">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Our <span className="text-primary">Leadership</span>
+            </h2>
+          </div>
+
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.3 }}
+            className="max-w-4xl mx-auto"
+          >
+            <Card className="service-card hover-lift p-8 text-center">
+              <CardContent className="p-0">
+                <img
+                  src={ceo.image}
+                  alt={ceo.name}
+                  className="w-48 h-48 object-cover rounded-full mx-auto mb-6 border-4 border-primary/20"
+                />
+                <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-3">{ceo.name}</h3>
+                <p className="text-xl text-primary font-semibold mb-6">{ceo.title}</p>
+                <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">{ceo.description}</p>
+              </CardContent>
+            </Card>
+          </motion.div>
+        </div>
+      </AnimatedSection>
+
+      {/* Team Members */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -433,7 +464,7 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {leadership.map((member, index) => (
+            {teamMembers.map((member, index) => (
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.05 }}
