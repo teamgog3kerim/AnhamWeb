@@ -5,49 +5,66 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Zap, Truck, Battery, Shield, Award, Users, Leaf } from "lucide-react";
+import xcmgTruck1 from "@assets/xcmg ev light trucks 3_1757501456119.jpeg";
+import xcmgTruck2 from "@assets/xcmg ev light trucks 2_1757501474691.jpeg";
+import xcmgTruck3 from "@assets/xcmg ev light trucks 4_1757501482119.jpeg";
+import xcmgTruck4 from "@assets/xcmg ev light trucks 5_1757501491683.jpeg";
+import xcmgTruck5 from "@assets/xcmg ev light trucks 6_1757501502349.jpeg";
 
 export default function EVPage() {
   const evModels = [
     {
-      title: "EV Light Trucks - Commercial",
-      image: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "Electric light trucks designed for urban commercial delivery and logistics",
+      title: "XCMG EV Light Trucks - Commercial",
+      image: xcmgTruck1,
+      description: "XCMG electric light trucks designed for commercial delivery and urban logistics",
       features: ["200km range", "Fast charging", "Low maintenance", "Zero emissions"]
     },
     {
-      title: "EV Light Trucks - Cargo",
-      image: "https://images.unsplash.com/photo-1566473965997-3de9c817e938?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "High-capacity electric trucks for cargo transport and distribution",
+      title: "XCMG EV Light Trucks - Cargo",
+      image: xcmgTruck2,
+      description: "High-capacity XCMG electric trucks for cargo transport and distribution",
       features: ["300km range", "Heavy payload", "Smart charging", "GPS tracking"]
     },
     {
-      title: "EV Light Trucks - Urban",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "Compact electric vehicles perfect for city deliveries and last-mile logistics",
+      title: "XCMG EV Light Trucks - Urban",
+      image: xcmgTruck3,
+      description: "Compact XCMG electric vehicles perfect for city deliveries and last-mile logistics",
       features: ["150km range", "Compact design", "Quick turnaround", "Cost effective"]
+    },
+    {
+      title: "XCMG EV Light Trucks - Fleet",
+      image: xcmgTruck4,
+      description: "Versatile XCMG electric trucks suitable for various commercial applications",
+      features: ["Reliable performance", "Easy maintenance", "Fleet management", "Cost savings"]
+    },
+    {
+      title: "XCMG EV Light Trucks - Specialty",
+      image: xcmgTruck5,
+      description: "Specialized XCMG electric vehicles for specific industry requirements",
+      features: ["Custom configurations", "Industry specific", "Enhanced durability", "Professional grade"]
     }
   ];
 
   const services = [
     {
       icon: Truck,
-      title: "EV Sales & Leasing",
-      description: "Complete electric vehicle solutions with flexible purchasing and leasing options"
+      title: "XCMG EV Sales & Leasing",
+      description: "As Sole Agent, we provide complete XCMG electric vehicle solutions with flexible purchasing and leasing options"
     },
     {
       icon: Battery,
-      title: "Charging Infrastructure",
-      description: "Installation and maintenance of EV charging stations for commercial operations"
+      title: "Charging Station Network",
+      description: "Upcoming installation of EV charging stations across Ethiopia for comprehensive charging infrastructure"
     },
     {
       icon: Users,
-      title: "Driver Training",
-      description: "Comprehensive training programs for electric vehicle operation and maintenance"
+      title: "Training & Support",
+      description: "Comprehensive training programs for XCMG electric vehicle operation and maintenance for all sectors"
     },
     {
       icon: Shield,
-      title: "Warranty & Support",
-      description: "Extended warranty coverage and 24/7 technical support for all EV models"
+      title: "Warranty & Service",
+      description: "Official XCMG warranty coverage and dedicated technical support for individuals, companies, and government"
     }
   ];
 
@@ -70,11 +87,11 @@ export default function EVPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Electric <span className="text-accent">Vehicles</span>
+              XCMG Electric <span className="text-accent">Vehicles</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              ANHAMA Trading PLC is pioneering the future of sustainable transportation in Ethiopia 
-              with our advanced electric vehicle solutions, focusing on light trucks for commercial and logistics operations.
+              ANHAMA Trading PLC is the <strong>Sole Agent</strong> for XCMG Electric Vehicles Light Trucks in the Ethiopian market, 
+              serving individuals, private companies, and governmental organizations with cutting-edge sustainable transportation solutions.
             </p>
             <Link href="/contact">
               <Button
@@ -93,15 +110,15 @@ export default function EVPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Our <span className="text-primary">Electric Vehicle</span> Fleet
+              XCMG <span className="text-primary">Electric Vehicle</span> Fleet
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Leading Ethiopia's transition to sustainable transportation with cutting-edge electric light trucks 
-              designed for efficiency, reliability, and environmental responsibility.
+              As the exclusive distributor of XCMG Electric Vehicles in Ethiopia, we offer premium electric light trucks 
+              to individuals, private companies, and government agencies, leading the nation's sustainable transportation revolution.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {evModels.map((model, index) => (
               <motion.div
                 key={index}
@@ -138,10 +155,11 @@ export default function EVPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              EV <span className="text-primary">Services</span>
+              XCMG EV <span className="text-primary">Services</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive electric vehicle solutions from sales to support, ensuring smooth transition to sustainable transportation
+              Comprehensive XCMG electric vehicle solutions for individuals, private companies, and governmental organizations, 
+              with upcoming charging station network across Ethiopia
             </p>
           </div>
 
@@ -173,18 +191,19 @@ export default function EVPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Sustainable <span className="text-primary">Transportation</span>
+                XCMG <span className="text-primary">Partnership</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Our electric vehicles contribute to Ethiopia's environmental goals by reducing carbon emissions 
-                and promoting clean energy adoption in the transportation sector.
+                As the Sole Agent for XCMG Electric Vehicles in Ethiopia, ANHAMA Trading brings world-class 
+                electric light trucks to the Ethiopian market, with upcoming charging infrastructure to support 
+                individuals, companies, and government fleets nationwide.
               </p>
 
               <div className="space-y-6 mb-8">
                 {[
-                  { icon: Leaf, title: "Zero Emissions", desc: "Clean electric operation with no local emissions" },
-                  { icon: Battery, title: "Energy Efficient", desc: "Advanced battery technology for maximum efficiency" },
-                  { icon: Zap, title: "Fast Charging", desc: "Rapid charging capabilities for minimal downtime" }
+                  { icon: Award, title: "Sole Agent Status", desc: "Exclusive XCMG distributor for Ethiopian market" },
+                  { icon: Battery, title: "Charging Network", desc: "Upcoming charging stations across Ethiopia" },
+                  { icon: Users, title: "All Sectors", desc: "Serving individuals, companies, and government" }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
                     <div className="bg-primary/10 p-3 rounded-lg">
@@ -210,10 +229,10 @@ export default function EVPage() {
 
             <div>
               <img
-                src="https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Electric vehicle charging"
+                src={xcmgTruck5}
+                alt="XCMG Electric Vehicle - ANHAMA Trading Sole Agent"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
-                data-testid="img-ev-charging"
+                data-testid="img-xcmg-partnership"
               />
             </div>
           </div>
@@ -224,10 +243,11 @@ export default function EVPage() {
       <AnimatedSection className="py-20 bg-gradient-to-r from-primary to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Go Electric?
+            Ready for XCMG Electric?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Join the sustainable transportation revolution with ANHAMA Trading's electric vehicle solutions.
+            Join Ethiopia's sustainable transportation future with XCMG Electric Vehicles - available for individuals, 
+            private companies, and government organizations through ANHAMA Trading, your Sole Agent.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
