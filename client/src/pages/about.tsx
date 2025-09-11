@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Eye, Handshake, Calendar, Award, Users, Building, Truck, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
+import { Target, Eye, Handshake, Calendar, Award, Users, Building, Construction, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
 import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg";
 import anhamaOfficeImage from "@assets/anhama office_1757507043603.jpeg";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
@@ -51,7 +51,7 @@ export default function AboutPage() {
       description: "Construction and infrastructure projects across Ethiopia"
     },
     {
-      icon: Truck,
+      icon: Construction,
       number: "400+",
       label: "Construction Machineries Imported",
       description: "High-quality construction equipment units imported for Ethiopian infrastructure development"
