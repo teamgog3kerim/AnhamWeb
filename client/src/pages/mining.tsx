@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Mountain, Shield, Leaf, Users, Award, Truck, Pickaxe, Globe } from "lucide-react";
 import goldExtractionImage from "@assets/Screenshot_20250910-145345_Chrome_1757615717678.jpg";
 import miningOperationImage from "@assets/mining_1757616300666.jpeg";
+import miningEquipmentImage from "@assets/mineing_1757616571460.jpg";
 
 export default function MiningPage() {
   const miningCapabilities = [
@@ -24,7 +25,7 @@ export default function MiningPage() {
     },
     {
       title: "Expert Operations",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: miningEquipmentImage,
       description: "Experienced team with extensive mining industry knowledge",
       features: ["Skilled workforce", "Safety training", "Quality assurance", "Operational excellence"]
     },
