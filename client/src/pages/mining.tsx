@@ -5,12 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mountain, Shield, Leaf, Users, Award, Truck, Pickaxe, Globe } from "lucide-react";
+import goldExtractionImage from "@assets/Screenshot_20250910-145345_Chrome_1757615717678.jpg";
 
 export default function MiningPage() {
   const miningCapabilities = [
     {
       title: "Responsible Extraction",
-      image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: goldExtractionImage,
       description: "Sustainable gold mining practices that respect environmental standards",
       features: ["Environmental compliance", "Community engagement", "Sustainable practices", "Impact assessment"]
     },
