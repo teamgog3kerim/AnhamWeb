@@ -8,6 +8,7 @@ import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react"
 import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
 import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
 import wheelLoaderImage from "@assets/wheel loader_1757500300204_1757584564881.jpg";
+import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -43,7 +44,7 @@ export default function ConstructionPage() {
     },
     {
       title: "Dump Trucks",
-      image: "https://images.unsplash.com/photo-1605365191036-82d9bbad4b2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: dumpTruckImage,
       description: "Heavy-duty trucks for material transport and hauling",
       features: ["Large capacity", "Reliable engines", "Safety systems", "Easy maintenance"]
     }
