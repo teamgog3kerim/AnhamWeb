@@ -16,10 +16,10 @@ export default function ConstructionPage() {
       features: ["20-40 ton capacity", "Advanced hydraulics", "GPS tracking", "24/7 support"]
     },
     {
-      title: "Mid-Size Equipment",
-      image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "Versatile machinery perfect for medium construction projects",
-      features: ["8-20 ton capacity", "Fuel efficient", "Easy transport", "Flexible rental"]
+      title: "After sales service",
+      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      description: "Comprehensive after-sales support ensuring optimal equipment performance throughout its lifecycle",
+      features: ["Technical support", "Spare parts supply", "Regular maintenance", "Emergency repairs"]
     },
     {
       title: "Compact Excavators",
