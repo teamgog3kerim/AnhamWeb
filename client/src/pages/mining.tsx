@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mountain, Shield, Leaf, Users, Award, Truck, Pickaxe, Globe } from "lucide-react";
 import goldExtractionImage from "@assets/Screenshot_20250910-145345_Chrome_1757615717678.jpg";
+import miningOperationImage from "@assets/mining_1757616300666.jpeg";
 
 export default function MiningPage() {
   const miningCapabilities = [
@@ -140,7 +141,7 @@ export default function MiningPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="col-span-2">
                 <img
-                  src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+                  src={miningOperationImage}
                   alt="Large-scale gold mining operation"
                   className="w-full h-64 object-cover rounded-xl hover-lift"
                 />
