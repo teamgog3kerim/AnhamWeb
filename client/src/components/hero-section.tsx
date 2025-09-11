@@ -40,7 +40,7 @@ export function HeroSection() {
             <span className="text-accent"> Growth</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Providing Construction Machinery Solutions, Gold Mining Operations, and Agricultural Export Services
+            Providing Construction Machinery Solutions,EV Light Trucks, Gold Mining Operations, and Agricultural Export Services
             with over 15 years of trusted partnership
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
