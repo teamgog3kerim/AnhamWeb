@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
 import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
+import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -23,9 +24,9 @@ export default function ConstructionPage() {
     },
     {
       title: "XCMG EV Light Trucks",
-      image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "Electric light trucks for sustainable transportation and logistics solutions",
-      features: ["Zero emissions", "Cost efficient", "Urban delivery", "Low maintenance"]
+      image: xcmgEvTruckImage,
+      description: "Electric light trucks designed for urban installations and sustainable city transportation",
+      features: ["Zero emissions", "Urban installations", "Cost efficient", "Low maintenance"]
     },
     {
       title: "Spare Parts and Accessories",
