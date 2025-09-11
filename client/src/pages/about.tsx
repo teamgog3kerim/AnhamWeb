@@ -16,7 +16,7 @@ import communityFoodImage from "@assets/food_1757509221792.jpg";
 export default function AboutPage() {
   const milestones = [
     {
-      year: "2009",
+      year: "2008",
       title: "Company Founded",
       description: "ANHAMA Trading PLC established with a vision to support Ethiopia's development"
     },
