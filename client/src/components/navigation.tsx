@@ -21,8 +21,8 @@ export function Navigation() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/construction", label: "Construction" },
-    { href: "/mining", label: "Mining" },
     { href: "/ev", label: "EV" },
+    { href: "/mining", label: "Mining" },
     { href: "/exports", label: "Exports" },
     { href: "/about", label: "About" },
   ];
