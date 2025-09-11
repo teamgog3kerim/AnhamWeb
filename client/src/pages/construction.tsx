@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
 import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
 import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
+import wheelLoaderImage from "@assets/wheel loader_1757500300204_1757584564881.jpg";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -36,7 +37,7 @@ export default function ConstructionPage() {
     },
     {
       title: "Wheel Loaders",
-      image: "https://images.unsplash.com/photo-1563720141809-982168c75a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: wheelLoaderImage,
       description: "Efficient loading and material handling equipment",
       features: ["Quick attach", "Load sensing", "Comfort cab", "Fuel efficiency"]
     },
