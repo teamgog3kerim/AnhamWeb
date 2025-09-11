@@ -28,10 +28,10 @@ export default function ConstructionPage() {
       features: ["2-8 ton capacity", "Tight access", "Precision control", "Low noise"]
     },
     {
-      title: "Bulldozers",
+      title: "Spare Parts and Accessories",
       image: "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      description: "Heavy-duty bulldozers for earth moving and site preparation",
-      features: ["High pushing power", "Track stability", "Grade control", "Operator comfort"]
+      description: "Genuine spare parts and accessories for all construction equipment brands",
+      features: ["OEM quality parts", "Quick availability", "Competitive pricing", "Expert installation"]
     },
     {
       title: "Wheel Loaders",
