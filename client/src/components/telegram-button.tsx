@@ -6,7 +6,8 @@ export function TelegramButton() {
   
   // Replace with your Telegram username or bot username
   const telegramUsername = "Kimosales"; // Change this to your actual Telegram username or bot
-  const telegramUrl = `https://t.me/${telegramUsername}`;
+  const welcomeMessage = "Hello! I'm interested in learning about ANHAMA Trading PLC products and services.";
+  const telegramUrl = `https://t.me/${telegramUsername}?text=${encodeURIComponent(welcomeMessage)}`;
 
   const handleClick = () => {
     window.open(telegramUrl, '_blank');
@@ -22,9 +23,9 @@ export function TelegramButton() {
         data-testid="button-telegram-chat"
         aria-label="Chat on Telegram"
       >
-        {/* Telegram Button */}
-        <div className="bg-[#0088cc] hover:bg-[#0077b5] text-white rounded-full p-4 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center">
-          <Send className="h-7 w-7" fill="white" />
+        {/* Telegram Button - Smaller Size */}
+        <div className="bg-[#0088cc] hover:bg-[#0077b5] text-white rounded-full p-3 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center">
+          <Send className="h-5 w-5" fill="white" />
         </div>
         
         {/* Tooltip */}
