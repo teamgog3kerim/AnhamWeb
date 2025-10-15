@@ -8,6 +8,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export function Navigation() {
   const [location] = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -78,7 +79,7 @@ export function Navigation() {
 
           {/* Mobile Menu */}
           <div className="md:hidden">
-            <Sheet>
+            <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" data-testid="button-mobile-menu">
                   <Menu className="h-6 w-6" />
@@ -89,6 +90,7 @@ export function Navigation() {
                   {navItems.map((item) => (
                     <Link key={item.href} href={item.href}>
                       <span
+                        onClick={() => setIsSheetOpen(false)}
                         className={`text-lg font-medium transition-colors cursor-pointer ${
                           location === item.href ? "text-primary" : "text-foreground hover:text-primary"
                         }`}
@@ -100,6 +102,7 @@ export function Navigation() {
                   ))}
                   <Link href="/contact">
                     <Button
+                      onClick={() => setIsSheetOpen(false)}
                       className="btn-primary text-primary-foreground w-full mt-4"
                       data-testid="mobile-button-contact"
                     >
