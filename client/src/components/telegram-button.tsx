@@ -5,7 +5,7 @@ export function TelegramButton() {
   const [isHovered, setIsHovered] = useState(false);
   
   // Replace with your Telegram username or bot username
-  const telegramUsername = "ANHAMA_Trading"; // Change this to your actual Telegram username or bot
+  const telegramUsername = "Kimosales"; // Change this to your actual Telegram username or bot
   const telegramUrl = `https://t.me/${telegramUsername}`;
 
   const handleClick = () => {
