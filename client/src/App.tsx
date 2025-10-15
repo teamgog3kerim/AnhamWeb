@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
-import { WhatsAppButton } from "@/components/whatsapp-button";
+import { TelegramButton } from "@/components/telegram-button";
 import Home from "@/pages/home";
 import Construction from "@/pages/construction";
 import Mining from "@/pages/mining";
@@ -123,7 +123,7 @@ function App() {
           </main>
           <Footer />
           <ScrollToTop />
-          <WhatsAppButton />
+          <TelegramButton />
           <Toaster />
         </div>
       </TooltipProvider>

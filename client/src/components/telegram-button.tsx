@@ -1,15 +1,15 @@
-import { MessageCircle } from "lucide-react";
+import { Send } from "lucide-react";
 import { useState } from "react";
 
-export function WhatsAppButton() {
+export function TelegramButton() {
   const [isHovered, setIsHovered] = useState(false);
   
-  const whatsappNumber = "251912633329"; // Format: country code + number without + or spaces
-  const message = "Hello! I would like to know more about ANHAMA Trading PLC.";
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  // Replace with your Telegram username or bot username
+  const telegramUsername = "ANHAMA_Trading"; // Change this to your actual Telegram username or bot
+  const telegramUrl = `https://t.me/${telegramUsername}`;
 
   const handleClick = () => {
-    window.open(whatsappUrl, '_blank');
+    window.open(telegramUrl, '_blank');
   };
 
   return (
@@ -19,12 +19,12 @@ export function WhatsAppButton() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         className="relative group"
-        data-testid="button-whatsapp-chat"
-        aria-label="Chat on WhatsApp"
+        data-testid="button-telegram-chat"
+        aria-label="Chat on Telegram"
       >
-        {/* WhatsApp Button */}
-        <div className="bg-[#25D366] hover:bg-[#20BA5A] text-white rounded-full p-4 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center">
-          <MessageCircle className="h-7 w-7" fill="white" />
+        {/* Telegram Button */}
+        <div className="bg-[#0088cc] hover:bg-[#0077b5] text-white rounded-full p-4 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center">
+          <Send className="h-7 w-7" fill="white" />
         </div>
         
         {/* Tooltip */}
@@ -33,14 +33,14 @@ export function WhatsAppButton() {
             isHovered ? 'opacity-100 visible' : 'opacity-0 invisible'
           }`}
         >
-          <span className="text-sm font-medium">Chat with us on WhatsApp</span>
+          <span className="text-sm font-medium">Chat with us on Telegram</span>
           <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-full">
             <div className="border-8 border-transparent border-l-gray-900"></div>
           </div>
         </div>
 
         {/* Pulse Animation */}
-        <div className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20"></div>
+        <div className="absolute inset-0 rounded-full bg-[#0088cc] animate-ping opacity-20"></div>
       </button>
     </div>
   );
