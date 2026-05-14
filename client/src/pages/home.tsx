@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import devlonExcavatorImage from "@assets/devlon excavators_1757499021728.jpg";
 import hitachiExcavatorImage from "@assets/hitachi excavator 350_1757499282508.jpeg";
 import wheelLoaderImage from "@assets/wheel loader_1757500300204.jpg";
-import sanyDumpTruckImage from "@assets/sany dump truck_1757500473030.webp";
+import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778764284327.jpeg";
 import xcmgEvTruck4 from "@assets/xcmg ev light trucks 4_1757503354703.jpeg";
 import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
 import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
@@ -24,7 +24,7 @@ export default function Home() {
     devlonExcavatorImage,
     hitachiExcavatorImage,
     wheelLoaderImage,
-    sanyDumpTruckImage,
+    evDumpTruckImage,
   ];
 
   const miningImages = [
@@ -71,14 +71,14 @@ export default function Home() {
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
                     <h3 className="text-lg font-semibold text-foreground mb-2">
-                      {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "Sany DumpTrucks"][index]}
+                      {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Truck / Dump Truck"][index]}
                     </h3>
                     <p className="text-muted-foreground text-sm">
                       {[
                         "High-quality Devlon excavators designed for heavy-duty construction and earthmoving operations",
                         "Reliable Hitachi excavators known for precision, durability and advanced hydraulic systems",
                         "Powerful wheel loaders for efficient material handling and loading operations",
-                        "Robust Sany dump trucks built for heavy-duty hauling and material transportation"
+                        "Eco-friendly electric dump trucks combining zero-emission technology with heavy-duty hauling capacity"
                       ][index]}
                     </p>
                   </CardContent>
