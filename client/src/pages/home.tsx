@@ -12,6 +12,8 @@ import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_17
 import xcmgEvTruck4 from "@assets/xcmg ev light trucks 4_1757503354703.jpeg";
 import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
 import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
+import xcmgEvTruck6 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778767626240.jpeg";
+import xcmgEvTruck7 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.04_PM_1778767638046.jpeg";
 import goldMiningImage from "@assets/god mining_1757508317443.png";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
 import newSesameImage from "@assets/sesame_1757509442205.jpeg";
@@ -370,6 +372,18 @@ export default function Home() {
                   <img
                     src={xcmgEvTruck5}
                     alt="XCMG Electric vehicle fleet"
+                    className="w-full h-32 object-cover rounded-lg hover-lift"
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-4 mt-4">
+                  <img
+                    src={xcmgEvTruck6}
+                    alt="XCMG EV Heavy Duty Dump Truck - Front View"
+                    className="w-full h-32 object-cover rounded-lg hover-lift"
+                  />
+                  <img
+                    src={xcmgEvTruck7}
+                    alt="XCMG EV Heavy Duty Dump Truck - Rear View"
                     className="w-full h-32 object-cover rounded-lg hover-lift"
                   />
                 </div>
