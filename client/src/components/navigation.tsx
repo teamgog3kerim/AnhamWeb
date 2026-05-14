@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import anhamaLogo from "@assets/WhatsApp_Image_2026-04-28_at_4.10.01_PM_1778764630796.jpeg";
 
 export function Navigation() {
   const [location] = useLocation();
@@ -41,7 +42,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" data-testid="link-home">
             <motion.img
-              src="https://cdn.prod.website-files.com/65c798bc02d264387b2ab3cd/65d5e3bd48157da3418a8197_anhamalogowithslogan.png"
+              src={anhamaLogo}
               alt="ANHAMA Trading PLC Logo"
               className={`w-auto transition-all duration-300 ${
                 location === "/" ? "h-16 sm:h-20 md:h-24" : "h-12 sm:h-14 md:h-16"

@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Facebook, Instagram } from "lucide-react";
+import anhamaLogo from "@assets/WhatsApp_Image_2026-04-28_at_4.10.01_PM_1778764630796.jpeg";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
             <img
-              src="https://cdn.prod.website-files.com/65c798bc02d264387b2ab3cd/65d5e3bd48157da3418a8197_anhamalogowithslogan.png"
+              src={anhamaLogo}
               alt="ANHAMA Trading PLC"
               className="h-12 w-auto mb-4"
             />

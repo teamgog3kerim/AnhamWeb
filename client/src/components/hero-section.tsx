@@ -3,6 +3,7 @@ import { ChevronDown, Settings, Phone } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import excavatorsPhoto from "@assets/excavators_1757498915496.jpg";
+import anhamaLogo from "@assets/WhatsApp_Image_2026-04-28_at_4.10.01_PM_1778764630796.jpeg";
 
 export function HeroSection() {
   return (
@@ -29,7 +30,7 @@ export function HeroSection() {
             transition={{ duration: 1, delay: 0.2 }}
           >
             <img
-              src="https://cdn.prod.website-files.com/65c798bc02d264387b2ab3cd/65d5e3bd48157da3418a8197_anhamalogowithslogan.png"
+              src={anhamaLogo}
               alt="ANHAMA Trading PLC Logo"
               className="h-20 sm:h-28 md:h-36 lg:h-40 w-auto mx-auto mb-6"
             />
