@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import anhamaLogo from "@assets/WhatsApp_Image_2026-04-28_at_4.10.01_PM_1778764630796.jpeg";
+import anhamaLogo from "@assets/Anhama_11_1778766208725.png";
 
 export function Navigation() {
   const [location] = useLocation();
