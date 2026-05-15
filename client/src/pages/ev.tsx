@@ -179,7 +179,7 @@ export default function EVPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {evModels.map((model, index) => (
               <motion.div
                 key={index}
@@ -196,9 +196,9 @@ export default function EVPage() {
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-3">{model.title}</h3>
                     <p className="text-muted-foreground mb-4">{model.description}</p>
-                    <div className="space-y-2">
+                    <div className="flex flex-wrap gap-2">
                       {model.features.map((feature, idx) => (
-                        <Badge key={idx} variant="secondary" className="mr-2">
+                        <Badge key={idx} variant="secondary" className="text-xs whitespace-nowrap">
                           {feature}
                         </Badge>
                       ))}
