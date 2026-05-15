@@ -141,7 +141,7 @@ export default function EVPage() {
               XCMG <span className="text-primary">Electric Vehicle</span> Fleet
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              As the exclusive distributor of XCMG Electric Vehicles in Ethiopia, we offer premium electric light trucks 
+              As the Exclusive Dealer of XCMG Electric Vehicles in Ethiopia, we offer premium electric light trucks 
               to individuals, private companies, and government agencies, leading the nation's sustainable transportation revolution.
             </p>
           </div>
@@ -281,7 +281,7 @@ export default function EVPage() {
 
               <div className="space-y-6 mb-8">
                 {[
-                  { icon: Award, title: "Exclusive Dealer", desc: "Exclusive XCMG distributor for Ethiopian market" },
+                  { icon: Award, title: "Exclusive Dealer", desc: "Exclusive XCMG dealer for Ethiopian market" },
                   { icon: Battery, title: "Charging Network", desc: "Upcoming charging stations across Ethiopia" },
                   { icon: Users, title: "All Sectors", desc: "Serving individuals, companies, and government" }
                 ].map((item, index) => (
