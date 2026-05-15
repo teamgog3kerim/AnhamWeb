@@ -405,7 +405,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Trusted Tax Payer (Silver Level)", org: "Ministry of Revenue and Customs", years: "2021-2025 Fiscal Years" },
+              { title: "Trusted Tax Payer (Gold Level)", org: "Ministry of Revenue and Customs", years: "2021-2025 Fiscal Years" },
               { title: "Excellent Sales Performance", org: "Hitachi Construction Machinery", years: "2015-2022" },
               { title: "Esteemed Partner Certificate", org: "Panafric Global Logistics", years: "Partnership Recognition" },
               { title: "Youth Educational Arts Support", org: "Tesfa Artworks Enterprise", years: "Community Support" },
