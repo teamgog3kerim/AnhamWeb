@@ -584,13 +584,15 @@ export default function AboutPage() {
                 Start Partnership
               </Button>
             </Link>
-            <Button
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
-              data-testid="button-company-brochure"
-            >
-              Download Brochure
-            </Button>
+            <a href="/brochures/company-profile.pdf" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
+                data-testid="button-company-brochure"
+              >
+                Download Brochure
+              </Button>
+            </a>
           </div>
         </div>
       </AnimatedSection>
