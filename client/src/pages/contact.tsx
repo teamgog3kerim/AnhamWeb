@@ -14,7 +14,7 @@ import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 import { insertContactSchema, type InsertContact } from "@shared/schema";
 import { Mail, Phone, MapPin, Info, Clock, Send, CheckCircle } from "lucide-react";
-import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
+import excavatorWarehouseImage from "@assets/image_1778839927864.png";
 
 export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);

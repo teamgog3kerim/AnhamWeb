@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
-import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
+import excavatorWarehouseImage from "@assets/image_1778839927864.png";
 import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
 import supportTeamImage from "@assets/image_1778834572370.png";
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
