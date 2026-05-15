@@ -48,7 +48,7 @@ ANHAMA Trading PLC specializes in importing, sales, and rental of high-quality c
 - Fast Delivery across Ethiopia
 
 ### 2. EV Light Trucks Division
-ANHAMA Trading PLC is the **Sole Agent** for XCMG Electric Vehicles Light Trucks in Ethiopia.
+ANHAMA Trading PLC is the **Exclusive Dealer** for XCMG Electric Vehicles Light Trucks in Ethiopia.
 
 **Products:**
 - XCMG EV Light Trucks - Commercial (200km range, fast charging, low maintenance, zero emissions)

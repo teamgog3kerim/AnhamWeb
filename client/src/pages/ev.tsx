@@ -55,7 +55,7 @@ export default function EVPage() {
     {
       icon: Truck,
       title: "XCMG EV Sales & Leasing",
-      description: "As Sole Agent, we provide complete XCMG electric vehicle solutions with flexible purchasing and leasing options"
+      description: "As Exclusive Dealer, we provide complete XCMG electric vehicle solutions with flexible purchasing and leasing options"
     },
     {
       icon: Battery,
@@ -96,7 +96,7 @@ export default function EVPage() {
               XCMG Electric <span className="text-accent">Vehicles</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              ANHAMA Trading PLC is the <strong>Sole Agent</strong> for XCMG Electric Vehicles Light Trucks and Dump Trucks in the Ethiopian market,
+              ANHAMA Trading PLC is the <strong>Exclusive Dealer</strong> for XCMG Electric Vehicles Light Trucks and Dump Trucks in the Ethiopian market,
               serving individuals, private companies, and governmental organizations with cutting-edge sustainable transportation solutions.
             </p>
             <Link href="/contact">
@@ -242,14 +242,14 @@ export default function EVPage() {
                 XCMG <span className="text-primary">Partnership</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                As the Sole Agent for XCMG Electric Vehicles in Ethiopia, ANHAMA Trading brings world-class 
+                As the Exclusive Dealer for XCMG Electric Vehicles in Ethiopia, ANHAMA Trading brings world-class 
                 electric light trucks to the Ethiopian market, with upcoming charging infrastructure to support 
                 individuals, companies, and government fleets nationwide.
               </p>
 
               <div className="space-y-6 mb-8">
                 {[
-                  { icon: Award, title: "Sole Agent Status", desc: "Exclusive XCMG distributor for Ethiopian market" },
+                  { icon: Award, title: "Exclusive Dealer", desc: "Exclusive XCMG distributor for Ethiopian market" },
                   { icon: Battery, title: "Charging Network", desc: "Upcoming charging stations across Ethiopia" },
                   { icon: Users, title: "All Sectors", desc: "Serving individuals, companies, and government" }
                 ].map((item, index) => (
@@ -278,7 +278,7 @@ export default function EVPage() {
             <div>
               <img
                 src={whatsappImage}
-                alt="XCMG Electric Vehicle - ANHAMA Trading Sole Agent"
+                alt="XCMG Electric Vehicle - ANHAMA Trading Exclusive Dealer"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
                 data-testid="img-xcmg-partnership"
               />
@@ -294,7 +294,7 @@ export default function EVPage() {
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Join Ethiopia's sustainable transportation future with XCMG Electric Vehicles - available for individuals, 
-            private companies, and government organizations through ANHAMA Trading, your Sole Agent.
+            private companies, and government organizations through ANHAMA Trading, your Exclusive Dealer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

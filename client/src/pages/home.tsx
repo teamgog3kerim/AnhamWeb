@@ -323,7 +323,7 @@ export default function Home() {
                 Sustainable <span className="text-primary">EV Transportation</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                ANHAMA Trading PLC has expanded into sustainable transportation as the sole agent for importing 
+                ANHAMA Trading PLC has expanded into sustainable transportation as the exclusive dealer for importing 
                 electric vehicle (EV) light trucks, providing eco-friendly solutions to factories and distribution networks.
               </p>
 
