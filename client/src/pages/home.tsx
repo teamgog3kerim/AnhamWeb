@@ -331,7 +331,7 @@ export default function Home() {
               <div className="space-y-6 mb-8">
                 {[
                   { icon: Truck, title: "EV Light Trucks", desc: "Eco-friendly transportation solutions for commercial use" },
-                  { icon: Zap, title: "50% Bank Financing", desc: "Accessible financing options to boost sales and partnerships" },
+                  { icon: Zap, title: "up to 70% bank financing", desc: "Accessible financing options to boost sales and partnerships" },
                   { icon: Handshake, title: "Government & Private", desc: "Serving both governmental and private organizations" }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
