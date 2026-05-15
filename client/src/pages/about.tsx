@@ -590,7 +590,7 @@ export default function AboutPage() {
                 className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
                 data-testid="button-company-brochure"
               >
-                Download Brochure
+                Company Profile
               </Button>
             </a>
           </div>
