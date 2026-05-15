@@ -265,13 +265,6 @@ export default function ConstructionPage() {
                 Request Quote
               </Button>
             </Link>
-            <Button
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
-              data-testid="button-view-projects"
-            >
-              View Past Projects
-            </Button>
           </div>
         </div>
       </AnimatedSection>
