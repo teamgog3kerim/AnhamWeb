@@ -76,6 +76,11 @@ export default function Home() {
                     <h3 className="text-lg font-semibold text-foreground mb-2">
                       {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Trucks", "EV Dump Trucks"][index]}
                     </h3>
+                    {(index === 3 || index === 4) && (
+                      <span className="inline-block bg-primary/10 text-primary text-xs font-semibold px-2 py-1 rounded-full mb-2">
+                        Exclusive Dealer
+                      </span>
+                    )}
                     <p className="text-muted-foreground text-sm">
                       {[
                         "High-quality Devlon excavators designed for heavy-duty construction and earthmoving operations",
