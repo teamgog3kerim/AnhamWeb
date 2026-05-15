@@ -20,6 +20,10 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    setIsSheetOpen(false);
+  }, [location]);
+
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/construction", label: "Construction" },
