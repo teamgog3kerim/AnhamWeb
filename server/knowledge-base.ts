@@ -62,7 +62,7 @@ ANHAMA Trading PLC is the **Exclusive Dealer** for XCMG Electric Vehicles Light 
 - Upcoming Charging Station Network across Ethiopia
 - Training & Support for all sectors
 - Warranty & Service
-- 50% Bank Financing available
+- Up to 70% Bank Financing available
 - Serving individuals, private companies, and governmental organizations
 
 ### 3. Gold Mining Division
