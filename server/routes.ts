@@ -91,19 +91,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Get contact submissions (for admin purposes)
-  app.get("/api/contact-submissions", async (req, res) => {
-    try {
-      const submissions = await storage.getContactSubmissions();
-      res.json(submissions);
-    } catch (error) {
-      res.status(500).json({ 
-        success: false, 
-        message: "Failed to fetch contact submissions" 
-      });
-    }
-  });
-
   // AI Chat API - WhatsApp CRM
   app.post("/api/chat", chatRateLimiter, async (req, res) => {
     try {
