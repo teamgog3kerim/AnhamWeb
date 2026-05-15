@@ -109,7 +109,6 @@ export default function EVPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Brochures */}
       <AnimatedSection className="py-12 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -118,9 +117,7 @@ export default function EVPage() {
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
                 Download Our <span className="text-primary">EV Brochures</span>
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Get detailed specifications, pricing, and financing information for XCMG Electric Vehicles.
-              </p>
+              <p className="text-muted-foreground max-w-xl mx-auto">Get detailed specifications, and financing information for XCMG Electric Vehicles.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -147,7 +144,6 @@ export default function EVPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* EV Models */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -192,7 +188,6 @@ export default function EVPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Services Section */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -237,7 +232,6 @@ export default function EVPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Environmental Impact */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -291,7 +285,6 @@ export default function EVPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* CTA Section */}
       <AnimatedSection className="py-20 bg-gradient-to-r from-primary to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
