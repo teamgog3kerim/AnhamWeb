@@ -34,6 +34,11 @@ export default function AboutPage() {
       year: "2024",
       title: "Mining Division",
       description: "Entered gold mining sector with sustainable and responsible practices"
+    },
+    {
+      year: "2025",
+      title: "EV Light & Dump Trucks",
+      description: "Became the Exclusive Dealer of XCMG Electric Vehicles, introducing light trucks and dump trucks to Ethiopia's logistics and mining industries"
     }
   ];
 
