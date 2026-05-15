@@ -117,7 +117,7 @@ export default function EVPage() {
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
                 Download Our <span className="text-primary">EV Brochures</span>
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">Get detailed specifications, and financing information for XCMG Electric Vehicles.</p>
+              <p className="text-muted-foreground max-w-xl mx-auto">Get detailed specifications and financing information for XCMG Electric Vehicles.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
