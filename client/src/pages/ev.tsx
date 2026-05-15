@@ -160,9 +160,9 @@ export default function EVPage() {
                   Honored by <span className="text-primary">Leadership</span>
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  ANHAMA Trading PLC is honored to announce that Prime Minister <strong>Dr. Abiy Ahmed</strong> visited our booth 
-                  held at <strong>Addis International Convention Centre (AICC)</strong>, where we had the privilege to explain 
-                  the benefits of our electric XCMG trucks to the nation's leadership.
+                  ANHAMA Trading PLC is honored to announce that Prime Minister <strong>Dr. Abiy Ahmed</strong> visited our booth
+                  held at <strong>Addis International Convention Centre (AICC)</strong>, where we had the privilege to explain
+                  the benefits of our electric XCMG trucks to the nation's logistics industry.
                 </p>
               </div>
             </div>
