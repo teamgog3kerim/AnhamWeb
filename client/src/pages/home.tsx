@@ -48,7 +48,6 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <HeroSection />
-
       {/* Construction Section */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -116,7 +115,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Mining Section */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -176,7 +174,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Agricultural Exports Section */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -317,7 +314,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* EV Light Trucks Section */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -366,7 +362,7 @@ export default function Home() {
               </div>
 
               {/* Brochure Buttons */}
-              <div className="rounded-2xl p-6 border border-primary/10 bg-background">
+              <div className="rounded-2xl p-6 border border-primary/10 bg-background rounded-tl-[16px] rounded-tr-[16px] rounded-br-[16px] rounded-bl-[16px] mt-[0px] mb-[0px] pt-[9px] pb-[9px]">
                 <h4 className="text-lg font-bold text-foreground mb-3">Download EV Brochures</h4>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -429,7 +425,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Projects Section */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -584,7 +579,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Mission, Vision, Values */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
