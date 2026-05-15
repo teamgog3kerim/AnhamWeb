@@ -20,6 +20,7 @@ import newSesameImage from "@assets/sesame_1757509442205.jpeg";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
 import foodFactoryImage from "@assets/food factory_1757507645474.png";
+import loadingCapacityBadge from "@assets/Slide1_1778830812489.png";
 
 export default function Home() {
   const constructionImages = [
@@ -358,6 +359,11 @@ export default function Home() {
 
             <div className="relative">
               <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8">
+                <img
+                  src={loadingCapacityBadge}
+                  alt="Loading capacity from 1 up to 45 tons"
+                  className="w-full max-w-xs mx-auto mb-4 object-contain rounded-lg hover-lift"
+                />
                 <img
                   src={xcmgEvTruck}
                   alt="XCMG Electric delivery trucks"
