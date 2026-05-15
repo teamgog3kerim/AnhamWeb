@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
 import excavatorWarehouseImage from "@assets/image_1778839927864.png";
+import heavyExcavatorsImage from "@assets/image_1778841810193.png";
 import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
 import supportTeamImage from "@assets/image_1778834572370.png";
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
@@ -18,7 +19,7 @@ export default function ConstructionPage() {
   const equipment = [
     {
       title: "Heavy Excavators",
-      image: excavatorWarehouseImage,
+      image: heavyExcavatorsImage,
       description: "High-performance Devlon and Hitachi excavators for large-scale construction projects",
       features: ["20-40 ton capacity", "Advanced hydraulics", "GPS tracking", "24/7 support"]
     },
