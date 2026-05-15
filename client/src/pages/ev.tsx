@@ -15,6 +15,7 @@ import xcmgTruck4 from "@assets/xcmg ev light trucks 5_1757501491683.jpeg";
 import xcmgTruck5 from "@assets/xcmg ev light trucks 6_1757501502349.jpeg";
 import whatsappImage from "@assets/WhatsApp Image 2025-06-17 at 10.21.02 AM (5)_1757503087155.jpeg";
 import xcmgTruck6 from "@assets/xcmg ev light trucks 6_1757503097947.jpeg";
+import evHeroBg from "@assets/image_1778835313580.png";
 
 export default function EVPage() {
   const evModels = [
@@ -80,7 +81,7 @@ export default function EVPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url(${evHeroBg})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
