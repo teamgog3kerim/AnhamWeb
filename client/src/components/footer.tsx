@@ -6,8 +6,8 @@ export function Footer() {
   return (
     <footer className="bg-card border-t border-border py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div className="col-span-1 md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+          <div className="col-span-1 md:col-span-2 lg:col-span-2">
             <img
               src={anhamaLogo}
               alt="ANHAMA Trading PLC"
@@ -85,6 +85,27 @@ export function Footer() {
               <li>
                 <a href="#" className="hover:text-primary transition-colors" data-testid="footer-link-privacy">
                   Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-foreground mb-4">Downloads</h4>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>
+                <a href="/brochures/company-profile.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" data-testid="footer-link-company-profile">
+                  Company Profile
+                </a>
+              </li>
+              <li>
+                <a href="/brochures/ev-brochure-english.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" data-testid="footer-link-ev-english">
+                  EV Truck Brochure (English)
+                </a>
+              </li>
+              <li>
+                <a href="/brochures/ev-brochure-amharic.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" data-testid="footer-link-ev-amharic">
+                  EV Truck Brochure (Amharic)
                 </a>
               </li>
             </ul>
