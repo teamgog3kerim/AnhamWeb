@@ -95,7 +95,7 @@ export default function EVPage() {
               XCMG Electric <span className="text-accent">Vehicles</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              ANHAMA Trading PLC is the <strong>Sole Agent</strong> for XCMG Electric Vehicles Light Trucks in the Ethiopian market, 
+              ANHAMA Trading PLC is the <strong>Sole Agent</strong> for XCMG Electric Vehicles Light Trucks and Dump Trucks in the Ethiopian market,
               serving individuals, private companies, and governmental organizations with cutting-edge sustainable transportation solutions.
             </p>
             <Link href="/contact">
