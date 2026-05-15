@@ -67,11 +67,20 @@ export default function Home() {
               >
                 <Card className="service-card hover-lift">
                   <CardContent className="p-6">
-                    <img
-                      src={image}
-                      alt={`Construction machinery ${index + 1}`}
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
+                    {index === 3 ? (
+                      <div className="flex flex-col items-center justify-center h-48 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30 rounded-lg mb-4 p-4 text-center">
+                        <Truck className="h-10 w-10 text-green-600 mb-3" />
+                        <div className="text-3xl font-bold text-green-700 dark:text-green-400">20 - 45 Ton</div>
+                        <div className="text-sm text-green-600 dark:text-green-400 font-medium mt-1">Loading Capacity Variants</div>
+                        <div className="text-xs text-green-500 dark:text-green-500 mt-2">Zero-Emission Heavy-Duty Hauling</div>
+                      </div>
+                    ) : (
+                      <img
+                        src={image}
+                        alt={`Construction machinery ${index + 1}`}
+                        className="w-full h-48 object-cover rounded-lg mb-4"
+                      />
+                    )}
                     <h3 className="text-lg font-semibold text-foreground mb-2">
                       {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Truck / Dump Truck"][index]}
                     </h3>
@@ -80,7 +89,7 @@ export default function Home() {
                         "High-quality Devlon excavators designed for heavy-duty construction and earthmoving operations",
                         "Reliable Hitachi excavators known for precision, durability and advanced hydraulic systems",
                         "Powerful wheel loaders for efficient material handling and loading operations",
-                        "Eco-friendly electric dump trucks combining zero-emission technology with heavy-duty hauling capacity"
+                        "Eco-friendly electric dump trucks with zero-emission technology and variant loading capacity from 20 Ton to 45 Ton"
                       ][index]}
                     </p>
                   </CardContent>
