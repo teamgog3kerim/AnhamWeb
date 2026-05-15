@@ -9,6 +9,7 @@ import excavatorWarehouseImage from "@assets/excavators warehouse 3_175750080001
 import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
 import wheelLoaderImage from "@assets/wheel loader_1757500300204_1757584564881.jpg";
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
+import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -43,10 +44,10 @@ export default function ConstructionPage() {
       features: ["Quick attach", "Load sensing", "Comfort cab", "Fuel efficiency"]
     },
     {
-      title: "Dump Trucks",
-      image: dumpTruckImage,
-      description: "Heavy-duty trucks for material transport and hauling",
-      features: ["Large capacity", "Reliable engines", "Safety systems", "Easy maintenance"]
+      title: "EV Dump Trucks",
+      image: evDumpTruckImage,
+      description: "Electric heavy-duty dump trucks for sustainable material transport and hauling",
+      features: ["Zero emissions", "Large capacity", "Fast charging", "Low operating cost"]
     }
   ];
 
