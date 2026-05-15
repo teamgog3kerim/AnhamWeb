@@ -20,6 +20,7 @@ import evDumpTruck1 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_177883
 import evDumpTruck2 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.09_PM_1778835988006.jpeg";
 import evDumpTruck3 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.04_PM_1778835998744.jpeg";
 import pmVisitImage from "@assets/WhatsApp_Image_2026-05-04_at_9.24.02_AM_1778838518962.jpeg";
+import boothMeetingImage from "@assets/WhatsApp_Image_2026-05-04_at_4.09.30_PM_1778838528327.jpeg";
 
 export default function EVPage() {
   const evModels = [
@@ -178,6 +179,28 @@ export default function EVPage() {
               As the exclusive distributor of XCMG Electric Vehicles in Ethiopia, we offer premium electric light trucks 
               to individuals, private companies, and government agencies, leading the nation's sustainable transportation revolution.
             </p>
+          </div>
+
+          <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-6 mb-8 border border-primary/10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="order-2 lg:order-1 text-left">
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+                  Showcasing at <span className="text-primary">AICC</span>
+                </h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Our team engaging with visitors at the <strong>Addis International Convention Centre (AICC)</strong>, 
+                  presenting our electric XCMG truck lineup and discussing sustainable transportation solutions 
+                  with prospective clients and partners.
+                </p>
+              </div>
+              <div className="order-1 lg:order-2">
+                <img
+                  src={boothMeetingImage}
+                  alt="ANHAMA Trading team meeting with visitors at AICC booth"
+                  className="w-full h-72 object-cover rounded-xl"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-6 mb-16 border border-primary/10">
