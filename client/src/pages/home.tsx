@@ -26,6 +26,7 @@ export default function Home() {
     devlonExcavatorImage,
     hitachiExcavatorImage,
     wheelLoaderImage,
+    xcmgEvTruck,
     evDumpTruckImage,
   ];
 
@@ -58,7 +59,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
             {constructionImages.map((image, index) => (
               <motion.div
                 key={index}
@@ -73,13 +74,14 @@ export default function Home() {
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
                     <h3 className="text-lg font-semibold text-foreground mb-2">
-                      {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Dump Trucks"][index]}
+                      {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Trucks", "EV Dump Trucks"][index]}
                     </h3>
                     <p className="text-muted-foreground text-sm">
                       {[
                         "High-quality Devlon excavators designed for heavy-duty construction and earthmoving operations",
                         "Reliable Hitachi excavators known for precision, durability and advanced hydraulic systems",
                         "Powerful wheel loaders for efficient material handling and loading operations",
+                        "Eco-friendly electric light trucks with zero-emission technology and loading capacity up to 6.5 Ton",
                         "Eco-friendly electric dump trucks with zero-emission technology and variant loading capacity from 20 Ton to 45 Ton"
                       ][index]}
                     </p>
