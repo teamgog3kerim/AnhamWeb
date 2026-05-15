@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import devlonExcavatorImage from "@assets/devlon excavators_1757499021728.jpg";
 import hitachiExcavatorImage from "@assets/hitachi excavator 350_1757499282508.jpeg";
 import wheelLoaderImage from "@assets/wheel loader_1757500300204.jpg";
-import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778764284327.jpeg";
+import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778831340318.jpeg";
 import xcmgEvTruck4 from "@assets/xcmg ev light trucks 4_1757503354703.jpeg";
 import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
 import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
@@ -67,20 +67,11 @@ export default function Home() {
               >
                 <Card className="service-card hover-lift">
                   <CardContent className="p-6">
-                    {index === 3 ? (
-                      <div className="flex flex-col items-center justify-center h-48 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30 rounded-lg mb-4 p-4 text-center">
-                        <Truck className="h-10 w-10 text-green-600 mb-3" />
-                        <div className="text-3xl font-bold text-green-700 dark:text-green-400">20 - 45 Ton</div>
-                        <div className="text-sm text-green-600 dark:text-green-400 font-medium mt-1">Loading Capacity Variants</div>
-                        <div className="text-xs text-green-500 dark:text-green-500 mt-2">Zero-Emission Heavy-Duty Hauling</div>
-                      </div>
-                    ) : (
-                      <img
-                        src={image}
-                        alt={`Construction machinery ${index + 1}`}
-                        className="w-full h-48 object-cover rounded-lg mb-4"
-                      />
-                    )}
+                    <img
+                      src={image}
+                      alt={`Construction machinery ${index + 1}`}
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-lg font-semibold text-foreground mb-2">
                       {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Dump Trucks"][index]}
                     </h3>
