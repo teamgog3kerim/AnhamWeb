@@ -273,11 +273,7 @@ export default function EVPage() {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                 XCMG <span className="text-primary">Partnership</span>
               </h2>
-              <p className="text-xl text-muted-foreground mb-8">
-                As the Exclusive Dealer for XCMG Electric Vehicles in Ethiopia, ANHAMA Trading brings world-class 
-                electric light trucks to the Ethiopian market, with upcoming charging infrastructure to support 
-                individuals, companies, and government fleets nationwide.
-              </p>
+              <p className="text-xl text-muted-foreground mb-8">As the Exclusive Dealer for XCMG EV Trucks  in Ethiopia, ANHAMA Trading brings world-class EV light trucks and EV Dump Trucks to the Ethiopian market, with upcoming charging infrastructure to support individuals, companies, and government fleets nationwide.</p>
 
               <div className="space-y-6 mb-8">
                 {[
