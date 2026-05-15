@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
 import excavatorWarehouseImage from "@assets/excavators warehouse 3_1757500800017.jpg";
 import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_1757584416861.jpeg";
-import wheelLoaderImage from "@assets/wheel loader_1757500300204_1757584564881.jpg";
+import supportTeamImage from "@assets/image_1778834572370.png";
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
 import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
 import heroBgImage from "@assets/image_1778833446155.png";
@@ -40,10 +40,10 @@ export default function ConstructionPage() {
       features: ["OEM quality parts", "Quick availability", "Competitive pricing", "Expert installation"]
     },
     {
-      title: "Wheel Loaders",
-      image: wheelLoaderImage,
-      description: "Efficient loading and material handling equipment",
-      features: ["Quick attach", "Load sensing", "Comfort cab", "Fuel efficiency"]
+      title: "Organized Support Team",
+      image: supportTeamImage,
+      description: "Our dedicated team of engineers and technicians ensures seamless project execution and equipment reliability",
+      features: ["On-site support", "Technical expertise", "Project coordination", "Rapid response"]
     },
     {
       title: "EV Dump Trucks",
