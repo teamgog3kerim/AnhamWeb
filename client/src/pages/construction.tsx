@@ -11,6 +11,7 @@ import wheelLoaderImage from "@assets/wheel loader_1757500300204_1757584564881.j
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
 import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
 import heroBgImage from "@assets/image_1778833446155.png";
+import afterSalesImage from "@assets/image_1778834214999.png";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -22,7 +23,7 @@ export default function ConstructionPage() {
     },
     {
       title: "After Sales Service",
-      image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: afterSalesImage,
       description: "Comprehensive support and maintenance services for all your construction equipment",
       features: ["24/7 technical support", "Preventive maintenance", "Spare parts supply", "Equipment warranty"]
     },
