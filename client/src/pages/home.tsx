@@ -18,6 +18,7 @@ import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
 import xcmgEvTruck6 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778767626240.jpeg";
 import xcmgEvTruck7 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.04_PM_1778767638046.jpeg";
 import goldMiningImage from "@assets/god mining_1757508317443.png";
+import miningOperationImage from "@assets/WhatsApp_Image_2026-04-28_at_12.25.03_PM_1778843154653.jpeg";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
 import newSesameImage from "@assets/sesame_1757509442205.jpeg";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
@@ -35,7 +36,7 @@ export default function Home() {
 
   const miningImages = [
     goldMiningImage,
-    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300",
+    miningOperationImage,
   ];
 
   const exportImages = [
