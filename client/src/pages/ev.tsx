@@ -16,6 +16,9 @@ import xcmgTruck5 from "@assets/xcmg ev light trucks 6_1757501502349.jpeg";
 import whatsappImage from "@assets/WhatsApp Image 2025-06-17 at 10.21.02 AM (5)_1757503087155.jpeg";
 import xcmgTruck6 from "@assets/xcmg ev light trucks 6_1757503097947.jpeg";
 import evHeroBg from "@assets/image_1778835313580.png";
+import evDumpTruck1 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778835981938.jpeg";
+import evDumpTruck2 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.09_PM_1778835988006.jpeg";
+import evDumpTruck3 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.04_PM_1778835998744.jpeg";
 
 export default function EVPage() {
   const evModels = [
@@ -48,6 +51,24 @@ export default function EVPage() {
       image: xcmgTruck5,
       description: "Specialized XCMG electric vehicles for specific industry requirements",
       features: ["Custom configurations", "Industry specific", "Enhanced durability", "Professional grade"]
+    },
+    {
+      title: "XCMG EV Dump Truck - Standard",
+      image: evDumpTruck1,
+      description: "Heavy-duty electric dump trucks with loading capacity from 20 to 30 tons for construction and mining applications",
+      features: ["20-30 Ton capacity", "Zero emissions", "Fast charging", "Low operating cost"]
+    },
+    {
+      title: "XCMG EV Dump Truck - Heavy Duty",
+      image: evDumpTruck2,
+      description: "High-capacity electric dump trucks designed for large-scale material transport with 30 to 45 ton loading capacity",
+      features: ["30-45 Ton capacity", "Large payload", "Smart charging", "Enhanced durability"]
+    },
+    {
+      title: "XCMG EV Dump Truck - Mining Grade",
+      image: evDumpTruck3,
+      description: "Rugged electric dump trucks built for extreme mining conditions with 40 to 45 ton loading capacity",
+      features: ["40-45 Ton capacity", "Mining grade", "All-terrain", "Maximum torque"]
     }
   ];
 
