@@ -4,7 +4,10 @@ import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Zap, Truck, Battery, Shield, Award, Users, Leaf } from "lucide-react";
+import { Zap, Truck, Battery, Shield, Award, Users, Leaf, FileText, Download, ExternalLink } from "lucide-react";
+
+const ENGLISH_BROCHURE_URL = "/brochures/ev-brochure-english.pdf";
+const AMHARIC_BROCHURE_URL = "/brochures/ev-brochure-amharic.pdf";
 import xcmgTruck1 from "@assets/xcmg ev light trucks 3_1757501456119.jpeg";
 import xcmgTruck2 from "@assets/xcmg ev light trucks 2_1757501474691.jpeg";
 import xcmgTruck3 from "@assets/xcmg ev light trucks 4_1757501482119.jpeg";
@@ -106,6 +109,44 @@ export default function EVPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Brochures */}
+      <AnimatedSection className="py-12 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl p-8 border border-primary/10">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                Download Our <span className="text-primary">EV Brochures</span>
+              </h2>
+              <p className="text-muted-foreground max-w-xl mx-auto">
+                Get detailed specifications, pricing, and financing information for XCMG Electric Vehicles.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={ENGLISH_BROCHURE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-sm"
+              >
+                <FileText className="h-5 w-5" />
+                View English Brochure
+                <ExternalLink className="h-4 w-4" />
+              </a>
+              <a
+                href={AMHARIC_BROCHURE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-sm"
+              >
+                <FileText className="h-5 w-5" />
+                View Amharic Brochure
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
 
       {/* EV Models */}
       <AnimatedSection className="py-20 bg-background">

@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { Construction, Mountain, Coffee, Sprout, Target, Eye, Handshake, Truck, Zap, Building, Hotel, Factory, Wrench, MapPin } from "lucide-react";
+import { Construction, Mountain, Coffee, Sprout, Target, Eye, Handshake, Truck, Zap, Building, Hotel, Factory, Wrench, MapPin, FileText, ExternalLink } from "lucide-react";
+
+const ENGLISH_BROCHURE_URL = "/brochures/ev-brochure-english.pdf";
+const AMHARIC_BROCHURE_URL = "/brochures/ev-brochure-amharic.pdf";
 import { HeroSection } from "@/components/hero-section";
 import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
@@ -346,10 +349,10 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-6">
+              <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-6 mb-6">
                 <h4 className="text-xl font-bold text-white mb-3">Sustainable Transportation Solutions</h4>
                 <p className="text-white/90 mb-4">
-                  Contributing to reduced carbon emissions and greener logistics while supporting Ethiopia's 
+                  Contributing to reduced carbon emissions and greener logistics while supporting Ethiopia's
                   transition to sustainable transportation.
                 </p>
                 <Link href="/contact">
@@ -360,6 +363,33 @@ export default function Home() {
                     Learn About EV Trucks
                   </Button>
                 </Link>
+              </div>
+
+              {/* Brochure Buttons */}
+              <div className="rounded-2xl p-6 border border-primary/10 bg-background">
+                <h4 className="text-lg font-bold text-foreground mb-3">Download EV Brochures</h4>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <a
+                    href={ENGLISH_BROCHURE_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300"
+                  >
+                    <FileText className="h-4 w-4" />
+                    View English Brochure
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
+                  <a
+                    href={AMHARIC_BROCHURE_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300"
+                  >
+                    <FileText className="h-4 w-4" />
+                    View Amharic Brochure
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
+                </div>
               </div>
             </div>
 
