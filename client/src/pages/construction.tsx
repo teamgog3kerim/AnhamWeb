@@ -10,6 +10,7 @@ import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_17575
 import wheelLoaderImage from "@assets/wheel loader_1757500300204_1757584564881.jpg";
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
 import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
+import heroBgImage from "@assets/image_1778833446155.png";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -81,7 +82,7 @@ export default function ConstructionPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url(${heroBgImage})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
