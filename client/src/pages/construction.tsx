@@ -11,6 +11,7 @@ import xcmgEvTruckImage from "@assets/xcmg ev light trucks 4_1757501482119_17575
 import supportTeamImage from "@assets/image_1778834572370.png";
 import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.webp";
 import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
+import hitachiFleetImage from "@assets/download_1778842875462.png";
 import heroBgImage from "@assets/image_1778833446155.png";
 import afterSalesImage from "@assets/image_1778834214999.png";
 import sparePartsImage from "@assets/image_1778834856875.png";
@@ -237,7 +238,7 @@ export default function ConstructionPage() {
 
             <div>
               <img
-                src={excavatorWarehouseImage}
+                src={hitachiFleetImage}
                 alt="ANHAMA Trading's Hitachi and Devlon construction equipment fleet"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
               />
