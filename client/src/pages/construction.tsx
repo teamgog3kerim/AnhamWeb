@@ -12,6 +12,7 @@ import dumpTruckImage from "@assets/sany dump truck_1757500473030_1757584678763.
 import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
 import heroBgImage from "@assets/image_1778833446155.png";
 import afterSalesImage from "@assets/image_1778834214999.png";
+import sparePartsImage from "@assets/image_1778834856875.png";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -35,7 +36,7 @@ export default function ConstructionPage() {
     },
     {
       title: "Spare Parts and Accessories",
-      image: "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: sparePartsImage,
       description: "Genuine spare parts and accessories for all construction equipment brands",
       features: ["OEM quality parts", "Quick availability", "Competitive pricing", "Expert installation"]
     },
