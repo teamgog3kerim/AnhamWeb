@@ -183,28 +183,6 @@ export default function EVPage() {
 
           <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-6 mb-8 border border-primary/10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="order-2 lg:order-1 text-left">
-                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                  Showcasing at <span className="text-primary">AICC</span>
-                </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Our team engaging with visitors at the <strong>Addis International Convention Centre (AICC)</strong>, 
-                  presenting our electric XCMG truck lineup and discussing sustainable transportation solutions 
-                  with prospective clients and partners.
-                </p>
-              </div>
-              <div className="order-1 lg:order-2">
-                <img
-                  src={boothMeetingImage}
-                  alt="ANHAMA Trading team meeting with visitors at AICC booth"
-                  className="w-full h-72 object-cover rounded-xl"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-6 mb-16 border border-primary/10">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
                 <img
                   src={pmVisitImage}
@@ -221,6 +199,28 @@ export default function EVPage() {
                   held at <strong>Addis International Convention Centre (AICC)</strong>, where we had the privilege to explain 
                   the benefits of our electric XCMG trucks to the nation's leadership.
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-6 mb-16 border border-primary/10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="order-2 lg:order-1 text-left">
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+                  Showcasing at <span className="text-primary">AICC</span>
+                </h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Our team engaging with visitors at the <strong>Addis International Convention Centre (AICC)</strong>, 
+                  presenting our electric XCMG truck lineup and discussing sustainable transportation solutions 
+                  with prospective clients and partners.
+                </p>
+              </div>
+              <div className="order-1 lg:order-2">
+                <img
+                  src={boothMeetingImage}
+                  alt="ANHAMA Trading team meeting with visitors at AICC booth"
+                  className="w-full h-72 object-cover rounded-xl"
+                />
               </div>
             </div>
           </div>
