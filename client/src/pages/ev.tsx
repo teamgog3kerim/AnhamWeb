@@ -19,6 +19,7 @@ import evHeroBg from "@assets/image_1778835313580.png";
 import evDumpTruck1 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778835981938.jpeg";
 import evDumpTruck2 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.09_PM_1778835988006.jpeg";
 import evDumpTruck3 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.04_PM_1778835998744.jpeg";
+import pmVisitImage from "@assets/WhatsApp_Image_2026-05-04_at_9.24.02_AM_1778838518962.jpeg";
 
 export default function EVPage() {
   const evModels = [
@@ -177,6 +178,28 @@ export default function EVPage() {
               As the exclusive distributor of XCMG Electric Vehicles in Ethiopia, we offer premium electric light trucks 
               to individuals, private companies, and government agencies, leading the nation's sustainable transportation revolution.
             </p>
+          </div>
+
+          <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-6 mb-16 border border-primary/10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <img
+                  src={pmVisitImage}
+                  alt="Prime Minister Dr. Abiy Ahmed visiting ANHAMA Trading booth at AICC"
+                  className="w-full h-72 object-cover rounded-xl"
+                />
+              </div>
+              <div className="text-left">
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+                  Honored by <span className="text-primary">Leadership</span>
+                </h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  ANHAMA Trading PLC is honored to announce that Prime Minister <strong>Dr. Abiy Ahmed</strong> visited our booth 
+                  held at <strong>Addis International Convention Centre (AICC)</strong>, where we had the privilege to explain 
+                  the benefits of our electric XCMG trucks to the nation's leadership.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
