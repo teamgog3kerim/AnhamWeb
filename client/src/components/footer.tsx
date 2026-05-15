@@ -92,9 +92,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-muted-foreground mb-4 md:mb-0">
-            © 2025 ANHAMA. All rights reserved. Designed by Abdulkerim M.
-          </p>
+          <p className="text-muted-foreground mb-4 md:mb-0">© 2026 ANHAMA. All rights reserved.</p>
           <div className="flex space-x-4">
             <a
               href="#"
