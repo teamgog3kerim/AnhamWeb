@@ -17,7 +17,7 @@ import xcmgEvTruck5 from "@assets/xcmg ev light trucks 5_1757503365123.jpeg";
 import xcmgEvTruck from "@assets/xcmg ev truck_1757503391080.jpeg";
 import xcmgEvTruck6 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778767626240.jpeg";
 import xcmgEvTruck7 from "@assets/WhatsApp_Image_2026-04-21_at_4.26.04_PM_1778767638046.jpeg";
-import beerTruckImage from "@assets/WhatsApp_Image_2026-05-16_at_10.29.19_AM_(1)_1779087603250.jpeg";
+import beerTruckImage from "@assets/WhatsApp_Image_2026-05-16_at_10.29.19_AM_1779087868270.jpeg";
 import goldMiningImage from "@assets/god mining_1757508317443.png";
 import miningOperationImage from "@assets/WhatsApp_Image_2026-04-28_at_12.25.03_PM_1778843154653.jpeg";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
