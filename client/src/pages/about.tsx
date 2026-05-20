@@ -338,12 +338,20 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <img
-                src={communityFoodImage}
-                alt="ANHAMA community food distribution program"
-                className="w-full h-96 object-cover rounded-2xl hover-lift"
-              />
+            <div className="relative group">
+              <div className="absolute -inset-2 bg-gradient-to-tr from-primary/30 via-accent/20 to-green-500/20 rounded-3xl blur-xl opacity-60 group-hover:opacity-90 transition-opacity duration-500" />
+              <div className="relative overflow-hidden rounded-2xl ring-1 ring-black/5 shadow-2xl">
+                <img
+                  src={communityFoodImage}
+                  alt="ANHAMA community food distribution program"
+                  className="w-full h-96 object-cover transform transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/0 to-transparent pointer-events-none" />
+                <div className="absolute bottom-0 left-0 right-0 p-5 text-white">
+                  <p className="text-xs uppercase tracking-widest text-white/80 mb-1">Community Impact</p>
+                  <p className="text-lg font-semibold leading-tight">Daily meals for 200+ neighbors in Addis Ababa</p>
+                </div>
+              </div>
             </div>
 
             <div>
