@@ -147,13 +147,6 @@ export default function MiningPage() {
                   className="w-full h-64 object-cover rounded-xl hover-lift"
                 />
               </div>
-              <div className="col-span-2">
-                <img
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
-                  alt="Mining equipment"
-                  className="w-full h-32 object-cover rounded-lg hover-lift"
-                />
-              </div>
             </div>
           </div>
         </div>
