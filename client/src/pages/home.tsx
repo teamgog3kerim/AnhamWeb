@@ -164,16 +164,9 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-4">
               <div className="col-span-2">
                 <img
-                  src={miningImages[0]}
-                  alt="Large-scale gold mining operation"
-                  className="w-full h-64 object-cover rounded-xl hover-lift"
-                />
-              </div>
-              <div className="col-span-2">
-                <img
                   src={miningImages[1]}
                   alt="Gold processing facilities"
-                  className="w-full h-40 object-cover rounded-xl hover-lift"
+                  className="w-full h-64 object-cover rounded-xl hover-lift"
                 />
               </div>
               <img
