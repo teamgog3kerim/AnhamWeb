@@ -188,7 +188,7 @@ export function WhatsAppCRM() {
             </Button>
             {/* Tooltip label */}
             <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap shadow-lg pointer-events-none">
-              Chat with us
+              Contact us
               <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1 w-2 h-2 bg-gray-900 rotate-45" />
             </div>
           </motion.div>
