@@ -8,13 +8,27 @@ import anhamaLogo from "@assets/Anhama_1_1778766530392.png";
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
+      {/* Background video (with image fallback) */}
       <div
-        className="absolute inset-0 parallax"
+        className="absolute inset-0"
         style={{
-          backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.7)), url(${excavatorsPhoto})`,
+          backgroundImage: `url(${excavatorsPhoto})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
-      />
+      >
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <iframe
+            title="ANHAMA Trading background video"
+            src="https://www.youtube.com/embed/eE0DZbpAlfk?autoplay=1&mute=1&loop=1&playlist=eE0DZbpAlfk&controls=0&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1&disablekb=1&fs=0&start=23"
+            allow="autoplay; encrypted-media"
+            allowFullScreen={false}
+            frameBorder={0}
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.78vh] h-[56.25vw] min-w-full min-h-full"
+          />
+        </div>
+        <div className="absolute inset-0 bg-blue-900/70" />
+      </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
