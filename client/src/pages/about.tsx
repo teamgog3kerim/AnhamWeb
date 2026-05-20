@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, Handshake, Calendar, Award, Users, Building, Construction, Globe, MapPin, Wrench, Hotel, Factory } from "lucide-react";
 import ceoPhoto from "@assets/CEO - Mr habtamu Alemayehu Benti_1757499581659.jpg";
 import anhamaOfficeImage from "@assets/anhama_office_new_1779267152766.png";
+import anhamaFleetImage from "@assets/image_1779269388898.png";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
 import foodFactoryImage from "@assets/food factory_1757507645474.png";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
@@ -183,9 +184,9 @@ export default function AboutPage() {
 
             <div>
               <img
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Modern office environment"
-                className="w-full h-96 object-cover rounded-2xl hover-lift"
+                src={anhamaFleetImage}
+                alt="ANHAMA Trading PLC truck fleet convoy"
+                className="w-full h-[32rem] lg:h-[36rem] object-cover rounded-2xl hover-lift"
               />
             </div>
           </div>
