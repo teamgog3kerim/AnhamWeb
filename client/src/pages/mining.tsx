@@ -8,6 +8,9 @@ import { Mountain, Shield, Leaf, Users, Award, Truck, Pickaxe, Globe } from "luc
 import goldExtractionImage from "@assets/Screenshot_20250910-145345_Chrome_1757615717678.jpg";
 import miningOperationImage from "@assets/mining_1757616300666.jpeg";
 import miningEquipmentImage from "@assets/mineing_1757616571460.jpg";
+import miningExtra1 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(2)_1779264964482.jpeg";
+import miningExtra2 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.55_AM_1779264979006.jpeg";
+import miningExtra3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.40_AM_(1)_1779265040820.jpeg";
 
 export default function MiningPage() {
   const miningCapabilities = [
@@ -147,6 +150,21 @@ export default function MiningPage() {
                   className="w-full h-64 object-cover rounded-xl hover-lift"
                 />
               </div>
+              <img
+                src={miningExtra1}
+                alt="Excavator digging at gold mining site"
+                className="w-full h-40 object-cover rounded-lg hover-lift"
+              />
+              <img
+                src={miningExtra2}
+                alt="Gold mining excavation pit"
+                className="w-full h-40 object-cover rounded-lg hover-lift"
+              />
+              <img
+                src={miningExtra3}
+                alt="Gold processing equipment on site"
+                className="col-span-2 w-full h-48 object-cover rounded-lg hover-lift"
+              />
             </div>
           </div>
         </div>
