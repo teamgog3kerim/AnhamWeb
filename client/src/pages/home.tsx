@@ -23,7 +23,7 @@ import miningOperationImage from "@assets/WhatsApp_Image_2026-04-28_at_12.25.03_
 import miningSite1 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.55_AM_(3)_1779263168223.jpeg";
 import miningSite2 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.55_AM_(1)_1779263182644.jpeg";
 import miningSite3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(3)_1779263196251.jpeg";
-import miningSite4 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.41_AM_(1)_1779263228004.jpeg";
+import miningSite4 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.41_AM_(1)_1779263558884.jpeg";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
 import newSesameImage from "@assets/sesame_1757509442205.jpeg";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
