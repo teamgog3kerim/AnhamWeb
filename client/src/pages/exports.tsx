@@ -8,6 +8,8 @@ import { Coffee, Sprout, Globe, Ship, Award, Truck, CheckCircle, Star } from "lu
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
 import coffeeShowroomImage from "@assets/1233541_1779266141106.png";
 
+import _516546 from "@assets/516546.png";
+
 export default function ExportsPage() {
   const coffeeImages = [
     "https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
@@ -103,7 +105,6 @@ export default function ExportsPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Overview Section */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -191,7 +192,7 @@ export default function ExportsPage() {
                       className="w-full h-32 object-cover rounded-lg"
                     />
                     <img
-                      src={sesameImages[2]}
+                      src={_516546}
                       alt="Sesame processing"
                       className="w-full h-32 object-cover rounded-lg"
                     />
@@ -233,7 +234,6 @@ export default function ExportsPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Export Markets */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -272,7 +272,6 @@ export default function ExportsPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Quality Standards */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -306,7 +305,6 @@ export default function ExportsPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Process Overview */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -350,7 +348,6 @@ export default function ExportsPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* CTA Section */}
       <AnimatedSection className="py-20 bg-gradient-to-r from-green-600 to-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
