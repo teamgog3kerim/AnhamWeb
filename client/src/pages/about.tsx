@@ -138,8 +138,8 @@ export default function AboutPage() {
       {/* Company Overview */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-            <div>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center mb-20">
+            <div className="lg:col-span-2">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                 Catalyzing Ethiopia's <span className="text-primary">Growth</span>
               </h2>
@@ -182,7 +182,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div>
+            <div className="lg:col-span-3">
               <img
                 src={anhamaFleetImage}
                 alt="ANHAMA Trading PLC truck fleet convoy"
