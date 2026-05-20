@@ -26,6 +26,7 @@ import miningSite3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(3)_17
 import miningSite4 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.41_AM_(1)_1779263558884.jpeg";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
 import coffeeProcessingImage from "@assets/photo-1442512595331-e89e73853f31_1779266245457.avif";
+import sesameProcessingImage from "@assets/516546_1779266693802.png";
 import newSesameImage from "@assets/sesame_1757509442205.jpeg";
 import gerdImage from "@assets/GERD_1757507798248.jpg";
 import anhamaHotelImage from "@assets/anhama hotels_1757507537879.png";
@@ -49,7 +50,7 @@ export default function Home() {
     "https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     coffeeProcessingImage,
     "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-    "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+    sesameProcessingImage,
   ];
 
   return (
