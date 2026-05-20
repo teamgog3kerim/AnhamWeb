@@ -10,7 +10,7 @@ import miningOperationImage from "@assets/mining_1757616300666.jpeg";
 import miningEquipmentImage from "@assets/mineing_1757616571460.jpg";
 import miningExtra1 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(2)_1779264964482.jpeg";
 import miningExtra2 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.55_AM_1779264979006.jpeg";
-import miningExtra3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.40_AM_(1)_1779265040820.jpeg";
+import miningExtra3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(3)_1779265148152.jpeg";
 
 export default function MiningPage() {
   const miningCapabilities = [
