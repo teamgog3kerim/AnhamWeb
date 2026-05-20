@@ -6,13 +6,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Coffee, Sprout, Globe, Ship, Award, Truck, CheckCircle, Star } from "lucide-react";
 import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1757509012015.jpeg";
+import coffeeShowroomImage from "@assets/1233541_1779266141106.png";
 
 export default function ExportsPage() {
   const coffeeImages = [
     "https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-    "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    coffeeShowroomImage
   ];
 
   const sesameImages = [
