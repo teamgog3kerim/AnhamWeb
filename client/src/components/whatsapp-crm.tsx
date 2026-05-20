@@ -24,7 +24,7 @@ interface ChatMessage {
 }
 
 const WHATSAPP_NUMBER = "971562737327"; // +971 56 273 7327 without +
-const CALL_NUMBER = "+251959636234";
+const CALL_NUMBER = "6339";
 
 function generateSessionId(): string {
   return `session_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
@@ -379,7 +379,7 @@ export function WhatsAppCRM() {
                 </Button>
               </div>
               <p className="text-[10px] text-gray-400 text-center mt-1">
-                WhatsApp: +971 56 273 7327 | Call: +251 95 963 6234
+                WhatsApp: +971 56 273 7327 | Call: 6339
               </p>
             </div>
 
