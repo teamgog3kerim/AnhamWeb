@@ -605,6 +605,34 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
+      {/* Documentary Video */}
+      <AnimatedSection className="py-20 bg-background">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Watch Our <span className="text-primary">Documentary</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Discover the story of ANHAMA Trading PLC and our journey catalyzing Ethiopia's growth
+            </p>
+          </div>
+
+          <div className="relative group rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 bg-black">
+            <div className="absolute -inset-3 bg-gradient-to-tr from-primary/30 via-accent/20 to-green-500/20 rounded-3xl blur-xl opacity-60 group-hover:opacity-90 transition-opacity duration-500 -z-10" />
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                title="ANHAMA Trading PLC Documentary"
+                src="https://www.youtube.com/embed/eE0DZbpAlfk?start=23&rel=0&modestbranding=1&playsinline=1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                frameBorder={0}
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* Mission, Vision, Values */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
