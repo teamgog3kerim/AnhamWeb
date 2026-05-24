@@ -257,7 +257,7 @@ export default function EVPage() {
           <div className="text-center mt-12">
             <Button
               className="btn-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold text-lg"
-              onClick={() => window.open("tel:6339")}
+              onClick={() => window.open("tel:+251940839515")}
               data-testid="button-call-now-ev"
             >
               Call Now

@@ -462,7 +462,7 @@ export default function ContactPage() {
             <Button
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
-              onClick={() => window.open("tel:6339")}
+              onClick={() => window.open("tel:+251940839515")}
               data-testid="button-call-now"
             >
               Call Now
