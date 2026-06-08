@@ -27,9 +27,8 @@ export function HeroSection() {
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.78vh] h-[56.25vw] min-w-full min-h-full"
           />
         </div>
-        <div className="absolute inset-0 bg-blue-900/70" />
+        <div className="absolute inset-0 bg-[#826d51b3]" />
       </div>
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 60 }}
@@ -80,7 +79,6 @@ export function HeroSection() {
           </div>
         </motion.div>
       </div>
-
       {/* Scroll Indicator */}
       <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white"
