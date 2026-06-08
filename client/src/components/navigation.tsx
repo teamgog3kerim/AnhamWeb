@@ -58,11 +58,11 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-10">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
                 <motion.span
-                  className={`nav-link text-foreground hover:text-primary font-medium text-lg transition-colors cursor-pointer ${
+                  className={`nav-link text-foreground hover:text-primary font-medium text-xl transition-colors cursor-pointer ${
                     location === item.href ? "text-primary" : ""
                   }`}
                   whileHover={{ y: -2 }}
@@ -75,7 +75,7 @@ export function Navigation() {
             ))}
             <Link href="/contact">
               <Button
-                className="btn-primary text-primary-foreground px-12 py-2 rounded-lg font-semibold text-lg"
+                className="btn-primary text-primary-foreground px-12 py-2 rounded-lg font-semibold text-xl"
                 data-testid="button-contact"
               >
                 Contact Us
