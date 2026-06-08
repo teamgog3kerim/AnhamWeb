@@ -84,15 +84,15 @@ export default function Home() {
                       alt={`Construction machinery ${index + 1}`}
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
-                    <h3 className="text-lg font-semibold text-foreground mb-2 text-center">
+                    <h3 className="text-xl font-semibold text-foreground mb-2 text-center">
                       {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Trucks", "EV Dump Trucks"][index]}
                     </h3>
                     {(index === 3 || index === 4) && (
-                      <span className="inline-block bg-primary/10 text-primary text-xs font-semibold px-2 py-1 rounded-full mb-2 self-center">
+                      <span className="inline-block bg-primary/10 text-primary text-sm font-semibold px-2 py-1 rounded-full mb-2 self-center">
                         Exclusive Dealer
                       </span>
                     )}
-                    <p className="text-muted-foreground text-sm text-center">
+                    <p className="text-muted-foreground text-base text-center">
                       {[
                         "High-quality Devlon excavators designed for heavy-duty construction and earthmoving operations",
                         "Reliable Hitachi excavators known for precision, durability and advanced hydraulic systems",
