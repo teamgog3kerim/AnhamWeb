@@ -209,7 +209,7 @@ export default function EVPage() {
                     <p className="text-muted-foreground mb-4">{model.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {model.features.map((feature, idx) => (
-                        <Badge key={idx} variant="secondary" className="text-xs whitespace-nowrap">
+                        <Badge key={idx} className="text-xs whitespace-nowrap bg-green-600 text-white hover:bg-green-700">
                           {feature}
                         </Badge>
                       ))}
