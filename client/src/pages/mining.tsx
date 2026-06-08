@@ -197,7 +197,7 @@ export default function MiningPage() {
                       alt={capability.title}
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
-                    <h3 className="text-xl font-semibold text-foreground mb-3">{capability.title}</h3>
+                    <h3 className="text-xl font-semibold text-foreground mb-3 text-center">{capability.title}</h3>
                     <p className="text-muted-foreground mb-4">{capability.description}</p>
                     <div className="flex flex-col items-center gap-2">
                       {capability.features.map((feature, idx) => (
