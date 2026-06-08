@@ -11,6 +11,7 @@ import miningEquipmentImage from "@assets/mineing_1757616571460.jpg";
 import miningExtra1 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(2)_1779264964482.jpeg";
 import miningExtra2 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.55_AM_1779264979006.jpeg";
 import miningExtra3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(3)_1779265148152.jpeg";
+import miningHeroBg from "@assets/564654_1780927743312.jpg";
 
 export default function MiningPage() {
   const miningCapabilities = [
@@ -70,7 +71,7 @@ export default function MiningPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(255, 195, 0, 0.8), rgba(255, 195, 0, 0.8)), url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `linear-gradient(rgba(255, 195, 0, 0.8), rgba(255, 195, 0, 0.8)), url(${miningHeroBg})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
