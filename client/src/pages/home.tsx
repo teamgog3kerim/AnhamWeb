@@ -75,9 +75,10 @@ export default function Home() {
                 key={index}
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
+                className="h-full"
               >
-                <Card className="service-card hover-lift">
-                  <CardContent className="p-6">
+                <Card className="service-card hover-lift h-full">
+                  <CardContent className="p-6 h-full flex flex-col">
                     <img
                       src={image}
                       alt={`Construction machinery ${index + 1}`}
