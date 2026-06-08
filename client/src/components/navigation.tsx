@@ -36,8 +36,8 @@ export function Navigation() {
 
   return (
     <motion.nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-card/95 backdrop-blur-md border-b border-border" : "bg-[#FFF7C5]"
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-[#FFF7C5] ${
+        isScrolled ? "border-b border-border shadow-sm" : ""
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -58,7 +58,7 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-10">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
                 <motion.span
