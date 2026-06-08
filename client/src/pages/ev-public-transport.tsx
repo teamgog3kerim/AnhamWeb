@@ -61,7 +61,7 @@ export default function EVPublicTransportPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url(${evHeroBg})`,
+            backgroundImage: `linear-gradient(rgba(22, 163, 74, 0.8), rgba(22, 163, 74, 0.8)), url(${evHeroBg})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
