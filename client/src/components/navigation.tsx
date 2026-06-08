@@ -28,6 +28,7 @@ export function Navigation() {
     { href: "/", label: "Home" },
     { href: "/construction", label: "Construction" },
     { href: "/ev", label: "EV Trucks" },
+    { href: "/ev-public-transport", label: "EV Public Transport" },
     { href: "/mining", label: "Mining" },
     { href: "/exports", label: "Exports" },
     { href: "/about", label: "About" },
@@ -57,11 +58,11 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
                 <motion.span
-                  className={`nav-link text-foreground hover:text-primary font-medium transition-colors cursor-pointer ${
+                  className={`nav-link text-foreground hover:text-primary font-medium text-lg transition-colors cursor-pointer ${
                     location === item.href ? "text-primary" : ""
                   }`}
                   whileHover={{ y: -2 }}
@@ -74,7 +75,7 @@ export function Navigation() {
             ))}
             <Link href="/contact">
               <Button
-                className="btn-primary text-primary-foreground px-6 py-2 rounded-lg font-semibold"
+                className="btn-primary text-primary-foreground px-6 py-2 rounded-lg font-semibold text-lg"
                 data-testid="button-contact"
               >
                 Contact Us
@@ -108,7 +109,7 @@ export function Navigation() {
                   <Link href="/contact">
                     <Button
                       onClick={() => setIsSheetOpen(false)}
-                      className="btn-primary text-primary-foreground w-full mt-4"
+                      className="btn-primary text-primary-foreground w-full mt-4 text-lg"
                       data-testid="mobile-button-contact"
                     >
                       Contact Us

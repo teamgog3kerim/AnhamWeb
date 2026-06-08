@@ -10,6 +10,7 @@ import Home from "@/pages/home";
 import Construction from "@/pages/construction";
 import Mining from "@/pages/mining";
 import EV from "@/pages/ev";
+import EVPublicTransport from "@/pages/ev-public-transport";
 import Exports from "@/pages/exports";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
@@ -74,6 +75,7 @@ function Router() {
         <Route path="/construction" component={Construction} />
         <Route path="/mining" component={Mining} />
         <Route path="/ev" component={EV} />
+        <Route path="/ev-public-transport" component={EVPublicTransport} />
         <Route path="/exports" component={Exports} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
