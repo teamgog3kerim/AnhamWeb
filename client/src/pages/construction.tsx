@@ -86,7 +86,7 @@ export default function ConstructionPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url(${heroBgImage})`,
+            backgroundImage: `linear-gradient(rgba(130, 109, 81, 0.7), rgba(130, 109, 81, 0.7)), url(${heroBgImage})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
