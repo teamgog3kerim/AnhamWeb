@@ -70,7 +70,7 @@ export default function MiningPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `linear-gradient(rgba(255, 195, 0, 0.8), rgba(255, 195, 0, 0.8)), url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
