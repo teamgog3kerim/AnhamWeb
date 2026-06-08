@@ -11,7 +11,7 @@ export function Footer() {
             <img
               src={anhamaLogo}
               alt="ANHAMA Trading PLC"
-              className="h-12 w-auto mb-4"
+              className="h-20 w-auto mb-4"
             />
             <p className="text-muted-foreground max-w-md">
               Catalyzing Ethiopia's growth through construction machinery, gold mining, and agricultural exports.
