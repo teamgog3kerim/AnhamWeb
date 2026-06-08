@@ -199,9 +199,9 @@ export default function MiningPage() {
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-3">{capability.title}</h3>
                     <p className="text-muted-foreground mb-4">{capability.description}</p>
-                    <div className="space-y-2">
+                    <div className="flex flex-wrap gap-2">
                       {capability.features.map((feature, idx) => (
-                        <Badge key={idx} variant="secondary" className="mr-2">
+                        <Badge key={idx} variant="secondary" className="text-sm">
                           {feature}
                         </Badge>
                       ))}

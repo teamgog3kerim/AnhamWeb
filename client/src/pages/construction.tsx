@@ -144,9 +144,9 @@ export default function ConstructionPage() {
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-3">{item.title}</h3>
-                    <div className="space-y-2">
+                    <div className="flex flex-wrap gap-2">
                       {item.features.map((feature, idx) => (
-                        <Badge key={idx} variant="secondary" className="mr-2">
+                        <Badge key={idx} variant="secondary" className="text-sm">
                           {feature}
                         </Badge>
                       ))}

@@ -159,7 +159,7 @@ export default function ExportsPage() {
 
                 <div className="flex flex-wrap gap-3 mb-6">
                   {["Premium Quality", "Direct Trade", "Global Export", "Arabica Variety"].map((tag) => (
-                    <Badge key={tag} className="bg-green-100 text-green-800">
+                    <Badge key={tag} className="text-sm bg-green-100 text-green-800">
                       {tag}
                     </Badge>
                   ))}
@@ -215,7 +215,7 @@ export default function ExportsPage() {
 
                 <div className="flex flex-wrap gap-3 mb-6">
                   {["High Purity", "International Standards", "Bulk Export", "White Sesame"].map((tag) => (
-                    <Badge key={tag} className="bg-amber-100 text-amber-800">
+                    <Badge key={tag} className="text-sm bg-amber-100 text-amber-800">
                       {tag}
                     </Badge>
                   ))}
@@ -258,9 +258,9 @@ export default function ExportsPage() {
                     <div className="text-6xl mb-4">{market.flag}</div>
                     <h3 className="text-2xl font-bold text-foreground mb-4">{market.region}</h3>
                     <p className="text-muted-foreground mb-6">{market.description}</p>
-                    <div className="space-y-2">
+                    <div className="flex flex-wrap gap-2 justify-center">
                       {market.products.map((product, idx) => (
-                        <Badge key={idx} variant="secondary" className="mr-2">
+                        <Badge key={idx} variant="secondary" className="text-sm">
                           {product}
                         </Badge>
                       ))}

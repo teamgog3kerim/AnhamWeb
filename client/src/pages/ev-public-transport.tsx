@@ -119,7 +119,7 @@ export default function EVPublicTransportPage() {
                     <h3 className="text-xl font-semibold text-foreground mb-3">{vehicle.title}</h3>
                     <div className="flex flex-wrap gap-2">
                       {vehicle.features.map((feature, idx) => (
-                        <Badge key={idx} className="text-xs whitespace-nowrap bg-green-600 text-white hover:bg-green-700">
+                        <Badge key={idx} className="text-sm whitespace-nowrap bg-green-600 text-white hover:bg-green-700">
                           {feature}
                         </Badge>
                       ))}
