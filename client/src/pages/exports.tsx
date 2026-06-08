@@ -9,6 +9,7 @@ import sesameImage from "@assets/65c87914325d4879775fd34e_licensed-image-p-500_1
 import coffeeShowroomImage from "@assets/1233541_1779266141106.png";
 
 import _516546 from "@assets/516546.png";
+import sesameWarehouseImage from "@assets/sesame_warehouse_1780932713.jpeg";
 
 export default function ExportsPage() {
   const coffeeImages = [
@@ -22,7 +23,7 @@ export default function ExportsPage() {
     sesameImage,
     "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-    "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+    sesameWarehouseImage
   ];
 
   const exportMarkets = [
@@ -199,7 +200,7 @@ export default function ExportsPage() {
                   </div>
                   <img
                     src={sesameImages[3]}
-                    alt="Sesame export containers"
+                    alt="Sesame warehouse storage"
                     className="w-full h-40 object-cover rounded-xl"
                   />
                 </div>
