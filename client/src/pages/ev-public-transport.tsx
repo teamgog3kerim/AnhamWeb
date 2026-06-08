@@ -117,7 +117,6 @@ export default function EVPublicTransportPage() {
                       <Bus className="text-primary h-8 w-8" />
                     </div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">{vehicle.title}</h3>
-                    <p className="text-muted-foreground mb-4">{vehicle.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {vehicle.features.map((feature, idx) => (
                         <Badge key={idx} className="text-xs whitespace-nowrap bg-green-600 text-white hover:bg-green-700">

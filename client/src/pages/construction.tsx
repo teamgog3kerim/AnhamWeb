@@ -144,7 +144,6 @@ export default function ConstructionPage() {
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-3">{item.title}</h3>
-                    <p className="text-muted-foreground mb-4">{item.description}</p>
                     <div className="space-y-2">
                       {item.features.map((feature, idx) => (
                         <Badge key={idx} variant="secondary" className="mr-2">

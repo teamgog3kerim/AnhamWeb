@@ -206,7 +206,6 @@ export default function EVPage() {
                       data-testid={`img-ev-model-${index}`}
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-3">{model.title}</h3>
-                    <p className="text-muted-foreground mb-4">{model.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {model.features.map((feature, idx) => (
                         <Badge key={idx} className="text-xs whitespace-nowrap bg-green-600 text-white hover:bg-green-700">
