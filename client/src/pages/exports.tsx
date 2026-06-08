@@ -10,6 +10,7 @@ import coffeeShowroomImage from "@assets/1233541_1779266141106.png";
 
 import _516546 from "@assets/516546.png";
 import sesameWarehouseImage from "@assets/sesame_warehouse_1780932713.jpeg";
+import exportShippingImage from "@assets/export_shipping_port_1780932883.jpeg";
 
 export default function ExportsPage() {
   const coffeeImages = [
@@ -341,8 +342,8 @@ export default function ExportsPage() {
 
             <div>
               <img
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Agricultural export process"
+                src={exportShippingImage}
+                alt="Container ship loading agricultural exports at port"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
               />
             </div>
