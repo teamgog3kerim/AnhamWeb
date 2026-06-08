@@ -36,7 +36,7 @@ export function Navigation() {
 
   return (
     <motion.nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-[#FFF7C5] ${
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-[#FFFBF1] ${
         isScrolled ? "border-b border-border shadow-sm" : ""
       }`}
       initial={{ y: -100 }}
