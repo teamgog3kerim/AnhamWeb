@@ -347,7 +347,7 @@ export default function EVPublicTransportPage() {
             </Link>
             <Button
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
               onClick={() => window.open("tel:+251940839515")}
               data-testid="button-call-transport"
             >
