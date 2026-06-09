@@ -101,9 +101,9 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 bg-[#ffa95a]"
           style={{
-            backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `linear-gradient(rgba(255, 169, 90, 0.8), rgba(255, 169, 90, 0.8)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
