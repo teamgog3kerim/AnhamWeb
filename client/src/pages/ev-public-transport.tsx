@@ -158,7 +158,6 @@ export default function EVPublicTransportPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Models */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -192,7 +191,7 @@ export default function EVPublicTransportPage() {
                         <img
                           src={model.image}
                           alt={`${model.name} Higer electric bus catalogue`}
-                          className="w-full h-auto max-h-[30rem] object-contain rounded-2xl"
+                          className="w-full h-auto max-h-[30rem] object-contain rounded-2xl ml-[41px] mr-[41px]"
                           data-testid={`image-model-${index}`}
                         />
                       </div>
@@ -253,7 +252,6 @@ export default function EVPublicTransportPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Services Section */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -298,7 +296,6 @@ export default function EVPublicTransportPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Why Electric */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -329,7 +326,6 @@ export default function EVPublicTransportPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* CTA Section */}
       <AnimatedSection className="py-20 bg-gradient-to-r from-primary to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
