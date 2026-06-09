@@ -49,7 +49,7 @@ export function Navigation() {
             <motion.img
               src={anhamaLogo}
               alt="ANHAMA Trading PLC Logo"
-              className="w-auto transition-all duration-300 h-16 sm:h-20 md:h-24"
+              className="w-auto transition-all duration-300 h-20 sm:h-28 md:h-32"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             />

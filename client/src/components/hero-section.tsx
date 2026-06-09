@@ -45,7 +45,7 @@ export function HeroSection() {
             <img
               src={anhamaLogo}
               alt="ANHAMA Trading PLC Logo"
-              className="h-28 sm:h-40 md:h-52 lg:h-60 w-auto mx-auto mb-6"
+              className="h-36 sm:h-52 md:h-64 lg:h-72 w-auto mx-auto mb-6"
             />
           </motion.div>
           
