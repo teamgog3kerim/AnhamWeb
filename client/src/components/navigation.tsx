@@ -29,8 +29,8 @@ export function Navigation() {
     { href: "/construction", label: "Construction" },
     { href: "/ev", label: "EV Trucks" },
     { href: "/ev-public-transport", label: "EV Public Transport" },
-    { href: "/mining", label: "Mining" },
     { href: "/exports", label: "Exports" },
+    { href: "/mining", label: "Mining" },
     { href: "/about", label: "About" },
   ];
 
