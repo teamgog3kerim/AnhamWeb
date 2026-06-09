@@ -12,6 +12,7 @@ import miningExtra1 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(2)_1
 import miningExtra2 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.55_AM_1779264979006.jpeg";
 import miningExtra3 from "@assets/WhatsApp_Image_2026-05-20_at_10.34.53_AM_(3)_1779265148152.jpeg";
 import miningHeroBg from "@assets/564654_1780927743312.jpg";
+import goldBarsImage from "@assets/564654_1781010621515.jpg";
 
 export default function MiningPage() {
   const miningCapabilities = [
@@ -254,8 +255,8 @@ export default function MiningPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="Sustainable mining practices"
+                src={goldBarsImage}
+                alt="Stacked gold bars"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
               />
             </div>
