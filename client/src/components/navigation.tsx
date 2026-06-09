@@ -27,9 +27,9 @@ export function Navigation() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/construction", label: "Construction" },
-    { href: "/ev", label: "EV Trucks" },
-    { href: "/ev-public-transport", label: "EV Public Transport" },
-    { href: "/exports", label: "Exports" },
+    { href: "/ev", label: "EV Trucks", green: true },
+    { href: "/ev-public-transport", label: "EV Public Transport", green: true },
+    { href: "/exports", label: "Exports", green: true },
     { href: "/mining", label: "Mining" },
     { href: "/about", label: "About" },
   ];
@@ -60,8 +60,10 @@ export function Navigation() {
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
                 <motion.span
-                  className={`nav-link text-foreground hover:text-primary font-medium text-lg transition-colors cursor-pointer ${
-                    location === item.href ? "text-primary" : ""
+                  className={`nav-link font-medium text-lg transition-colors cursor-pointer ${
+                    item.green
+                      ? "text-green-600 hover:text-green-700"
+                      : `text-foreground hover:text-primary ${location === item.href ? "text-primary" : ""}`
                   }`}
                   whileHover={{ y: -2 }}
                   transition={{ duration: 0.2 }}
@@ -96,7 +98,9 @@ export function Navigation() {
                       <span
                         onClick={() => setIsSheetOpen(false)}
                         className={`text-lg font-medium transition-colors cursor-pointer ${
-                          location === item.href ? "text-primary" : "text-foreground hover:text-primary"
+                          item.green
+                            ? "text-green-600 hover:text-green-700"
+                            : location === item.href ? "text-primary" : "text-foreground hover:text-primary"
                         }`}
                         data-testid={`mobile-link-${item.label.toLowerCase()}`}
                       >
