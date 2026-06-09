@@ -6,11 +6,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Bus, Battery, Shield, Award, Users, Leaf, Route, Wifi } from "lucide-react";
 import evHeroBg from "@assets/image_1778835313580.png";
-import klq6126Image from "@assets/IMG-20260608-WA0010(1)_1781013252063.jpg";
-import klq6116Image from "@assets/IMG-20260608-WA0009_1781013252245.jpg";
-import klq6956Image from "@assets/IMG-20260608-WA0007_1781013252296.jpg";
-import klq6796Image from "@assets/IMG-20260608-WA0006_1781013252351.jpg";
-import h5fImage from "@assets/IMG-20260608-WA0008_1781013252408.jpg";
+import klq6126Image from "@assets/ev_klq6126gev_crop.jpg";
+import klq6116Image from "@assets/ev_klq6116zev_crop.jpg";
+import klq6956Image from "@assets/ev_klq6956zev_crop.jpg";
+import klq6796Image from "@assets/ev_klq6796zev_crop.jpg";
+import h5fImage from "@assets/ev_h5f_crop.jpg";
 
 export default function EVPublicTransportPage() {
   const models = [
