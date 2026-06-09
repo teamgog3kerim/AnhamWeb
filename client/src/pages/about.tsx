@@ -103,9 +103,9 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div
-          className="absolute inset-0 bg-[#E89951]"
+          className="absolute inset-0 bg-[#ffa95a]"
           style={{
-            backgroundImage: `linear-gradient(rgba(232, 153, 81, 0.7), rgba(232, 153, 81, 0.7)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `linear-gradient(rgba(255, 169, 90, 0.7), rgba(255, 169, 90, 0.7)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
