@@ -47,15 +47,20 @@ ANHAMA Trading PLC specializes in importing, sales, and rental of high-quality c
 - Reliable Support
 - Fast Delivery across Ethiopia
 
-### 2. EV Light Trucks Division
-ANHAMA Trading PLC is the **Exclusive Dealer** for XCMG Electric Vehicles Light Trucks in Ethiopia.
+### 2. Electric Vehicles (EV Trucks) Division
+ANHAMA Trading PLC is the **Exclusive Dealer** for XCMG Electric Vehicles in Ethiopia, covering both electric light trucks and electric dump trucks. All vehicles are zero-emission with fast charging and low running costs.
 
-**Products:**
-- XCMG EV Light Trucks - Commercial (200km range, fast charging, low maintenance, zero emissions)
-- XCMG EV Light Trucks - Cargo (300km range, heavy payload, smart charging, GPS tracking)
-- XCMG EV Light Trucks - Urban (150km range, compact design, quick turnaround)
-- XCMG EV Light Trucks - Fleet (reliable performance, easy maintenance, fleet management)
+**EV Light Trucks (loading capacity up to 6.5 tons):**
+- XCMG EV Light Trucks - Commercial (designed for commercial delivery and urban logistics)
+- XCMG EV Light Trucks - Cargo (high-capacity cargo transport and distribution)
+- XCMG EV Light Trucks - Urban (compact, for city deliveries and last-mile logistics)
+- XCMG EV Light Trucks - Fleet (versatile for various commercial applications)
 - XCMG EV Light Trucks - Specialty (custom configurations, industry-specific)
+
+**EV Dump Trucks (loading capacity from 20 to 45 tons):**
+- XCMG EV Dump Truck - Standard (20-30 ton capacity, for construction and mining)
+- XCMG EV Dump Truck - Heavy Duty (30-45 ton capacity, large-scale material transport)
+- XCMG EV Dump Truck - Mining Grade (40-45 ton capacity, all-terrain, built for extreme mining conditions)
 
 **Services:**
 - XCMG EV Sales & Leasing
@@ -65,7 +70,24 @@ ANHAMA Trading PLC is the **Exclusive Dealer** for XCMG Electric Vehicles Light 
 - Up to 70% Bank Financing available
 - Serving individuals, private companies, and governmental organizations
 
-### 3. Gold Mining Division
+### 3. EV Public Transport Division
+ANHAMA Trading PLC is the **Official Higer EV Bus Partner** in Ethiopia, bringing the Higer range of clean, modern electric buses and mini buses to the country's public transport network — serving city operators, intercity routes, and government fleets.
+
+**Higer Electric Bus Models:**
+- **Higer KLQ6126GEV** - Electric City Bus. 352 kWh battery, 12.1 m long, up to 72 passengers (35 seats + 6 folding + 1 driver + 30 standing). Dimensions 12090×2550×3285 mm, wheelbase 5900 mm, curb weight 13800 kg, gross vehicle weight 19000 kg, dual-circuit air brake with ABS.
+- **Higer KLQ6116ZEV** - Electric Intercity Coach. 310.66 kWh battery, 11 m long, 61 seats (2+3 layout). Dimensions 11025×2550×3680 mm, wheelbase 5700 mm, curb weight 12820 kg, gross vehicle weight 18000 kg, dual-circuit air brake with ABS.
+- **Higer KLQ6956ZEV** - Electric Coach. 289.95 kWh battery, 9.5 m long, 46 seats (45+1, 2+3 layout). Dimensions 9455×2550×3520 mm, wheelbase 4810 mm, curb weight 10500 kg, gross vehicle weight 14500 kg, dual-circuit air brake with ABS.
+- **Higer KLQ6796ZEV** - Electric Coach. 231.84 kWh battery, 8 m long, 30 seats (29+1). Dimensions 7995×2550×3495 mm, wheelbase 4000 mm, curb weight 9100 kg, gross vehicle weight 11600 kg, dual-circuit air brake with ABS.
+- **Higer H5F** - Electric Mini Bus. 53 kWh battery, 250 km range (NEDC), 15 seats (including driver). Dimensions 5450×1700×2190 mm, wheelbase 3110 mm, curb weight 2130 kg, max power 80 kW, max speed 100 km/h, climbing ability ≥20%, tire size 195R15C.
+
+**Services:**
+- EV Bus Sales & Leasing with flexible purchasing and leasing options
+- Upcoming depot and en-route Charging Infrastructure
+- Operator Training (operation, safety, maintenance)
+- Official Higer Warranty & Service for public transport fleets
+- Serving city operators, intercity routes, and government fleets
+
+### 4. Gold Mining Division
 Recently launched gold mining division that diversifies revenue streams while capitalizing on governmental privileges in the industry.
 
 **Mining Capabilities:**
@@ -80,7 +102,7 @@ Recently launched gold mining division that diversifies revenue streams while ca
 - Safety First
 - Quality Assurance
 
-### 4. Agricultural Exports Division
+### 5. Agricultural Exports Division
 ANHAMA exports Ethiopia's renowned agricultural products to international markets.
 
 **Coffee Exports:**
@@ -116,7 +138,7 @@ ANHAMA exports Ethiopia's renowned agricultural products to international market
 - **Food Processing Factory**: Large-scale food production facility
 
 ## Awards & Recognition
-- Trusted Tax Payer (Silver Level) - Ministry of Revenue and Customs (2021-2025 Fiscal Years)
+- Trusted Tax Payer (Gold Level) - Ministry of Revenue and Customs (2021-2026 Fiscal Years)
 - Excellent Sales Performance - Hitachi Construction Machinery (2015-2022)
 - Esteemed Partner Certificate - Panafric Global Logistics
 - Youth Educational Arts Support - Tesfa Artworks Enterprise
@@ -135,18 +157,24 @@ Under CEO Habtamu Alemayehu Benti's leadership:
 - 2012: Construction Partnership with Hitachi
 - 2018: Export Expansion (coffee and sesame)
 - 2024: Mining Division launched
+- 2025: Became Exclusive Dealer for XCMG Electric Vehicles and Official Higer EV Bus Partner
 
 ## Leadership
 - **CEO Habtamu Alemayehu Benti**: Visionary leader with over 15 years of experience driving Ethiopia's economic development through innovative business practices and unwavering commitment to social responsibility.
 
 ## Contact Information
-- WhatsApp: +971 56 273 7327
-- Call: +251 95 963 6234
-- The company is based in Addis Ababa, Ethiopia
+- **Office Address**: Bole Atlas, Century Executive Tower, 9th Floor, Addis Ababa, Ethiopia
+- **Primary Phone**: +251 911 206 102
+- **Secondary Phone**: +251 116 299 861
+- **Short Code**: 6339
+- **Sales / Inquiry Phone**: +251 940 839 515
+- **Email**: Info@anhamatrading.com
+- **Business Hours**: Monday - Friday, 8:00 AM - 5:00 PM (emergency support available 24/7)
 
 ## How to Inquire
 For construction machinery: Request Equipment Quote
 For EV trucks: Get EV Quote
+For EV public transport (Higer buses): Get a Quote / Enquire About This Model
 For mining: Mining Inquiry
 For exports: Export Inquiry
 For general inquiries: Contact Our Team
@@ -165,7 +193,9 @@ Your role is to help potential and existing clients learn about ANHAMA Trading P
 - If the customer asks about pricing, tell them pricing varies by product and request, and suggest they contact sales directly
 - If the customer has complex inquiries or wants to place an order, offer to connect them with a human representative
 - Always end by offering further assistance
-- Use the company contact info when appropriate: WhatsApp +971 56 273 7327, Call +251 95 963 6234
+- Base every answer strictly on the Company Knowledge below, which reflects the current website content (Construction Machinery, EV Trucks, EV Public Transport / Higer buses, Gold Mining, and Agricultural Exports). Do not invent details that are not in the knowledge base.
+- ANHAMA now has FIVE divisions including EV Public Transport (Official Higer EV Bus Partner) with electric city buses, intercity coaches, and mini buses — make sure to mention buses when customers ask about public transport, buses, or electric mobility.
+- Use the company contact info when appropriate: Phone +251 911 206 102 or +251 116 299 861, Sales/Inquiry +251 940 839 515, Short Code 6339, Email Info@anhamatrading.com, Office at Bole Atlas, Century Executive Tower, 9th Floor, Addis Ababa
 
 **Company Knowledge:**
 ${ANHAMA_KNOWLEDGE_BASE}
