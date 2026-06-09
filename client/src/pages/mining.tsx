@@ -66,7 +66,13 @@ export default function MiningPage() {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <div
+      className="min-h-screen pt-20"
+      style={{
+        backgroundColor: "#F7ECC9",
+        backgroundImage: `repeating-linear-gradient(45deg, rgba(212,175,55,0.07) 0px, rgba(212,175,55,0.07) 2px, transparent 2px, transparent 9px), linear-gradient(135deg, #FBF4DA 0%, #F1E0A8 100%)`,
+      }}
+    >
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div
@@ -103,7 +109,7 @@ export default function MiningPage() {
       </section>
 
       {/* Mining Overview */}
-      <AnimatedSection className="py-20 bg-background">
+      <AnimatedSection className="py-20 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
@@ -173,7 +179,7 @@ export default function MiningPage() {
       </AnimatedSection>
 
       {/* Mining Capabilities */}
-      <AnimatedSection className="py-20 bg-muted">
+      <AnimatedSection className="py-20 bg-[#E8D08A]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -216,7 +222,7 @@ export default function MiningPage() {
       </AnimatedSection>
 
       {/* Operating Principles */}
-      <AnimatedSection className="py-20 bg-background">
+      <AnimatedSection className="py-20 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -250,7 +256,7 @@ export default function MiningPage() {
       </AnimatedSection>
 
       {/* Sustainability Commitment */}
-      <AnimatedSection className="py-20 bg-muted">
+      <AnimatedSection className="py-20 bg-[#E8D08A]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
