@@ -51,6 +51,44 @@
   --ring: hsl(24, 100%, 58%);
 }
 
+/* Scoped green theme for EV pages to express clean-energy / greenery context */
+.theme-green {
+  --primary: hsl(142, 71%, 29%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(142, 60%, 38%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(140, 45%, 96%);
+  --muted-foreground: hsl(142, 25%, 28%);
+  --accent: hsl(88, 55%, 50%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --border: hsl(140, 35%, 85%);
+  --input: hsl(140, 45%, 92%);
+  --ring: hsl(142, 71%, 29%);
+}
+
+.theme-green .btn-primary {
+  background: linear-gradient(135deg, hsl(142, 71%, 33%), hsl(142, 66%, 20%));
+}
+.theme-green .btn-primary:hover {
+  background: linear-gradient(135deg, hsl(142, 71%, 28%), hsl(142, 66%, 16%));
+  box-shadow: 0 10px 25px -5px rgba(34, 139, 34, 0.5);
+}
+.theme-green .btn-accent {
+  background: linear-gradient(135deg, hsl(142, 71%, 33%), hsl(88, 55%, 50%));
+}
+.theme-green .btn-accent:hover {
+  background: linear-gradient(135deg, hsl(142, 71%, 28%), hsl(88, 55%, 45%));
+  box-shadow: 0 10px 25px -5px rgba(120, 200, 80, 0.5);
+}
+.theme-green .service-card {
+  background: linear-gradient(145deg, hsl(0, 0%, 100%), hsl(140, 50%, 96%));
+  border: 1px solid hsl(140, 40%, 86%);
+}
+.theme-green .service-card:hover {
+  background: linear-gradient(145deg, hsl(140, 50%, 96%), hsl(0, 0%, 100%));
+  border-color: hsl(142, 71%, 33%);
+}
+
 @layer base {
   * {
     @apply border-border;

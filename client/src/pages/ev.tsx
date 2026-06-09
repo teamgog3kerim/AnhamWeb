@@ -98,7 +98,7 @@ export default function EVPage() {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="theme-green min-h-screen pt-20">
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div
