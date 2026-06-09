@@ -84,9 +84,9 @@ export default function ConstructionPage() {
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div
-          className="absolute inset-0 bg-[#E89951]"
+          className="absolute inset-0 bg-[#ffa95a]"
           style={{
-            backgroundImage: `linear-gradient(rgba(232, 153, 81, 0.7), rgba(232, 153, 81, 0.7)), url(${heroBgImage})`,
+            backgroundImage: `linear-gradient(rgba(255, 169, 90, 0.7), rgba(255, 169, 90, 0.7)), url(${heroBgImage})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
