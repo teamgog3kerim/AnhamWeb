@@ -174,13 +174,13 @@ export function WhatsAppCRM() {
             <div className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20" />
             <Button
               onClick={() => setIsOpen(true)}
-              className="relative bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full w-16 h-16 shadow-2xl border-0 p-0 flex items-center justify-center transition-colors duration-300"
+              className="relative bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full w-12 h-12 shadow-2xl border-0 p-0 flex items-center justify-center transition-colors duration-300"
               aria-label="Open WhatsApp Chat"
             >
               {/* Custom WhatsApp icon - fully visible and polished */}
               <svg
                 viewBox="0 0 32 32"
-                className="w-8 h-8 fill-current"
+                className="w-9 h-9 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M16 2C8.268 2 2 8.268 2 16c0 2.585.732 5.01 2.004 7.072L2 30l7.072-2.004C11.134 29.268 13.56 30 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25.2c-2.16 0-4.188-.576-5.928-1.584l-.424-.252-4.32 1.216 1.216-4.32-.252-.424A11.14 11.14 0 0 1 4.8 16c0-6.188 5.012-11.2 11.2-11.2S27.2 9.812 27.2 16 22.188 27.2 16 27.2zm6.272-8.584c-.336-.168-1.992-.984-2.3-1.096-.308-.112-.532-.168-.756.168-.224.336-.868 1.096-1.064 1.316-.196.224-.392.252-.728.084-1.988-1.008-3.276-1.792-4.592-4.032-.344-.592.344-.552.988-1.848.108-.224.056-.42-.028-.588-.084-.168-.756-1.848-1.036-2.52-.272-.652-.548-.564-.756-.576-.196-.012-.42-.012-.644-.012-.224 0-.588.084-.896.42-.308.336-1.176 1.148-1.176 2.8 0 1.652 1.204 3.248 1.372 3.472.168.224 2.38 3.628 5.768 5.088.804.348 1.428.556 1.916.712.804.256 1.536.22 2.116.136.644-.096 1.992-.816 2.272-1.608.28-.792.28-1.456.196-1.608-.084-.168-.308-.26-.644-.428z" />
