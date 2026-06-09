@@ -202,7 +202,7 @@ export default function MiningPage() {
                     <p className="text-muted-foreground mb-4">{capability.description}</p>
                     <div className="flex flex-col items-center gap-2">
                       {capability.features.map((feature, idx) => (
-                        <Badge key={idx} variant="secondary" className="text-sm">
+                        <Badge key={idx} variant="secondary" className="text-sm bg-[#D4AF37] text-white hover:bg-[#C49E2A] border-transparent">
                           {feature}
                         </Badge>
                       ))}
