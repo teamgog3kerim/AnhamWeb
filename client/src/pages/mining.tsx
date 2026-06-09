@@ -242,8 +242,8 @@ export default function MiningPage() {
               >
                 <Card className="service-card hover-lift text-center p-8 h-full">
                   <CardContent className="p-0">
-                    <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <principle.icon className="text-primary h-8 w-8" />
+                    <div className="bg-[#D4AF37]/15 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <principle.icon className="text-[#D4AF37] h-8 w-8" />
                     </div>
                     <h3 className="text-xl font-semibold text-foreground mb-4">{principle.title}</h3>
                     <p className="text-muted-foreground">{principle.description}</p>
