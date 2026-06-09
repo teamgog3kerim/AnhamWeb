@@ -27,7 +27,7 @@ export function HeroSection() {
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.78vh] h-[56.25vw] min-w-full min-h-full"
           />
         </div>
-        <div className="absolute inset-0 bg-[#ffdd91b3]" />
+        <div className="absolute inset-0 bg-[#e0d0adb3]" />
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
