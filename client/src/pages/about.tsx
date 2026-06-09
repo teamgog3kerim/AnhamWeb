@@ -13,6 +13,7 @@ import gerdImage from "@assets/GERD_1757507798248.jpg";
 import gorfu1Image from "@assets/gorfu1_1757507995395.jpg";
 import importExportManagerImage from "@assets/generated_images/Professional_Ethiopian_businessman_portrait_461a5cea.png";
 import communityFoodImage from "@assets/food_1757509221792.jpg";
+import goldAwardImage from "@assets/2018_rev_1781018158404.jpeg";
 
 export default function AboutPage() {
   const milestones = [
@@ -414,7 +415,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Trusted Tax Payer (Gold Level)", org: "Ministry of Revenue and Customs", years: "2021-2026 Fiscal Years" },
+              { title: "Trusted Tax Payer (Gold Level)", org: "Ministry of Revenue and Customs", years: "2021-2026 Fiscal Years", image: goldAwardImage },
               { title: "Excellent Sales Performance", org: "Hitachi Construction Machinery", years: "2015-2022" },
               { title: "Esteemed Partner Certificate", org: "Panafric Global Logistics", years: "Partnership Recognition" },
               { title: "Youth Educational Arts Support", org: "Tesfa Artworks Enterprise", years: "Community Support" },
@@ -428,19 +429,30 @@ export default function AboutPage() {
               >
                 <Card className="service-card hover-lift p-6 h-full">
                   <CardContent className="p-0">
-                    <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                      <Award className="text-primary h-6 w-6" />
+                    <div className="flex items-start gap-4">
+                      <div className="flex-1">
+                        <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                          <Award className="text-primary h-6 w-6" />
+                        </div>
+                        <h3 className="text-lg font-semibold text-foreground mb-2">{award.title}</h3>
+                        <p className="text-sm text-muted-foreground mb-2">{award.org}</p>
+                        <p className={`text-xs font-medium ${
+                          award.years === "2021-2026 Fiscal Years" 
+                            ? "" 
+                            : "text-accent"
+                        }`} 
+                        style={award.years === "2021-2026 Fiscal Years" ? { color: '#FF7D29' } : {}}>
+                          {award.years}
+                        </p>
+                      </div>
+                      {award.image && (
+                        <img
+                          src={award.image}
+                          alt={`${award.title} award`}
+                          className="w-24 h-32 object-cover rounded-lg flex-shrink-0"
+                        />
+                      )}
                     </div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">{award.title}</h3>
-                    <p className="text-sm text-muted-foreground mb-2">{award.org}</p>
-                    <p className={`text-xs font-medium ${
-                      award.years === "2021-2026 Fiscal Years" 
-                        ? "" 
-                        : "text-accent"
-                    }`} 
-                    style={award.years === "2021-2026 Fiscal Years" ? { color: '#FF7D29' } : {}}>
-                      {award.years}
-                    </p>
                   </CardContent>
                 </Card>
               </motion.div>
