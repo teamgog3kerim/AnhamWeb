@@ -15,6 +15,7 @@ import { apiRequest } from "@/lib/queryClient";
 import { insertContactSchema, type InsertContact } from "@shared/schema";
 import { Phone, MapPin, Info, Clock, Send, CheckCircle } from "lucide-react";
 import excavatorWarehouseImage from "@assets/image_1778839927864.png";
+import goldNuggetsImage from "@assets/Screenshot_20250910-145345_Chrome_1757615717678_1781020897244.jpg";
 
 export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -387,7 +388,7 @@ export default function ContactPage() {
               {
                 title: "Gold Mining Operations",
                 description: "Responsible mining practices with advanced technology and community partnership",
-                image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+                image: goldNuggetsImage,
                 features: ["Sustainable Practices", "Advanced Equipment", "Local Partnership", "Environmental Compliance"]
               },
               {
