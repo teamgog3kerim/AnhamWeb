@@ -168,7 +168,7 @@ export function WhatsAppCRM() {
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: "spring", stiffness: 260, damping: 20 }}
-            className="fixed bottom-6 right-6 z-50"
+            className="fixed bottom-6 left-6 z-50"
           >
             {/* Pulse ring animation */}
             <div className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20" />
@@ -187,9 +187,9 @@ export function WhatsAppCRM() {
               </svg>
             </Button>
             {/* Tooltip label */}
-            <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap shadow-lg pointer-events-none">
+            <div className="absolute left-full ml-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap shadow-lg pointer-events-none">
               Contact us
-              <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1 w-2 h-2 bg-gray-900 rotate-45" />
+              <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-gray-900 rotate-45" />
             </div>
           </motion.div>
         )}
@@ -203,7 +203,7 @@ export function WhatsAppCRM() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="fixed bottom-6 right-6 z-50 w-[380px] max-w-[calc(100vw-48px)] h-[560px] max-h-[calc(100vh-48px)] flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white border border-gray-200"
+            className="fixed bottom-6 left-6 z-50 w-[380px] max-w-[calc(100vw-48px)] h-[560px] max-h-[calc(100vh-48px)] flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white border border-gray-200"
           >
             {/* Header */}
             <div className="bg-gradient-to-r from-[#075E54] to-[#128C7E] px-4 py-3 flex items-center justify-between shrink-0">
