@@ -41,6 +41,11 @@ export default function AboutPage() {
       year: "2025",
       title: "EV Light & Dump Trucks",
       description: "Became the Exclusive Dealer of XCMG Electric Vehicles, introducing light trucks and dump trucks to Ethiopia's logistics and mining industries"
+    },
+    {
+      year: "2026",
+      title: "EV Public Transport",
+      description: "Became the Official Higer EV Bus Partner, bringing electric buses and mini buses to Ethiopia's public transport network"
     }
   ];
 
