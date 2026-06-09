@@ -82,7 +82,7 @@ export default function Home() {
                     <img
                       src={image}
                       alt={`Construction machinery ${index + 1}`}
-                      className="w-full h-48 object-cover rounded-lg mb-4"
+                      className="w-full h-48 object-contain rounded-lg mb-4 bg-muted"
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-2 text-center">
                       {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Trucks", "EV Dump Trucks"][index]}
