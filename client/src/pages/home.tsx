@@ -82,7 +82,7 @@ export default function Home() {
                     <img
                       src={image}
                       alt={`Construction machinery ${index + 1}`}
-                      className="w-full h-48 object-contain rounded-lg mb-4 bg-muted"
+                      className="w-full h-48 object-contain rounded-lg bg-muted pt-[0px] pb-[0px] mb-[0px] mt-[3px]"
                     />
                     <h3 className="text-xl font-semibold text-foreground mb-2 text-center">
                       {["Devlon Excavators", "Hitachi Excavators", "Wheel loaders", "EV Light Trucks", "EV Dump Trucks"][index]}
@@ -633,7 +633,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Mission, Vision, Values */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
