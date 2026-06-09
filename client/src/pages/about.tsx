@@ -308,8 +308,8 @@ export default function AboutPage() {
                 transition={{ duration: 0.3 }}
               >
                 <Card className="service-card hover-lift p-6 h-full">
-                  <CardContent className="p-0">
-                    <div className="bg-accent text-accent-foreground text-2xl font-bold rounded-lg p-4 text-center mb-4">
+                  <CardContent className="p-0 h-full flex flex-col items-center text-center">
+                    <div className="bg-accent text-accent-foreground text-2xl font-bold rounded-lg py-3 px-6 mb-4">
                       {milestone.year}
                     </div>
                     <h3 className="text-xl font-semibold text-foreground mb-3">{milestone.title}</h3>
