@@ -62,7 +62,7 @@ export function Navigation() {
                 <motion.span
                   className={`nav-link font-medium text-lg transition-colors cursor-pointer ${
                     item.green
-                      ? "text-green-600 hover:text-green-700"
+                      ? "text-black hover:text-green-600"
                       : `text-foreground hover:text-primary ${location === item.href ? "text-primary" : ""}`
                   }`}
                   whileHover={{ y: -2 }}
@@ -99,7 +99,7 @@ export function Navigation() {
                         onClick={() => setIsSheetOpen(false)}
                         className={`text-lg font-medium transition-colors cursor-pointer ${
                           item.green
-                            ? "text-green-600 hover:text-green-700"
+                            ? "text-black hover:text-green-600"
                             : location === item.href ? "text-primary" : "text-foreground hover:text-primary"
                         }`}
                         data-testid={`mobile-link-${item.label.toLowerCase()}`}
