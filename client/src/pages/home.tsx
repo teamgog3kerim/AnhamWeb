@@ -322,12 +322,12 @@ export default function Home() {
             <h3 className="text-3xl font-bold text-white mb-6">Global Export Markets</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               {[
-                { region: "UAE", desc: "Middle East market leader" },
-                { region: "Europe", desc: "Premium European markets" },
-                { region: "USA", desc: "North American distribution" }
+                { region: "UAE", desc: "Middle East market leader", flag: "🇦🇪" },
+                { region: "Europe", desc: "Premium European markets", flag: "🇪🇺" },
+                { region: "USA", desc: "North American distribution", flag: "🇺🇸" }
               ].map((market, index) => (
                 <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                  <div className="text-4xl text-white mb-4">🌍</div>
+                  <div className="text-4xl text-white mb-4">{market.flag}</div>
                   <h4 className="text-xl font-semibold text-white mb-2">{market.region}</h4>
                   <p className="text-white/90">{market.desc}</p>
                 </div>
