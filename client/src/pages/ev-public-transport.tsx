@@ -191,7 +191,7 @@ export default function EVPublicTransportPage() {
                         <img
                           src={model.image}
                           alt={`${model.name} Higer electric bus catalogue`}
-                          className="w-full h-auto max-h-[30rem] object-contain rounded-2xl ml-[41px] mr-[41px]"
+                          className="w-full h-auto max-h-[30rem] object-contain rounded-2xl ml-[65px] mr-[65px] mt-[6px] mb-[6px]"
                           data-testid={`image-model-${index}`}
                         />
                       </div>
