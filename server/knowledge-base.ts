@@ -30,7 +30,7 @@ ANHAMA Trading PLC specializes in importing, sales, and rental of high-quality c
 **Equipment Available:**
 - Heavy Excavators (Devlon and Hitachi, 20-40 ton capacity)
 - Wheel Loaders
-- Sany Dump Trucks
+- XCMG EV Dump Trucks (electric, see EV Trucks Division for capacities)
 - After-sales service and maintenance
 - Spare parts and accessories
 - Operator training programs
