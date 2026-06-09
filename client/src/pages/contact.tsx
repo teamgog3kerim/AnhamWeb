@@ -13,7 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 import { insertContactSchema, type InsertContact } from "@shared/schema";
-import { Mail, Phone, MapPin, Info, Clock, Send, CheckCircle } from "lucide-react";
+import { Phone, MapPin, Info, Clock, Send, CheckCircle } from "lucide-react";
 import excavatorWarehouseImage from "@assets/image_1778839927864.png";
 
 export default function ContactPage() {
@@ -61,20 +61,12 @@ export default function ContactPage() {
 
   const contactInfo = [
     {
-      icon: Mail,
-      title: "Sales",
-      description: "Our friendly team is here to help.",
-      contact: "sales@anhamatrading.com",
-      href: "mailto:sales@anhamatrading.com",
-      color: "primary"
-    },
-    {
-      icon: Info,
-      title: "Info",
-      description: "Our support team is here to help.",
-      contact: "Info@anhamatrading.com",
-      href: "mailto:Info@anhamatrading.com",
-      color: "accent"
+      icon: MapPin,
+      title: "Office",
+      description: "Come say hello at our office HQ.",
+      contact: "Bole Atlas, Century Executive Tower, 9th floor",
+      href: "https://maps.app.goo.gl/4gFtCPYqkigJ3XCg6",
+      color: "purple-600"
     },
     {
       icon: Phone,
@@ -87,12 +79,12 @@ export default function ContactPage() {
       color: "green-600"
     },
     {
-      icon: MapPin,
-      title: "Office",
-      description: "Come say hello at our office HQ.",
-      contact: "Bole Atlas, Century Executive Tower, 9th floor",
-      href: "https://maps.app.goo.gl/4gFtCPYqkigJ3XCg6",
-      color: "purple-600"
+      icon: Info,
+      title: "Info",
+      description: "Our support team is here to help.",
+      contact: "Info@anhamatrading.com",
+      href: "mailto:Info@anhamatrading.com",
+      color: "accent"
     }
   ];
 
