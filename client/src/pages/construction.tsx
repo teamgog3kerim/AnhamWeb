@@ -84,7 +84,7 @@ export default function ConstructionPage() {
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 bg-[E89951]"
           style={{
             backgroundImage: `linear-gradient(rgba(130, 109, 81, 0.7), rgba(130, 109, 81, 0.7)), url(${heroBgImage})`,
             backgroundPosition: "center",
@@ -115,7 +115,6 @@ export default function ConstructionPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Equipment Gallery */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -158,7 +157,6 @@ export default function ConstructionPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Services Section */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -192,7 +190,6 @@ export default function ConstructionPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Hitachi Partnership */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -245,7 +242,6 @@ export default function ConstructionPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* CTA Section */}
       <AnimatedSection className="py-20 bg-gradient-to-r from-primary to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
