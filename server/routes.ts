@@ -2,7 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSchema } from "@shared/schema";
-import { z } from "zod";
+import { z } from "zod/v4";
 import OpenAI from "openai";
 import { SYSTEM_PROMPT } from "./knowledge-base";
 import rateLimit from "express-rate-limit";
@@ -80,7 +80,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         res.status(400).json({ 
           success: false, 
           message: "Please check your form data",
-          errors: error.errors 
+          errors: error.issues 
         });
       } else {
         res.status(500).json({ 

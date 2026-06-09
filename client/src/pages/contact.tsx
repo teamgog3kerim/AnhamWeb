@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm, type Resolver } from "react-hook-form";
 import { AnimatedSection } from "@/components/animated-section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,13 +16,28 @@ import { Phone, MapPin, Info, Clock, Send, CheckCircle } from "lucide-react";
 import excavatorWarehouseImage from "@assets/image_1778839927864.png";
 import goldNuggetsImage from "@assets/Screenshot_20250910-145345_Chrome_1757615717678_1781020897244.jpg";
 
+const contactResolver: Resolver<InsertContact> = async (values) => {
+  const result = insertContactSchema.safeParse(values);
+  if (result.success) {
+    return { values: result.data, errors: {} };
+  }
+  const errors: Record<string, { type: string; message: string }> = {};
+  for (const issue of result.error.issues) {
+    const path = issue.path.join(".");
+    if (path && !errors[path]) {
+      errors[path] = { type: issue.code ?? "validation", message: issue.message };
+    }
+  }
+  return { values: {}, errors: errors as Record<string, { type: string; message: string }> };
+};
+
 export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const { toast } = useToast();
   const queryClient = useQueryClient();
 
   const form = useForm<InsertContact>({
-    resolver: zodResolver(insertContactSchema),
+    resolver: contactResolver,
     defaultValues: {
       firstName: "",
       lastName: "",

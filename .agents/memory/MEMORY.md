@@ -1,0 +1,1 @@
+- [zod v3/v4 + drizzle-zod](zod-drizzle-version-quirk.md) — zod 3.25 ships both APIs; drizzle-zod 0.8 emits v4, so import `zod/v4` everywhere, use `.issues` not `.errors`, and write a custom RHF resolver (resolvers 3.10 is v3-only).
