@@ -335,7 +335,7 @@ export default function MiningPage() {
             <Link href="/about">
               <Button
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
+                className="bg-transparent border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg"
                 data-testid="button-company-info"
               >
                 Company Information
