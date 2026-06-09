@@ -135,7 +135,6 @@ export default function AboutPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Company Overview */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -193,7 +192,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Mission, Vision, Values */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -256,7 +254,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Company Statistics */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -291,7 +288,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Company Timeline */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -325,7 +321,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Social Impact Section */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -400,7 +395,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* Awards and Recognition */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -446,7 +440,7 @@ export default function AboutPage() {
                         <img
                           src={award.image}
                           alt={`${award.title} award`}
-                          className="w-28 h-48 object-contain rounded-lg flex-shrink-0"
+                          className="w-28 h-48 object-contain rounded-lg flex-shrink-0 ml-[10px] mr-[10px] pl-[4px] pr-[4px]"
                         />
                       )}
                     </div>
@@ -457,7 +451,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* CEO Section */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -487,7 +480,6 @@ export default function AboutPage() {
           </motion.div>
         </div>
       </AnimatedSection>
-
       {/* Team Members */}
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -524,8 +516,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
-
       {/* Office Location */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -582,7 +572,6 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
-
       {/* CTA Section */}
       <AnimatedSection className="py-20 bg-gradient-to-r from-primary to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
