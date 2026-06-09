@@ -428,12 +428,9 @@ export default function AboutPage() {
                 transition={{ duration: 0.3 }}
               >
                 <Card className="service-card hover-lift p-6 h-full">
-                  <CardContent className="p-0">
-                    <div className="flex items-start gap-4">
-                      <div className="flex-1">
-                        <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                          <Award className="text-primary h-6 w-6" />
-                        </div>
+                  <CardContent className="p-0 h-full">
+                    <div className="flex items-center gap-5 h-full">
+                      <div className="flex-1 text-left">
                         <h3 className="text-lg font-semibold text-foreground mb-2">{award.title}</h3>
                         <p className="text-sm text-muted-foreground mb-2">{award.org}</p>
                         <p className={`text-xs font-medium ${
@@ -449,7 +446,7 @@ export default function AboutPage() {
                         <img
                           src={award.image}
                           alt={`${award.title} award`}
-                          className="w-24 h-32 object-cover rounded-lg flex-shrink-0"
+                          className="w-28 h-48 object-contain rounded-lg flex-shrink-0"
                         />
                       )}
                     </div>
