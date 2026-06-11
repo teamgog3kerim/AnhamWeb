@@ -11,6 +11,7 @@ import klq6116Image from "@assets/ev_klq6116zev_crop.jpg";
 import klq6956Image from "@assets/ev_klq6956zev_crop.jpg";
 import klq6796Image from "@assets/ev_klq6796zev_crop.jpg";
 import h5fImage from "@assets/ev_h5f_crop.jpg";
+import batteryWarrantyImage from "@assets/generated_images/ev_battery_warranty.png";
 
 export default function EVPublicTransportPage() {
   const models = [
@@ -249,6 +250,59 @@ export default function EVPublicTransportPage() {
                 </Card>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </AnimatedSection>
+      {/* Battery Warranty */}
+      <AnimatedSection className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img
+                src={batteryWarrantyImage}
+                alt="High-capacity electric bus battery pack with long-term warranty"
+                className="w-full h-auto rounded-2xl hover-lift shadow-lg"
+                data-testid="image-battery-warranty"
+              />
+            </div>
+
+            <div>
+              <Badge className="mb-6 bg-primary/10 text-primary hover:bg-primary/20 text-sm px-4 py-1">
+                Long-Term Battery Warranty
+              </Badge>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                <span className="text-primary">8 to 10 Years</span> Battery Warranty
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8">
+                Every Higer electric bus and mini bus is backed by an industry-leading battery warranty of
+                8 up to 10 years. Our high-quality lithium battery systems are engineered for reliable,
+                long-life performance — giving operators and governments complete peace of mind and protecting
+                your investment for years of dependable service.
+              </p>
+
+              <div className="space-y-6 mb-8">
+                {[
+                  { icon: Shield, title: "8–10 Year Coverage", desc: "Long-term protection on every battery system" },
+                  { icon: Battery, title: "Durable Lithium Packs", desc: "Built for thousands of charge cycles and long range" },
+                  { icon: Award, title: "Genuine Higer Quality", desc: "World-class engineering with official support" },
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start space-x-4">
+                    <div className="bg-primary/10 p-3 rounded-lg">
+                      <item.icon className="text-primary h-6 w-6" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-foreground mb-2">{item.title}</h4>
+                      <p className="text-muted-foreground">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <p className="text-lg text-foreground font-medium bg-muted rounded-xl p-5 border border-border">
+                More Higer electric models are also available on EV Public Transport — contact our team to
+                explore the full range and find the right fit for your routes and fleet.
+              </p>
+            </div>
           </div>
         </div>
       </AnimatedSection>
