@@ -30,12 +30,6 @@ export default function ConstructionPage() {
       features: ["Zero emissions", "Urban installations", "Cost efficient", "Low maintenance"]
     },
     {
-      title: "Organized Support Team",
-      image: supportTeamImage,
-      description: "Our dedicated team of engineers and technicians ensures seamless project execution and equipment reliability",
-      features: ["On-site support", "Technical expertise", "Project coordination", "Rapid response"]
-    },
-    {
       title: "EV Dump Trucks",
       image: evDumpTruckImage,
       description: "Electric heavy-duty dump trucks for sustainable material transport and hauling",
@@ -46,6 +40,12 @@ export default function ConstructionPage() {
       image: afterSalesImage,
       description: "Comprehensive support and maintenance services for all your construction equipment",
       features: ["24/7 technical support", "Preventive maintenance", "Spare parts supply", "Equipment warranty"]
+    },
+    {
+      title: "Organized Support Team",
+      image: supportTeamImage,
+      description: "Our dedicated team of engineers and technicians ensures seamless project execution and equipment reliability",
+      features: ["On-site support", "Technical expertise", "Project coordination", "Rapid response"]
     },
     {
       title: "Spare Parts and Accessories",
