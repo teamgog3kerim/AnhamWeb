@@ -238,7 +238,7 @@ export default function ConstructionPage() {
               <img
                 src={hitachiFleetImage}
                 alt="ANHAMA Trading's Hitachi and Devlon construction equipment fleet"
-                className="w-full h-96 object-cover rounded-2xl hover-lift"
+                className="w-full h-48 object-cover rounded-2xl hover-lift"
               />
               <img
                 src={importedExcavatorsImage}
