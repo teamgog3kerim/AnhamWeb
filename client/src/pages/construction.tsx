@@ -24,12 +24,6 @@ export default function ConstructionPage() {
       features: ["20-40 ton capacity", "Advanced hydraulics", "GPS tracking", "24/7 support"]
     },
     {
-      title: "After Sales Service",
-      image: afterSalesImage,
-      description: "Comprehensive support and maintenance services for all your construction equipment",
-      features: ["24/7 technical support", "Preventive maintenance", "Spare parts supply", "Equipment warranty"]
-    },
-    {
       title: "XCMG EV Light Trucks",
       image: xcmgEvTruckImage,
       description: "Electric light trucks designed for urban installations and sustainable city transportation",
@@ -52,6 +46,12 @@ export default function ConstructionPage() {
       image: evDumpTruckImage,
       description: "Electric heavy-duty dump trucks for sustainable material transport and hauling",
       features: ["Zero emissions", "Large capacity", "Fast charging", "Low operating cost"]
+    },
+    {
+      title: "After Sales Service",
+      image: afterSalesImage,
+      description: "Comprehensive support and maintenance services for all your construction equipment",
+      features: ["24/7 technical support", "Preventive maintenance", "Spare parts supply", "Equipment warranty"]
     }
   ];
 
