@@ -15,6 +15,8 @@ import heroBgImage from "@assets/image_1778833446155.png";
 import afterSalesImage from "@assets/image_1778834214999.png";
 import sparePartsImage from "@assets/image_1778834856875.png";
 import wheelLoaderImage from "@assets/wheel_loader_1781184897521.jpg";
+import importedExcavatorsImage from "@assets/imported_excavators_1521_1781191781031.jpg";
+import xcmgFleetImage from "@assets/b9639b04-bcc2-497e-b9ab-0f007d260570_1781191856128.jpg";
 
 export default function ConstructionPage() {
   const equipment = [
@@ -196,12 +198,12 @@ export default function ConstructionPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Trusted <span className="text-primary">Hitachi</span> Partnership
+                Trusted <span className="text-primary">Hitachi, Devlon and XCMG</span> Partnership
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Our strategic partnership with Hitachi brings world-class construction machinery to Ethiopia. 
-                With proven reliability and cutting-edge technology, Hitachi equipment delivers exceptional 
-                performance for your construction projects.
+                Our strategic partnerships with Hitachi, Devlon and XCMG bring world-class construction
+                machinery to Ethiopia. With proven reliability and cutting-edge technology, our equipment
+                delivers exceptional performance for your construction projects.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -232,11 +234,21 @@ export default function ConstructionPage() {
               </Link>
             </div>
 
-            <div>
+            <div className="space-y-6">
               <img
                 src={hitachiFleetImage}
                 alt="ANHAMA Trading's Hitachi and Devlon construction equipment fleet"
                 className="w-full h-96 object-cover rounded-2xl hover-lift"
+              />
+              <img
+                src={importedExcavatorsImage}
+                alt="Row of imported Hitachi excavators at ANHAMA Trading"
+                className="w-full h-48 object-cover rounded-2xl hover-lift"
+              />
+              <img
+                src={xcmgFleetImage}
+                alt="Fleet of XCMG excavators supplied by ANHAMA Trading"
+                className="w-full h-48 object-cover rounded-2xl hover-lift"
               />
             </div>
           </div>
