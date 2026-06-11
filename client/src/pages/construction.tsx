@@ -24,10 +24,10 @@ export default function ConstructionPage() {
       features: ["20-40 ton capacity", "Advanced hydraulics", "GPS tracking", "24/7 support"]
     },
     {
-      title: "XCMG EV Light Trucks",
+      title: "Hitachi Excavators",
       image: xcmgEvTruckImage,
-      description: "Electric light trucks designed for urban installations and sustainable city transportation",
-      features: ["Zero emissions", "Urban installations", "Cost efficient", "Low maintenance"]
+      description: "World-class Hitachi excavators delivering reliable, high-performance digging power for demanding construction projects",
+      features: ["Proven reliability", "Powerful performance", "Fuel efficient", "Advanced technology"]
     },
     {
       title: "EV Dump Trucks",
