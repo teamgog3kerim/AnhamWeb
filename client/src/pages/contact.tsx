@@ -376,7 +376,7 @@ export default function ContactPage() {
 
               <Card className="mt-8 overflow-hidden">
                 <CardContent className="p-0">
-                  <div className="flex items-center gap-2 px-6 pt-6 pb-4">
+                  <div className="flex items-center gap-2 px-6 pt-6 pb-4 ml-[0px] mr-[0px] mt-[-17px] mb-[-17px]">
                     <MapPin className="h-5 w-5 text-primary" />
                     <h3 className="text-lg font-semibold text-foreground">Find Us Here</h3>
                   </div>
