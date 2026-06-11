@@ -30,10 +30,10 @@ export default function ConstructionPage() {
       features: ["Proven reliability", "Powerful performance", "Fuel efficient", "Advanced technology"]
     },
     {
-      title: "EV Dump Trucks",
+      title: "XCMG Excavators",
       image: evDumpTruckImage,
-      description: "Electric heavy-duty dump trucks for sustainable material transport and hauling",
-      features: ["Zero emissions", "Large capacity", "Fast charging", "Low operating cost"]
+      description: "Durable XCMG excavators engineered for powerful digging and efficient earthmoving across construction sites",
+      features: ["Heavy-duty build", "High productivity", "Fuel efficient", "Easy maintenance"]
     },
     {
       title: "After Sales Service",
