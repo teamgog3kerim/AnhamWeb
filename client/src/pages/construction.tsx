@@ -42,10 +42,10 @@ export default function ConstructionPage() {
       features: ["24/7 technical support", "Preventive maintenance", "Spare parts supply", "Equipment warranty"]
     },
     {
-      title: "Organized Support Team",
+      title: "XCMG Wheel Loaders",
       image: supportTeamImage,
-      description: "Our dedicated team of engineers and technicians ensures seamless project execution and equipment reliability",
-      features: ["On-site support", "Technical expertise", "Project coordination", "Rapid response"]
+      description: "Powerful XCMG wheel loaders built for fast, efficient loading and material handling on any construction site",
+      features: ["High loading capacity", "Strong traction", "Fuel efficient", "Operator comfort"]
     },
     {
       title: "Spare Parts and Accessories",
