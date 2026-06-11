@@ -30,12 +30,6 @@ export default function ConstructionPage() {
       features: ["Zero emissions", "Urban installations", "Cost efficient", "Low maintenance"]
     },
     {
-      title: "Spare Parts and Accessories",
-      image: sparePartsImage,
-      description: "Genuine spare parts and accessories for all construction equipment brands",
-      features: ["OEM quality parts", "Quick availability", "Competitive pricing", "Expert installation"]
-    },
-    {
       title: "Organized Support Team",
       image: supportTeamImage,
       description: "Our dedicated team of engineers and technicians ensures seamless project execution and equipment reliability",
@@ -52,6 +46,12 @@ export default function ConstructionPage() {
       image: afterSalesImage,
       description: "Comprehensive support and maintenance services for all your construction equipment",
       features: ["24/7 technical support", "Preventive maintenance", "Spare parts supply", "Equipment warranty"]
+    },
+    {
+      title: "Spare Parts and Accessories",
+      image: sparePartsImage,
+      description: "Genuine spare parts and accessories for all construction equipment brands",
+      features: ["OEM quality parts", "Quick availability", "Competitive pricing", "Expert installation"]
     }
   ];
 
