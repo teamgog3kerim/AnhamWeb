@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Construction, Truck, Wrench, Shield, Award, Users } from "lucide-react";
 import excavatorWarehouseImage from "@assets/image_1778839927864.png";
 import heavyExcavatorsImage from "@assets/image_1778841810193.png";
-import xcmgEvTruckImage from "@assets/WhatsApp_Image_2026-05-16_at_10.29.19_AM_1779088138630.jpeg";
+import xcmgEvTruckImage from "@assets/hitachi_excavator_350_1781185069670.jpeg";
 import supportTeamImage from "@assets/image_1778834572370.png";
 import evDumpTruckImage from "@assets/hitachi_excavator_350_1781184987143.jpeg";
 import hitachiFleetImage from "@assets/download_1778842875462.png";
