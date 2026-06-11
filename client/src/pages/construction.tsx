@@ -9,7 +9,7 @@ import excavatorWarehouseImage from "@assets/image_1778839927864.png";
 import heavyExcavatorsImage from "@assets/image_1778841810193.png";
 import xcmgEvTruckImage from "@assets/WhatsApp_Image_2026-05-16_at_10.29.19_AM_1779088138630.jpeg";
 import supportTeamImage from "@assets/image_1778834572370.png";
-import evDumpTruckImage from "@assets/WhatsApp_Image_2026-04-21_at_4.26.00_PM_1778833043786.jpeg";
+import evDumpTruckImage from "@assets/hitachi_excavator_350_1781184987143.jpeg";
 import hitachiFleetImage from "@assets/download_1778842875462.png";
 import heroBgImage from "@assets/image_1778833446155.png";
 import afterSalesImage from "@assets/image_1778834214999.png";
