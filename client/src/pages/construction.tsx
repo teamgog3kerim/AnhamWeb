@@ -14,7 +14,7 @@ import hitachiFleetImage from "@assets/download_1778842875462.png";
 import heroBgImage from "@assets/image_1778833446155.png";
 import afterSalesImage from "@assets/image_1778834214999.png";
 import sparePartsImage from "@assets/image_1778834856875.png";
-import wheelLoaderImage from "@assets/wheel_loader_1781182668869.jpg";
+import wheelLoaderImage from "@assets/wheel_loader_1781184897521.jpg";
 
 export default function ConstructionPage() {
   const equipment = [
