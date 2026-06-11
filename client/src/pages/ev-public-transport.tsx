@@ -297,13 +297,31 @@ export default function EVPublicTransportPage() {
                   </div>
                 ))}
               </div>
-
-              <p className="text-lg text-foreground font-medium bg-muted rounded-xl p-5 border border-border">
-                More Higer electric models are also available on EV Public Transport — contact our team to
-                explore the full range and find the right fit for your routes and fleet.
-              </p>
             </div>
           </div>
+        </div>
+      </AnimatedSection>
+      {/* More Models Available */}
+      <AnimatedSection className="py-20 bg-background">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <Bus className="text-primary h-8 w-8" />
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            More <span className="text-primary">Models Available</span>
+          </h2>
+          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            More Higer electric models are also available on EV Public Transport — contact our team to
+            explore the full range and find the right fit for your routes and fleet.
+          </p>
+          <Link href="/contact">
+            <Button
+              className="btn-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold text-lg"
+              data-testid="button-explore-models"
+            >
+              Explore All Models
+            </Button>
+          </Link>
         </div>
       </AnimatedSection>
       {/* Services Section */}
