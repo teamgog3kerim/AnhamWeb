@@ -18,7 +18,7 @@ import sparePartsImage from "@assets/image_1778834856875.png";
 export default function ConstructionPage() {
   const equipment = [
     {
-      title: "Heavy Excavators",
+      title: "Devlon Excavators",
       image: heavyExcavatorsImage,
       description: "High-performance Devlon and Hitachi excavators for large-scale construction projects",
       features: ["20-40 ton capacity", "Advanced hydraulics", "GPS tracking", "24/7 support"]
