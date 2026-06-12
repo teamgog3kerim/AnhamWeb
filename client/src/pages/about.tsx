@@ -305,24 +305,67 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
-            {milestones.map((milestone, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-              >
-                <Card className="service-card hover-lift p-6 h-full">
-                  <CardContent className="p-0 h-full flex flex-col items-center text-center">
-                    <div className="bg-accent text-accent-foreground text-2xl font-bold rounded-lg py-3 px-6 mb-4">
-                      {milestone.year}
+          <div className="relative max-w-5xl mx-auto">
+            {/* Winding journey road */}
+            <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-2 bottom-2 w-1.5 rounded-full bg-gradient-to-b from-[#F5A623] via-[#E84B9C] to-[#4A6CF7] opacity-40" />
+            <div className="md:hidden absolute left-8 top-2 bottom-2 w-1.5 rounded-full bg-gradient-to-b from-[#F5A623] via-[#E84B9C] to-[#4A6CF7] opacity-40" />
+
+            <div className="space-y-10 md:space-y-16">
+              {milestones.map((milestone, index) => {
+                const palette = [
+                  { badge: "bg-[#F5A623]", header: "bg-[#F5A623]", title: "text-[#F5A623]" },
+                  { badge: "bg-[#F0552B]", header: "bg-[#F0552B]", title: "text-[#F0552B]" },
+                  { badge: "bg-[#E84B9C]", header: "bg-[#E84B9C]", title: "text-[#E84B9C]" },
+                  { badge: "bg-[#2BA8C4]", header: "bg-[#2BA8C4]", title: "text-[#2BA8C4]" },
+                  { badge: "bg-[#8DC63F]", header: "bg-[#8DC63F]", title: "text-[#8DC63F]" },
+                  { badge: "bg-[#4A6CF7]", header: "bg-[#4A6CF7]", title: "text-[#4A6CF7]" },
+                ];
+                const c = palette[index % palette.length];
+                const num = String(index + 1).padStart(2, "0");
+                const isLeft = index % 2 === 0;
+
+                return (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-80px" }}
+                    transition={{ duration: 0.5 }}
+                    className="relative md:grid md:grid-cols-2 md:gap-16 md:items-center"
+                  >
+                    {/* Numbered road marker */}
+                    <div className="absolute z-10 left-8 -translate-x-1/2 top-0 md:left-1/2 md:top-1/2 md:-translate-y-1/2">
+                      <div
+                        className={`w-16 h-16 md:w-20 md:h-20 rounded-full ${c.badge} text-white flex items-center justify-center text-xl md:text-2xl font-bold shadow-lg ring-4 ring-background`}
+                      >
+                        {num}
+                      </div>
                     </div>
-                    <h3 className="text-xl font-semibold text-foreground mb-3">{milestone.title}</h3>
-                    <p className="text-muted-foreground">{milestone.description}</p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
+
+                    {/* Milestone card */}
+                    <div
+                      className={`pl-20 md:pl-0 ${
+                        isLeft
+                          ? "md:col-start-1 md:pr-16 md:text-right"
+                          : "md:col-start-2 md:pl-16 md:text-left"
+                      }`}
+                    >
+                      <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.3 }}>
+                        <Card className="overflow-hidden border-none shadow-xl hover-lift">
+                          <div className={`${c.header} px-6 py-3`}>
+                            <span className="text-white text-2xl font-bold">{milestone.year}</span>
+                          </div>
+                          <CardContent className="p-6 bg-card">
+                            <h3 className={`text-xl font-bold mb-2 ${c.title}`}>{milestone.title}</h3>
+                            <p className="text-muted-foreground">{milestone.description}</p>
+                          </CardContent>
+                        </Card>
+                      </motion.div>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </AnimatedSection>
