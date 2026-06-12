@@ -316,20 +316,20 @@ export default function AboutPage() {
             ];
             // Pin positions along the winding road (percent of canvas, y from top)
             const positions = [
-              { x: 16, y: 84, side: "right" },
-              { x: 82, y: 72, side: "left" },
-              { x: 26, y: 58, side: "right" },
-              { x: 76, y: 44, side: "left" },
-              { x: 34, y: 30, side: "right" },
-              { x: 80, y: 15, side: "left" },
+              { x: 14, y: 90, side: "right" },
+              { x: 84, y: 74, side: "left" },
+              { x: 24, y: 58, side: "right" },
+              { x: 78, y: 42, side: "left" },
+              { x: 32, y: 26, side: "right" },
+              { x: 82, y: 10, side: "left" },
             ];
             const roadPath =
-              "M 16 100 C 16 92 14 88 16 84 C 30 72 68 80 82 72 C 96 64 40 64 26 58 C 12 52 64 52 76 44 C 88 36 26 38 34 30 C 40 22 68 20 80 15 L 80 7";
+              "M 14 100 C 14 96 12 93 14 90 C 30 80 70 84 84 74 C 98 66 38 66 24 58 C 10 50 66 50 78 42 C 90 34 24 32 32 26 C 38 20 70 16 82 10 L 82 4";
 
             return (
               <>
                 {/* Desktop winding road infographic */}
-                <div className="hidden lg:block relative w-full max-w-5xl mx-auto h-[1080px] rounded-3xl bg-gradient-to-b from-[#cfe2e0] to-[#e7f0ef] overflow-hidden">
+                <div className="hidden lg:block relative w-full max-w-7xl mx-auto h-[1350px] rounded-3xl bg-gradient-to-b from-[#cfe2e0] to-[#e7f0ef] overflow-hidden">
                   <svg
                     viewBox="0 0 100 100"
                     preserveAspectRatio="none"
@@ -399,7 +399,7 @@ export default function AboutPage() {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true }}
                           transition={{ duration: 0.4, delay: index * 0.05 + 0.1 }}
-                          className="absolute z-10 w-[240px]"
+                          className="absolute z-10 w-[280px]"
                           style={cardStyle}
                         >
                           <Card className="overflow-hidden border-none shadow-2xl">
