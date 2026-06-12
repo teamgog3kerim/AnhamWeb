@@ -305,68 +305,158 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="relative max-w-5xl mx-auto">
-            {/* Winding journey road */}
-            <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-2 bottom-2 w-1.5 rounded-full bg-gradient-to-b from-[#F5A623] via-[#E84B9C] to-[#4A6CF7] opacity-40" />
-            <div className="md:hidden absolute left-8 top-2 bottom-2 w-1.5 rounded-full bg-gradient-to-b from-[#F5A623] via-[#E84B9C] to-[#4A6CF7] opacity-40" />
+          {(() => {
+            const palette = [
+              { hex: "#F5A623", badge: "bg-[#F5A623]", header: "bg-[#F5A623]", title: "text-[#F5A623]" },
+              { hex: "#F0552B", badge: "bg-[#F0552B]", header: "bg-[#F0552B]", title: "text-[#F0552B]" },
+              { hex: "#E84B9C", badge: "bg-[#E84B9C]", header: "bg-[#E84B9C]", title: "text-[#E84B9C]" },
+              { hex: "#2BA8C4", badge: "bg-[#2BA8C4]", header: "bg-[#2BA8C4]", title: "text-[#2BA8C4]" },
+              { hex: "#8DC63F", badge: "bg-[#8DC63F]", header: "bg-[#8DC63F]", title: "text-[#8DC63F]" },
+              { hex: "#4A6CF7", badge: "bg-[#4A6CF7]", header: "bg-[#4A6CF7]", title: "text-[#4A6CF7]" },
+            ];
+            // Pin positions along the winding road (percent of canvas, y from top)
+            const positions = [
+              { x: 16, y: 84, side: "right" },
+              { x: 82, y: 72, side: "left" },
+              { x: 26, y: 58, side: "right" },
+              { x: 76, y: 44, side: "left" },
+              { x: 34, y: 30, side: "right" },
+              { x: 80, y: 15, side: "left" },
+            ];
+            const roadPath =
+              "M 16 100 C 16 92 14 88 16 84 C 30 72 68 80 82 72 C 96 64 40 64 26 58 C 12 52 64 52 76 44 C 88 36 26 38 34 30 C 40 22 68 20 80 15 L 80 7";
 
-            <div className="space-y-10 md:space-y-16">
-              {milestones.map((milestone, index) => {
-                const palette = [
-                  { badge: "bg-[#F5A623]", header: "bg-[#F5A623]", title: "text-[#F5A623]" },
-                  { badge: "bg-[#F0552B]", header: "bg-[#F0552B]", title: "text-[#F0552B]" },
-                  { badge: "bg-[#E84B9C]", header: "bg-[#E84B9C]", title: "text-[#E84B9C]" },
-                  { badge: "bg-[#2BA8C4]", header: "bg-[#2BA8C4]", title: "text-[#2BA8C4]" },
-                  { badge: "bg-[#8DC63F]", header: "bg-[#8DC63F]", title: "text-[#8DC63F]" },
-                  { badge: "bg-[#4A6CF7]", header: "bg-[#4A6CF7]", title: "text-[#4A6CF7]" },
-                ];
-                const c = palette[index % palette.length];
-                const num = String(index + 1).padStart(2, "0");
-                const isLeft = index % 2 === 0;
-
-                return (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-80px" }}
-                    transition={{ duration: 0.5 }}
-                    className="relative md:grid md:grid-cols-2 md:gap-16 md:items-center"
+            return (
+              <>
+                {/* Desktop winding road infographic */}
+                <div className="hidden lg:block relative w-full max-w-5xl mx-auto h-[1080px] rounded-3xl bg-gradient-to-b from-[#cfe2e0] to-[#e7f0ef] overflow-hidden">
+                  <svg
+                    viewBox="0 0 100 100"
+                    preserveAspectRatio="none"
+                    className="absolute inset-0 w-full h-full"
+                    aria-hidden="true"
+                    focusable="false"
                   >
-                    {/* Numbered road marker */}
-                    <div className="absolute z-10 left-8 -translate-x-1/2 top-0 md:left-1/2 md:top-1/2 md:-translate-y-1/2">
-                      <div
-                        className={`w-16 h-16 md:w-20 md:h-20 rounded-full ${c.badge} text-white flex items-center justify-center text-xl md:text-2xl font-bold shadow-lg ring-4 ring-background`}
-                      >
-                        {num}
-                      </div>
-                    </div>
+                    {/* clouds */}
+                    <g fill="#ffffff" opacity="0.85">
+                      <ellipse cx="20" cy="10" rx="9" ry="3.2" />
+                      <ellipse cx="30" cy="8" rx="6" ry="2.6" />
+                      <ellipse cx="88" cy="22" rx="8" ry="3" />
+                      <ellipse cx="12" cy="40" rx="7" ry="2.6" />
+                    </g>
+                    {/* mountain at the summit */}
+                    <polygon points="80,2 70,16 90,16" fill="#3a4d5e" opacity="0.5" />
+                    {/* road */}
+                    <path
+                      d={roadPath}
+                      fill="none"
+                      stroke="#2b3a4a"
+                      strokeWidth="7"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    {/* dashed center line */}
+                    <path
+                      d={roadPath}
+                      fill="none"
+                      stroke="#F5C542"
+                      strokeWidth="0.7"
+                      strokeDasharray="2 2.2"
+                      strokeLinecap="round"
+                    />
+                  </svg>
 
-                    {/* Milestone card */}
-                    <div
-                      className={`pl-20 md:pl-0 ${
-                        isLeft
-                          ? "md:col-start-1 md:pr-16 md:text-right"
-                          : "md:col-start-2 md:pl-16 md:text-left"
-                      }`}
-                    >
-                      <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.3 }}>
-                        <Card className="overflow-hidden border-none shadow-xl hover-lift">
-                          <div className={`${c.header} px-6 py-3`}>
-                            <span className="text-white text-2xl font-bold">{milestone.year}</span>
+                  {milestones.map((milestone, index) => {
+                    const c = palette[index % palette.length];
+                    const p = positions[index % positions.length];
+                    const num = String(index + 1).padStart(2, "0");
+                    const cardStyle =
+                      p.side === "right"
+                        ? { left: `${p.x + 5}%`, top: `${p.y}%`, transform: "translateY(-50%)" }
+                        : { left: `${p.x - 5}%`, top: `${p.y}%`, transform: "translate(-100%, -50%)" };
+
+                    return (
+                      <div key={index}>
+                        {/* numbered marker */}
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.6 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.4, delay: index * 0.05 }}
+                          className="absolute z-20 -translate-x-1/2 -translate-y-1/2"
+                          style={{ left: `${p.x}%`, top: `${p.y}%` }}
+                        >
+                          <div
+                            className={`w-20 h-20 rounded-full ${c.badge} flex items-center justify-center shadow-xl ring-4 ring-white`}
+                          >
+                            <span className="text-white text-2xl font-bold">{num}</span>
                           </div>
-                          <CardContent className="p-6 bg-card">
-                            <h3 className={`text-xl font-bold mb-2 ${c.title}`}>{milestone.title}</h3>
-                            <p className="text-muted-foreground">{milestone.description}</p>
-                          </CardContent>
-                        </Card>
-                      </motion.div>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
-          </div>
+                        </motion.div>
+
+                        {/* callout card */}
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.4, delay: index * 0.05 + 0.1 }}
+                          className="absolute z-10 w-[240px]"
+                          style={cardStyle}
+                        >
+                          <Card className="overflow-hidden border-none shadow-2xl">
+                            <div className={`${c.header} px-5 py-2.5`}>
+                              <span className="text-white text-xl font-bold">{milestone.year}</span>
+                            </div>
+                            <CardContent className="p-5 bg-card">
+                              <h3 className={`text-lg font-bold mb-1.5 ${c.title}`}>{milestone.title}</h3>
+                              <p className="text-sm text-muted-foreground">{milestone.description}</p>
+                            </CardContent>
+                          </Card>
+                        </motion.div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Mobile / tablet road */}
+                <div className="lg:hidden relative max-w-xl mx-auto">
+                  <div className="absolute left-8 top-2 bottom-2 w-1.5 rounded-full bg-gradient-to-b from-[#F5A623] via-[#E84B9C] to-[#4A6CF7] opacity-50" />
+                  <div className="space-y-8">
+                    {milestones.map((milestone, index) => {
+                      const c = palette[index % palette.length];
+                      const num = String(index + 1).padStart(2, "0");
+                      return (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, y: 30 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true, margin: "-60px" }}
+                          transition={{ duration: 0.4 }}
+                          className="relative pl-20"
+                        >
+                          <div className="absolute left-8 top-0 -translate-x-1/2">
+                            <div
+                              className={`w-14 h-14 rounded-full ${c.badge} flex items-center justify-center shadow-lg ring-4 ring-background`}
+                            >
+                              <span className="text-white text-lg font-bold">{num}</span>
+                            </div>
+                          </div>
+                          <Card className="overflow-hidden border-none shadow-xl">
+                            <div className={`${c.header} px-5 py-2.5`}>
+                              <span className="text-white text-xl font-bold">{milestone.year}</span>
+                            </div>
+                            <CardContent className="p-5 bg-card">
+                              <h3 className={`text-lg font-bold mb-1.5 ${c.title}`}>{milestone.title}</h3>
+                              <p className="text-sm text-muted-foreground">{milestone.description}</p>
+                            </CardContent>
+                          </Card>
+                        </motion.div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </>
+            );
+          })()}
         </div>
       </AnimatedSection>
       {/* Social Impact Section */}
