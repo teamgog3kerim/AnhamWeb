@@ -100,8 +100,8 @@ export default function EVPublicTransportPage() {
   const services = [
     {
       icon: Bus,
-      title: "EV Bus Sales & Leasing",
-      description: "Complete Higer electric public transport solutions with flexible purchasing and leasing options for operators and government",
+      title: "EV Bus Sales",
+      description: "Complete Higer electric public transport solutions with flexible purchasing options for operators and government",
     },
     {
       icon: Battery,
