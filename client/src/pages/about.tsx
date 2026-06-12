@@ -385,9 +385,8 @@ export default function AboutPage() {
                           className="absolute z-20 -translate-x-1/2 -translate-y-1/2"
                           style={{ left: `${p.x}%`, top: `${p.y}%` }}
                         >
-                          <div className={`w-6 h-6 rounded-full ${c.badge} shadow-lg ring-4 ring-white`} />
+                          <div className="w-6 h-6 rounded-full bg-[#F0552B] shadow-lg ring-4 ring-white pt-[-19px] pb-[-19px] mt-[-36px] mb-[-36px]" />
                         </motion.div>
-
                         {/* callout card */}
                         <motion.div
                           initial={{ opacity: 0, y: 20 }}
@@ -411,7 +410,6 @@ export default function AboutPage() {
                     );
                   })}
                 </div>
-
                 {/* Mobile / tablet road */}
                 <div className="lg:hidden relative max-w-xl mx-auto">
                   <div className="absolute left-8 top-2 bottom-2 w-1.5 rounded-full bg-gradient-to-b from-[#F5A623] via-[#E84B9C] to-[#4A6CF7] opacity-50" />
