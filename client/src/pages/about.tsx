@@ -351,7 +351,7 @@ export default function AboutPage() {
                       d={roadPath}
                       fill="none"
                       stroke="#2b3a4a"
-                      strokeWidth="7"
+                      strokeWidth="12"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
@@ -360,8 +360,8 @@ export default function AboutPage() {
                       d={roadPath}
                       fill="none"
                       stroke="#F5C542"
-                      strokeWidth="0.7"
-                      strokeDasharray="2 2.2"
+                      strokeWidth="1"
+                      strokeDasharray="2.4 2.4"
                       strokeLinecap="round"
                     />
                   </svg>
@@ -369,15 +369,14 @@ export default function AboutPage() {
                   {milestones.map((milestone, index) => {
                     const c = palette[index % palette.length];
                     const p = positions[index % positions.length];
-                    const num = String(index + 1).padStart(2, "0");
                     const cardStyle =
                       p.side === "right"
-                        ? { left: `${p.x + 5}%`, top: `${p.y}%`, transform: "translateY(-50%)" }
-                        : { left: `${p.x - 5}%`, top: `${p.y}%`, transform: "translate(-100%, -50%)" };
+                        ? { left: `${p.x + 4}%`, top: `${p.y}%`, transform: "translateY(-50%)" }
+                        : { left: `${p.x - 4}%`, top: `${p.y}%`, transform: "translate(-100%, -50%)" };
 
                     return (
                       <div key={index}>
-                        {/* numbered marker */}
+                        {/* road connector dot */}
                         <motion.div
                           initial={{ opacity: 0, scale: 0.6 }}
                           whileInView={{ opacity: 1, scale: 1 }}
@@ -386,11 +385,7 @@ export default function AboutPage() {
                           className="absolute z-20 -translate-x-1/2 -translate-y-1/2"
                           style={{ left: `${p.x}%`, top: `${p.y}%` }}
                         >
-                          <div
-                            className={`w-20 h-20 rounded-full ${c.badge} flex items-center justify-center shadow-xl ring-4 ring-white`}
-                          >
-                            <span className="text-white text-2xl font-bold">{num}</span>
-                          </div>
+                          <div className={`w-6 h-6 rounded-full ${c.badge} shadow-lg ring-4 ring-white`} />
                         </motion.div>
 
                         {/* callout card */}
@@ -423,7 +418,6 @@ export default function AboutPage() {
                   <div className="space-y-8">
                     {milestones.map((milestone, index) => {
                       const c = palette[index % palette.length];
-                      const num = String(index + 1).padStart(2, "0");
                       return (
                         <motion.div
                           key={index}
@@ -431,14 +425,12 @@ export default function AboutPage() {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true, margin: "-60px" }}
                           transition={{ duration: 0.4 }}
-                          className="relative pl-20"
+                          className="relative pl-16"
                         >
-                          <div className="absolute left-8 top-0 -translate-x-1/2">
+                          <div className="absolute left-8 top-6 -translate-x-1/2">
                             <div
-                              className={`w-14 h-14 rounded-full ${c.badge} flex items-center justify-center shadow-lg ring-4 ring-background`}
-                            >
-                              <span className="text-white text-lg font-bold">{num}</span>
-                            </div>
+                              className={`w-5 h-5 rounded-full ${c.badge} shadow-lg ring-4 ring-background`}
+                            />
                           </div>
                           <Card className="overflow-hidden border-none shadow-xl">
                             <div className={`${c.header} px-5 py-2.5`}>
