@@ -608,7 +608,7 @@ export default function AboutPage() {
           </motion.div>
         </div>
       </AnimatedSection>
-      {/* Team Members */}
+      {/* Team Members - disabled
       <AnimatedSection className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -644,6 +644,7 @@ export default function AboutPage() {
           </div>
         </div>
       </AnimatedSection>
+      */}
       {/* Office Location */}
       <AnimatedSection className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
