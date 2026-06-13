@@ -307,12 +307,12 @@ export default function AboutPage() {
 
           {(() => {
             const palette = [
-              { hex: "#F5A623", badge: "bg-[#F5A623]", header: "bg-[#F5A623]", title: "text-[#F5A623]" },
-              { hex: "#F0552B", badge: "bg-[#F0552B]", header: "bg-[#F0552B]", title: "text-[#F0552B]" },
-              { hex: "#E84B9C", badge: "bg-[#E84B9C]", header: "bg-[#E84B9C]", title: "text-[#E84B9C]" },
-              { hex: "#2BA8C4", badge: "bg-[#2BA8C4]", header: "bg-[#2BA8C4]", title: "text-[#2BA8C4]" },
-              { hex: "#8DC63F", badge: "bg-[#8DC63F]", header: "bg-[#8DC63F]", title: "text-[#8DC63F]" },
-              { hex: "#4A6CF7", badge: "bg-[#4A6CF7]", header: "bg-[#4A6CF7]", title: "text-[#4A6CF7]" },
+              { hex: "accent", badge: "bg-accent", header: "bg-accent", title: "text-accent" },
+              { hex: "accent", badge: "bg-accent", header: "bg-accent", title: "text-accent" },
+              { hex: "accent", badge: "bg-accent", header: "bg-accent", title: "text-accent" },
+              { hex: "accent", badge: "bg-accent", header: "bg-accent", title: "text-accent" },
+              { hex: "accent", badge: "bg-accent", header: "bg-accent", title: "text-accent" },
+              { hex: "accent", badge: "bg-accent", header: "bg-accent", title: "text-accent" },
             ];
             // Pin positions along the winding road (percent of canvas, y from top)
             const positions = [
@@ -385,7 +385,7 @@ export default function AboutPage() {
                           className="absolute z-20 -translate-x-1/2 -translate-y-1/2"
                           style={{ left: `${p.x}%`, top: `${p.y}%` }}
                         >
-                          <div className="w-6 h-6 rounded-full bg-[#F0552B] shadow-lg ring-4 ring-white pt-[-19px] pb-[-19px] mt-[-36px] mb-[-36px]" />
+                          <div className="w-6 h-6 rounded-full bg-accent shadow-lg ring-4 ring-white mt-[-36px] mb-[-36px]" />
                         </motion.div>
                         {/* callout card */}
                         <motion.div
@@ -397,11 +397,11 @@ export default function AboutPage() {
                           style={cardStyle}
                         >
                           <Card className="overflow-hidden border-none shadow-2xl">
-                            <div className={`${c.header} px-5 py-2.5`}>
+                            <div className={`${c.header} px-4 py-2`}>
                               <span className="text-white text-xl font-bold">{milestone.year}</span>
                             </div>
-                            <CardContent className="p-5 bg-card">
-                              <h3 className={`text-lg font-bold mb-1.5 ${c.title}`}>{milestone.title}</h3>
+                            <CardContent className="p-4 bg-card">
+                              <h3 className={`text-lg font-bold mb-1 ${c.title}`}>{milestone.title}</h3>
                               <p className="text-sm text-muted-foreground">{milestone.description}</p>
                             </CardContent>
                           </Card>
@@ -431,11 +431,11 @@ export default function AboutPage() {
                             />
                           </div>
                           <Card className="overflow-hidden border-none shadow-xl">
-                            <div className={`${c.header} px-5 py-2.5`}>
+                            <div className={`${c.header} px-4 py-2`}>
                               <span className="text-white text-xl font-bold">{milestone.year}</span>
                             </div>
-                            <CardContent className="p-5 bg-card">
-                              <h3 className={`text-lg font-bold mb-1.5 ${c.title}`}>{milestone.title}</h3>
+                            <CardContent className="p-4 bg-card">
+                              <h3 className={`text-lg font-bold mb-1 ${c.title}`}>{milestone.title}</h3>
                               <p className="text-sm text-muted-foreground">{milestone.description}</p>
                             </CardContent>
                           </Card>
