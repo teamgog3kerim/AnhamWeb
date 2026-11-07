@@ -81,3 +81,10 @@ The project uses a monorepo structure with shared TypeScript configurations and 
 - **Unsplash Images**: High-quality stock photography for construction, mining, and agricultural content
 
 The application is designed to be deployed on Replit with development-specific plugins and configurations for the Replit environment, including error overlay and cartographer plugins for enhanced development experience.
+
+## Running on Replit
+
+- Install the declared Node.js dependencies, then start the app with `npm run dev`.
+- The application serves the website and API on port `5000`; the `Start application` workflow runs this command.
+- Run `npm run check` for TypeScript validation and `npm run build` for a production build.
+- AI chat requires `AI_INTEGRATIONS_OPENAI_API_KEY` (and optionally `AI_INTEGRATIONS_OPENAI_BASE_URL`). Without the key, the website still runs, but chat responds that it is not configured.

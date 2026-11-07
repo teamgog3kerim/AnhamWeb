@@ -7,11 +7,6 @@ import OpenAI from "openai";
 import { SYSTEM_PROMPT } from "./knowledge-base";
 import rateLimit from "express-rate-limit";
 
-const openai = new OpenAI({
-  apiKey: process.env.AI_INTEGRATIONS_OPENAI_API_KEY,
-  baseURL: process.env.AI_INTEGRATIONS_OPENAI_BASE_URL,
-});
-
 const MAX_MESSAGE_LENGTH = 1000;
 const MAX_SESSION_ID_LENGTH = 128;
 const MAX_SESSIONS = 500;
@@ -99,6 +94,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ success: false, error: "Invalid request. Message must be 1–1000 characters and sessionId must be present." });
       }
       const { message, sessionId } = parsed.data;
+      const apiKey = process.env.AI_INTEGRATIONS_OPENAI_API_KEY;
+      if (!apiKey) {
+        return res.status(503).json({
+          success: false,
+          error: "AI chat is not configured. Connect the OpenAI integration to enable it.",
+        });
+      }
+      const openai = new OpenAI({
+        apiKey,
+        baseURL: process.env.AI_INTEGRATIONS_OPENAI_BASE_URL,
+      });
 
       // Evict expired sessions on every request
       evictExpiredSessions();
