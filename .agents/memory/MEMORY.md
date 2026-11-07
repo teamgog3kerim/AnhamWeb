@@ -1,2 +1,3 @@
 - [zod v3/v4 + drizzle-zod](zod-drizzle-version-quirk.md) — zod 3.25 ships both APIs; drizzle-zod 0.8 emits v4, so import `zod/v4` everywhere, use `.issues` not `.errors`, and write a custom RHF resolver (resolvers 3.10 is v3-only).
 - [NPM dependency bootstrapping](npm-dependency-bootstrapping.md) — Replit package installation can rewrite declared dependency ranges; inspect the manifest and lockfile after installing missing modules.
+- [EthioDeploy dependency installs](ethiodeploy-install.md) — repeated npm “Exit handler never called” build failures led to pnpm lockfile detection; keep its lockfile and package-manager declaration aligned.
